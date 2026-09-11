@@ -150,20 +150,52 @@ Essential non-corporeal Overlord personnel such as Gnarl, Mortis, Quaver, and si
 
 Ordinary, local, or inconsequential quest-giving NPCs remain the responsibility of the generalized NPC-provider framework in Overlord Quests derived from the Villager Retaliation fork.
 
+## Historical Knowledge and Branch Selection
+
+### Q-014: How well is ancient Overlord history remembered?
+
+Status: `CANON`
+
+Ancient Overlord history is not common reliable knowledge in the present era.
+
+Depending on the civilization, earlier Overlords, old Towers, the Great Cataclysm, and related events survive mainly as half-remembered folklore, distorted legends, fragmentary historical traditions, or material known chiefly to scholars and long-lived beings.
+
+Different civilizations may preserve different portions of the past.
+
+### Q-015: How much does Gnarl know about the intervening Overlords and past reigns?
+
+Status: `CANON`
+
+Gnarl is an authoritative witness to what an active Overlord lived through: campaigns, major choices, victories, defeats, and the surrounding world state visible during that reign.
+
+He is not omniscient. His principal blind spots concern what happens in the wider world during periods without an active Overlord, especially when he and the Minions are withdrawn into the Netherworld.
+
+### Q-016: What caused the Silence?
+
+Status: `PENDING CANON RECONCILIATION`
+
+Proposed answer from the Overlord: the fall of the Overlord II ruler after a Domination-focused reign created a world of fruitful, complacent civilizations in which Evil had little opportunity to grow back. This long stability also helps explain major changes in world state and the emergence of new civilizations.
+
+Conflict: existing REIGN canon establishes multiple genuine intervening Overlords between Overlord II and the Silence, and states that the Silence begins only after the last of them.
+
+No canon change has yet been made to reconcile those two statements.
+
+### Q-017: Which historical branches are canonical?
+
+Status: `CANON`
+
+The Overlord I ruler is treated as taking the Evil/corruption-oriented outcome wherever the primary source explicitly offers such a branch, unless a later specific exception is established.
+
+The Overlord II ruler follows a predominantly Domination-oriented reign. Where the source presents a Domination versus Destruction resolution and no later specific exception is established, Domination is the historical default.
+
+This gives Gnarl two contrasting inherited models of Overlord rule before the current player: an aggressively Evil/corruption-oriented ruler and a ruler whose tyranny relies predominantly on control, subjugation, and productive subjects.
+
 ## Canonical files updated
 
-The corresponding project decisions were applied to:
-
-- `00_OVERLORD_CANON.md`
-- `02_LOCATIONS.md`
-- `04_HISTORY.md`
-- `06_ARCHITECTURE.md`
-- `07_MINECRAFT_IMPLEMENTATION.md`
-- `10_CHANGELOG.md`
-- `11_PERSONNEL.md`
+The corresponding project decisions have been applied through Block 04 to the appropriate canonical project files. Q-016 remains pending because it conflicts with the established intervening-Overlord chronology.
 
 ## Implementation consequence
 
-The exact Minecraft mechanism for Tower manifestation remains TECHNICAL rather than narrative canon, but the final implementation must guarantee that the player begins at the summit of the newly manifested Dark Tower.
+Ancient-history exposition should normally be civilization-specific, incomplete, or distorted. Gnarl may provide reliable first-hand history of active Overlord reigns but should not be written as omniscient about masterless eras.
 
-The Tower must be treated as a purpose-built architectural shell whose operational systems are progressively installed through mod-native gameplay loops. Essential named personnel do not all require corporeal world entities, while generalized sidequest providers continue to use the Villager Retaliation-derived NPC framework.
+The current player remains free to define his own style between, beyond, or against the two inherited historical models.
