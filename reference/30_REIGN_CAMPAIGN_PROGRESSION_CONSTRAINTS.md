@@ -39,24 +39,24 @@ Civilization disposition remains parallel political content unless a specific au
 
 ## Minion fiction versus Minions Remastered gameplay
 
-Status: CANON CONTINUITY / PLANNED IMPLEMENTATION CONSTRAINT
+Status: CANON CONTINUITY / IMPLEMENTATION UNKNOWN
 
 OVERLORD REIGN fiction retains all four traditional Minion tribes: Browns, Reds, Greens, and Blues.
 
-The installed Minions Remastered gameplay implementation does not expose four separately playable Minion types. In practical gameplay, the player currently has access only to the minion functionality actually provided by that mod.
+The current Minions Remastered setup is known to provide only one directly playable minion type in the present pack state, but the Overlord is actively investigating whether the missing traditional tribe types can be imported or added to Minions Remastered.
 
-Therefore the quest system must distinguish lore continuity from implemented player capability.
+Therefore the final gameplay scope is deliberately unresolved.
 
-Rules:
+Current rules:
 
-- quests and dialogue may infer that the Overlord's broader Minion society ultimately includes all four traditional tribes;
-- the central campaign may treat restoration of Minion strength as core Overlord progression within the limited scope of Minions Remastered's real progression loop;
-- quests must not require the player to issue Brown-, Red-, Green-, or Blue-specific gameplay commands that the installed mod cannot provide;
-- quests must not invent four separate recoverable gameplay mechanics merely to imitate the original games;
-- late story dialogue may speak about the restored traditional horde in-universe while implementation checks only the actual Minions Remastered milestones that exist;
-- if a later Minion implementation genuinely adds tribe-specific mechanics, the quest integration may be expanded then rather than pretending those mechanics exist now.
+- quests and dialogue may infer that the Overlord's Minion society contains all four traditional tribes;
+- restoration of Minion strength remains core Overlord progression within the scope of whatever Minions Remastered implementation ultimately exists;
+- until tribe-specific gameplay is actually implemented and validated, quests must not require Brown-, Red-, Green-, or Blue-specific mechanics that the player cannot perform;
+- the campaign design must remain expandable if all four playable types become technically available;
+- no permanent quest architecture decision should assume that the current single-type limitation is final;
+- once the Minions Remastered investigation resolves, this section must be revised to match the validated gameplay capability.
 
-This preserves franchise lore without lying about Minecraft gameplay.
+The distinction is therefore temporary implementation uncertainty, not a lore limitation.
 
 ## Dimension sequence breaking
 
