@@ -10,29 +10,61 @@ Authority: franchise reference only. This file separates explicit succession fac
 
 ### PRIMARY-EXPLICIT
 
-Overlordship is not treated as the identity of one immortal individual.
+Overlordship is not the identity of one immortal individual.
 
-Gnarl explicitly refers to multiple Masters across time, including old Masters, a predecessor killed before Overlord I, the Overlord I / Raising Hell ruler, and the later Overlord II player.
+The supplied sources establish multiple Masters across time, including the ruler defeated before Overlord I, his deliberately prepared successor who becomes the Overlord I player, and the later Overlord II player.
 
-The Minions can lose a Master, search for another, and recognize/accept a new Overlord.
+The Minions can lose a Master, prepare or search for another, and recognize a new Overlord. The Netherworld can also recognize a true Master.
 
-## Overlord immediately before Overlord I
+## The Overlord defeated before Overlord I
 
-Status: `PRIMARY-EXPLICIT`, identity otherwise `UNKNOWN`.
+Status: `PRIMARY-EXPLICIT`; personal name `UNKNOWN` in the reviewed localization.
+
+### Apparent death
 
 Source: `Throneroom_Intro.8ld`, scene `100`.
 
-A group of heroes killed the player's predecessor. The same heroes looted and damaged the Tower. The current source does not provide that predecessor's personal name.
+Gnarl initially presents the previous ruler as having been killed by a group of heroes. Those heroes also looted and damaged the Tower.
+
+### Final-battle revelation
+
+Source: `End_Tower_Battle_Narrative.8ld`, principally scenes `100`, `400`, and `1201`.
+
+The final antagonist reveals that this account was incomplete. The defeated prior Overlord survived his apparent death by taking over the Wizard who had fought him.
+
+The possessed Wizard states that:
+
+- the hero group believed they had killed him;
+- he purged the Wizard's soul and occupied/merged with the Wizard's mortal body;
+- he corrupted the other heroes one by one;
+- the future Overlord I player had himself been one of those heroes;
+- the other heroes left that player for dead;
+- the old Overlord's Minions found and healed the abandoned hero;
+- the player was deliberately prepared to become the old Overlord's successor.
+
+This replaces the earlier shorthand that the predecessor simply died before the game.
+
+### Rose and Velvet are his daughters
+
+Status: `PRIMARY-EXPLICIT`.
+
+Source: `End_Tower_Battle_Narrative.8ld`, scenes `200-300`.
+
+The possessed Wizard / prior Overlord explicitly calls Rose and Velvet his daughters.
+
+This gives Rose and Velvet a direct blood relationship to an established Overlord independent of the Overlord I player's own origin.
 
 ## Overlord I player
 
-Status: `PRIMARY-EXPLICIT` as a new Overlord.
+Status: `PRIMARY-EXPLICIT` as a distinct successor.
 
-Source: `Throneroom_Intro.8ld`.
+The player is not the same person as the prior Overlord.
 
-Gnarl explicitly identifies the player as the new Overlord and assigns restoration of the Tower and Dark Domain as his initial task.
+The final-battle source establishes that he was originally one of the heroes involved in the prior Overlord's defeat, was abandoned by the others, then recovered and healed by Minions and prepared as successor.
 
-The game treats this ruler as distinct from the predecessor killed by the heroes.
+This is direct evidence that succession is not universally hereditary. A person outside the reigning Overlord's immediate bloodline can be transformed/prepared into a legitimate successor.
+
+The player subsequently defeats the possessed prior Overlord/Wizard and remains the active Master into Raising Hell.
 
 ## Raising Hell continuity
 
@@ -40,9 +72,7 @@ Status: `PRIMARY-EXPLICIT`.
 
 Source: `EXP_Endboss_Abyss.8ld`.
 
-The same established Overlord enters the Infernal Abyss and, after defeating the Forgotten God, is trapped there. Gnarl refers to him in the closing sequence as his most recent Master and contemplates the possibility of finding another if the trapped Overlord cannot escape.
-
-This provides a direct succession opening rather than requiring the ruler to have died on-screen.
+The established Overlord I ruler enters the Infernal Abyss and defeats the Forgotten God. The dying deity traps/curses him within the Infernal Abyss. Gnarl loses reliable contact and contemplates having to find another Overlord, although he allows that this Master may still escape.
 
 ## The lost Master before Overlord II
 
@@ -50,37 +80,45 @@ Status: `PRIMARY-EXPLICIT`.
 
 Sources: Overlord II `Wastelands.8ld`, `NW_B.8ld`.
 
-The previous Overlord is said to have mysteriously disappeared during a trip to the Infernal Abyss. Gnarl separately says the Minions lost their last Master before the Great Cataclysm and then retreated to the Netherworld.
+The previous Overlord is said to have mysteriously disappeared during a trip to the Infernal Abyss. Gnarl separately says the Minions lost their last Master before the Great Cataclysm.
 
 ### Continuity identification
 
 Status: `PRIMARY-EXPLICIT CONTINUITY MATCH`.
 
-Raising Hell ends with the Overlord trapped in the Infernal Abyss. Overlord II describes its missing predecessor as having disappeared in the Infernal Abyss.
+Raising Hell ends with the Overlord I ruler trapped in the Infernal Abyss. Overlord II describes its immediately preceding Master as disappearing in the Infernal Abyss.
 
-The sources are mutually continuous on this point. For this corpus, the lost predecessor referenced by Overlord II is the Overlord I / Raising Hell ruler unless contradictory primary material is later found.
+The two games deliberately join at this event. The lost predecessor referenced by Overlord II is therefore the Overlord I / Raising Hell ruler unless contradictory primary material is later found.
 
 ## Overlord II player
 
-Status: `PRIMARY-EXPLICIT` as the new/true Overlord.
+Status: `PRIMARY-EXPLICIT` as a new/true Overlord.
 
 Sources include `Prelude.8ld`, `Nordberg_Town_Chunk_4.8ld`, `NW_TR.8ld`, `Wastelands.8ld`, and `Empire_Endbattle.8ld`.
 
-The Minions find him in Nordberg after searching for a new Overlord. He begins as a foundling/witch-boy, is later accepted by the Netherworld as its true Master, and becomes ruler of the rebuilt Netherworld domain.
+The Minions find him in Nordberg after searching for a new Master. He begins as a foundling/witch-boy, is later accepted by the Netherworld as its true Master, and becomes ruler of the rebuilt Netherworld domain.
 
 ## Rose and the Overlord II player's lineage
 
-### Rose is the player's mother
+### Rose is his mother
 
 Status: `PRIMARY-EXPLICIT`.
 
-Source: `Empire_Endbattle.8ld`, scene `430`.
+Sources: `Wastelands.8ld`, scene `110`; `Empire_Endbattle.8ld`, scene `430`.
 
-Gnarl directly identifies former Mistress Rose as the player's mother.
+Gnarl says the player's "spawn-mother" left before he was born. Later he directly identifies former Mistress Rose as the player's mother.
 
-`Wastelands.8ld` separately states that the player's "spawn-mother" left before he was born.
+### Rose is herself the daughter of the pre-Overlord-I ruler
 
-### Rose kept him from his Overlord birthright
+Status: `PRIMARY-EXPLICIT`.
+
+Source: Overlord I `End_Tower_Battle_Narrative.8ld`.
+
+The prior Overlord, speaking through the Wizard's body, identifies Rose and Velvet as his daughters.
+
+Therefore the Overlord II player has explicit Overlord ancestry through Rose's line even before his father's identity is established.
+
+### Rose kept him from his birthright
 
 Status: `PRIMARY-EXPLICIT`.
 
@@ -88,76 +126,87 @@ Source: `Empire_Endbattle.8ld`, scene `440`.
 
 Gnarl accuses Rose of keeping the player away from his Minions and his birthright.
 
-This establishes that his Overlord status is not merely an office he happens to seize later. The source treats it as something to which he already had a claim.
+Combined with Rose's own established descent from a prior Overlord, this provides direct evidence for a hereditary component to the Overlord II player's claim.
 
 ### Identity of his father
 
-Status: `PRIMARY-IMPLIED / NOT YET EXPLICITLY VERIFIED`.
+Status: `UNKNOWN / NOT YET PRIMARY-EXPLICIT`.
 
-The reviewed game text strongly associates the player with the previous Overlord's succession and hereditary birthright, but it has not yet yielded a direct line stating "the previous Overlord is your father" or equivalent.
+The reviewed localization has not yet yielded a direct statement identifying the Overlord II player's father.
 
 Accordingly:
 
 - do not list Marius as his father merely because Rose is called Mrs Marius in the later period;
-- do not silently upgrade the predecessor-father relationship from implication to explicit fact;
-- continue searching manuals and additional primary material for an unambiguous lineage statement.
+- do not automatically identify the Overlord I player as his father without a primary statement establishing that relationship;
+- do not force one Overlord I mistress branch to become universal source fact without explicit evidence.
+
+This is now a narrower question than before: maternal Overlord ancestry is explicit; paternal identity remains unresolved.
 
 ## Marius
 
 Status: `PRIMARY-EXPLICIT` facts only.
 
-Overlord II identifies Rose as Mrs Marius and Marius as the Emperor's official spokesperson / an important Empire figure.
+Overlord II identifies Rose as Mrs Marius and Marius as the Emperor's official spokesperson / a senior Empire figure.
 
-The current reviewed text does not identify him as the Overlord II player's father.
+The current reviewed text does not identify Marius as the player's father.
 
 ## Is succession hereditary?
 
-Status: `PRIMARY-IMPLIED`, not a universal rule.
+Status: `PRIMARY-EXPLICITLY MIXED`.
 
-The Overlord II player's birthright and blood-related language strongly support hereditary potential in at least this succession.
+The source now establishes two different mechanisms:
 
-However, Overlord I begins with a new ruler following the death of a predecessor without the reviewed source explaining a blood relationship. Gnarl also describes multiple old Masters and the Minions searching for a new Overlord.
+1. **Prepared succession:** the Overlord I player was a fallen hero recovered by Minions and deliberately prepared by the prior Overlord as successor.
+2. **Hereditary claim:** the Overlord II player is Rose's son, Rose is the daughter of an earlier Overlord, and Gnarl explicitly describes Overlordship as the boy's birthright.
 
-Therefore the current primary corpus supports:
+Therefore no single simple rule such as "the throne always passes by blood" fits the source.
 
-- Overlord potential can have a hereditary/blood component;
-- Minions and the Netherworld recognize a legitimate Master;
-- succession is not yet proven to operate by one fixed dynastic law in every era.
+A defensible franchise formulation is:
 
-Any universal succession mechanism remains `UNKNOWN`.
+- Overlord potential/legitimacy can be hereditary;
+- a successor can also be selected/prepared outside direct descent;
+- Minion recognition matters;
+- Netherworld recognition matters in Overlord II;
+- the exact metaphysical criteria are still not fully explained.
 
 ## Recognition of an Overlord
 
-### Minion recognition
+### Minion recognition and preparation
 
 Status: `PRIMARY-EXPLICIT`.
 
-The Minions actively search for a new Master and begin recognizing the Nordberg child as candidate Master material before his full accession.
+Minions recover, heal, train, and support the Overlord I successor. Later, after losing him, they search for another Master and identify the Nordberg child as a candidate.
 
 ### Netherworld recognition
 
 Status: `PRIMARY-EXPLICIT`.
 
-Overlord II explicitly states that the Netherworld awakens and accepts the player as its true Master.
+Overlord II states that the Netherworld awakens and accepts the player as its true Master.
 
-This suggests a supernatural/world-system component to Overlord legitimacy in addition to Minion political loyalty.
-
-The exact metaphysical test or rule used by the Netherworld remains `UNKNOWN`.
+The precise test or metaphysical mechanism used by the Netherworld remains `UNKNOWN`.
 
 ## Implications for OVERLORD REIGN
 
 Status: SOURCE CONSTRAINT, not a new canon decision.
 
-The franchise source does not require every Overlord to be the same person, nor does it require a fully documented unbroken hereditary dynasty.
+The franchise allows multiple succession models. OVERLORD REIGN therefore does not need to invent a rigid bloodline law to explain the intervening Overlords after Overlord II.
 
-That is compatible with OVERLORD REIGN's existing CANON that several intervening Overlords existed after Overlord II and before the Silence, while their identities and succession remain undefined.
+Its existing CANON that several intervening Overlords existed before the Silence remains compatible with the source.
 
-Nothing in this file determines who those intervening Overlords were or how the current REIGN Overlord is related to them.
+Nothing here determines:
+
+- who those intervening Overlords were;
+- whether any were descendants of the Overlord II ruler;
+- whether Minions selected them;
+- whether the Netherworld recognized them;
+- how the current REIGN Overlord acquired legitimacy.
+
+Those remain REIGN questions.
 
 ## Open questions for later source work
 
-- Is the Overlord I player's relationship to his predecessor ever clarified in manuals or other primary files?
-- Is the Overlord II player's father explicitly identified in an official primary source outside the decoded English localization?
-- What exact criteria cause the Netherworld to accept someone as its true Master?
-- Is Overlord potential inherited, selected by Minions, metaphysically recognized, or some combination?
-- What, if anything, happens to an Overlord's authority when trapped rather than killed?
+- Is the Overlord II player's father explicitly identified in the official manuals or another primary source?
+- Does any source explain the transformation/preparation process by which the abandoned hero became the Overlord I successor?
+- What exact criteria cause the Netherworld to accept a true Master?
+- How much of Overlord potential is bloodline, magical compatibility, Minion selection, or deliberate preparation?
+- What happens to an Overlord's metaphysical authority when trapped rather than killed?
