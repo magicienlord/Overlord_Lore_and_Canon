@@ -1,6 +1,6 @@
 # OVERLORD Franchise Gnarl Dialogue and Voice Bible
 
-Status: PRIMARY-SOURCE SYNTHESIS, VERSION 1
+Status: PRIMARY-SOURCE SYNTHESIS, VERSION 2
 
 Date: 2026-09-11
 
@@ -8,27 +8,32 @@ Authority: franchise reference only. This file describes the source character an
 
 ## Corpus boundary
 
-This version uses only source rows whose actor attribution is explicit in the supplied localization workbooks, plus map-script evidence that directly routes a localization reference through the Minion Master dialogue function.
+This version uses only dialogue whose speaker identity is directly established by primary source data.
 
-Overlord II narrative sheets in the supplied English data leave actor cells blank. They are therefore excluded from quantitative speaker-style claims until speaker attribution is independently reconstructed.
+Accepted speaker evidence:
 
-### Explicitly actor-labelled material
+- explicit workbook `ACTOR` values in Overlord I and Raising Hell;
+- direct Overlord II map speaker-role routing;
+- explicit Overlord II `Speak` actor entities;
+- conservative Overlord II character-specific `GNARL_*`, `INITIAL_GNARL`, or `CS_GNARL_*` implementation labels that resolve to decoded localization.
 
-Overlord I:
+Dialogue wording, voice recognition, and memory are not used to assign speakers.
 
-- 759 English rows explicitly identify actor `GNARL`.
+### Important Overlord I correction
 
-Raising Hell:
+`ShowMinionMasterText(...)` is **not** a speaker-identity function.
 
-- 152 English rows explicitly identify actor `GNARL`.
+A comment-aware map pass finds 365 unique live references routed through it, of which 359 resolve to localization. Only 288 of those resolved rows have workbook actor `GNARL`; 71 have explicit non-Gnarl actors including Brown Minions, the Minion Jester, Melvin, Elf ghosts, Rose, Sir William, the Wizard, Jewel, Oberon, and Kahn.
 
-Overlord I map scripts additionally expose 379 unique direct Minion Master localization references. Source-name normalization currently reconciles 368 of them to localization rows. Eleven remain unresolved and are not guessed.
+Accordingly, earlier claims that all such calls were direct Gnarl references are superseded.
 
-## Quantitative voice profile
+Full reconciliation: `corpus/overlord1/MINIONMASTER_ROUTING_RECONCILIATION.md`.
+
+## Direct source-attributed corpus
 
 ### Overlord I
 
-- rows: 759
+- 759 English localization rows explicitly identify actor `GNARL`.
 - median line length: 11 words
 - average line length: 11.6 words
 - rows containing an exclamation mark: 426
@@ -38,12 +43,12 @@ Overlord I map scripts additionally expose 379 unique direct Minion Master local
 - rows using `Overlord`: 12
 - rows mentioning Minions: 166
 - rows mentioning the Tower: 42
-- rows explicitly using the word evil: 29
+- rows explicitly using `evil`: 29
 - rows referring to Lifeforce: 10
 
 ### Raising Hell
 
-- rows: 152
+- 152 English localization rows explicitly identify actor `GNARL`.
 - median line length: 15 words
 - average line length: 15.7 words
 - rows containing an exclamation mark: 93
@@ -52,64 +57,103 @@ Overlord I map scripts additionally expose 379 unique direct Minion Master local
 - rows using `Master`: 19
 - rows using `Overlord`: 1
 
-The statistics reinforce a visible pattern in the source: Gnarl generally speaks in short, emphatic bursts rather than extended speeches. Raising Hell allows him somewhat longer explanatory lines because he is introducing unfamiliar Abyss situations.
+### Overlord II
+
+The localization workbooks generally omit actor values, so speaker identity was reconstructed from direct map implementation structures.
+
+The completed high-confidence pass yields 173 unique decoded Gnarl references across:
+
+- `NW_TR`: 62
+- `Ambient_NW`: 38
+- `Wasteland_Sanctuary`: 32
+- `Hunting_Grounds`: 19
+- `Empire_Heartlands`: 6
+- `Empire_Endbattle`: 3
+- `Empire Arena`: 2
+- `Everlight_Gates`: 2
+- nine additional source groups with one line each
+
+Statistics for those 173 directly source-attributed rows:
+
+- median line length: 15 words
+- average line length: 15.1 words
+- lines containing an exclamation mark: 101
+- lines containing a question mark: 13
+- lines using `Sire`: 62
+- lines using `Master`: 13
+- lines using `Overlord`: 4
+
+This is a direct subset, not a claim that every Overlord II Gnarl line has been recovered.
+
+Full method: `corpus/overlord2/SPEAKER_ATTRIBUTION_INDEX.md`.
 
 ## Forms of address
 
 ### PRIMARY-EXPLICIT
 
-`Sire` is Gnarl's dominant direct honorific in the explicitly labelled corpus.
+Across all three reviewed source phases, `Sire` is Gnarl's dominant direct honorific.
 
-`Master` is also common, especially when emphasizing service, Minion hierarchy, or the Overlord's authority.
+`Master` is also common, especially when service, Minion hierarchy, succession, or the Overlord's authority is foregrounded.
 
-`Overlord` itself is comparatively uncommon as direct address. It is a title and identity, but not Gnarl's default vocative.
+`Overlord` itself is comparatively uncommon as a vocative. It is an office/title, but not Gnarl's default way of beginning every sentence.
 
 ### Writing rule
 
-For source-faithful new dialogue, default to `Sire` rather than repeatedly calling the player `Overlord`. Use `Master` when the relationship of service or command is foregrounded. Avoid inventing ornate recurring honorifics unless REIGN deliberately establishes them.
+For source-faithful new dialogue, default to `Sire` rather than repeatedly calling the player `Overlord`. Use `Master` when the service relationship or command hierarchy matters. Avoid inventing ornate recurring honorifics unless REIGN deliberately establishes them.
+
+## Line length and pacing
+
+The explicitly attributed source supports a consistent tendency toward compact, actionable lines.
+
+Overlord I is especially terse, with an 11-word median. Raising Hell and the directly attributed Overlord II subset sit around a 15-word median because more lines explain unfamiliar supernatural threats, Netherworld systems, or strategic context.
+
+### Writing consequence
+
+Gnarl can deliver longer historical or ominous exposition when necessary, but routine quest direction should not default to paragraph-length speeches.
 
 ## Functional range
 
-The following categories are analytical coding of source rows and developer trigger notes, not original game labels.
+Gnarl is not merely a quest giver.
 
-The Overlord I Gnarl corpus contains roughly:
+Primary-source material establishes him as:
 
-- 345 field-narrative / objective-context rows
-- 266 Tower, tutorial, or administrative rows
-- 90 reactive hints or ambient banter rows
-- 26 progression/reward reaction rows
-- 18 finale rows
-- 9 death/failure reaction rows
-- a small number of explicitly quest-state-labelled rows
-
-This breadth is important. Gnarl is not only a quest giver.
-
-He acts simultaneously as:
-
+- Minion Master;
 - adviser;
 - tutorial voice;
 - tactical observer;
-- Tower administrator;
-- narrator of opportunity and threat;
+- Tower/Netherworld administrator;
 - keeper of institutional memory;
-- commentator on Minion losses and resources;
+- succession authority and continuity witness;
+- narrator of opportunity and threat;
+- commentator on resources, Minion losses, and recovered infrastructure;
 - evaluator of the Overlord's conduct;
 - comic pressure valve;
 - reminder system when the player stalls or ignores an objective.
+
+Overlord I production metadata alone places his lines across field narrative, Tower administration, tutorials, reactive hints, progression/reward reactions, finales, and failure/death contexts.
 
 ## Delivery and performance
 
 ### PRIMARY-EXPLICIT
 
-The localization production sheets contain direction notes calling for delivery such as chuckling, cackling, disgust, sarcasm, sighing, whispering, exaggerated pronunciation, mock sweetness, and sudden changes in tone.
+The localization production sheets contain direction notes calling for delivery such as:
 
-Developer notes also explicitly request alternate performances for repeated gameplay reminders so that mechanically repeated information does not sound identical.
+- chuckling and cackling;
+- disgust;
+- sarcasm;
+- sighing;
+- whispering;
+- exaggerated pronunciation;
+- mock sweetness;
+- sudden tonal changes.
+
+Developer notes explicitly request alternate performances for repeated gameplay reminders so mechanically repeated information does not sound identical.
 
 ### Writing consequence
 
-Gnarl's humor is performative, not merely lexical. A line can be structurally simple while its direction turns it into mockery, disgust, relish, impatience, or false sympathy.
+Gnarl's humor is performative, not merely lexical. A structurally simple line can become mockery, relish, impatience, false sympathy, or disgust through delivery.
 
-For REIGN, dialogue scripts should therefore preserve a delivery/direction field wherever practical rather than treating text alone as the complete character performance.
+REIGN dialogue authoring should therefore preserve a delivery/direction field wherever practical.
 
 ## Core speech characteristics
 
@@ -117,85 +161,84 @@ For REIGN, dialogue scripts should therefore preserve a delivery/direction field
 
 Gnarl usually communicates the actionable fact early. Characterization wraps around the instruction instead of obscuring it.
 
-A useful writing pattern is:
+Useful source-derived structures include:
 
-`observation -> actionable instruction -> malicious/comic interpretation`
-
-or:
-
-`problem -> why it matters to the Overlord -> what should be done`
+```text
+observation -> actionable instruction -> malicious/comic interpretation
+problem -> why it matters to the Overlord -> what should be done
+```
 
 ### 2. Hierarchical deference without passivity
 
-Gnarl consistently acknowledges the Overlord's superiority, but he is comfortable correcting, warning, redirecting, and explaining things to him.
+Gnarl acknowledges the Overlord's superiority but readily corrects, warns, redirects, explains, and criticizes.
 
-He does not behave like a frightened courtier waiting for permission to speak. His authority comes from age, expertise, and his role as Minion Master while ultimate authority remains with the Overlord.
+He is not a frightened courtier. His confidence comes from age, expertise, Minion institutional authority, and service across multiple Masters, while ultimate authority remains with the Overlord.
 
 ### 3. Evil as ordinary administration
 
-The source frequently treats tyranny, punishment, pillage, casualties, and domination as practical matters rather than solemn declarations of villainy.
+Tyranny, punishment, pillage, sacrifice, casualties, and domination are frequently discussed as practical administrative matters rather than solemn declarations of villainy.
 
-The comedy works because Gnarl often discusses grotesque or cruel things with the tone of an experienced administrator handling routine business.
+The comedy often comes from treating grotesque or cruel activity as routine management.
 
 ### 4. Contempt is targeted
 
-Gnarl mocks incompetence, weakness, sanctimony, enemies, inconveniences, and sometimes Minions. His contempt usually serves the current objective or reinforces the Overlord's superiority rather than becoming random insult generation.
+Gnarl mocks weakness, incompetence, sanctimony, enemies, inconveniences, and Minions when context supports it. His contempt usually reinforces an objective, diagnosis, or the Overlord's superiority.
 
-### 5. Minions are resources and subjects, not disposable noise
+He is not a random-insult generator.
 
-Gnarl is casual about Minion casualties and frequently reacts to shortages, deaths, hives, caps, and summoning. The source also makes him their manager and institutional spokesman.
+### 5. Minions are resources, subjects, and an institution
 
-For writing purposes, he can be callous about individual Minions while still caring strongly about Minion strength as the foundation of the Overlord's power.
+Gnarl can be callous about individual Minion deaths while caring strongly about Minion strength, Hives, Lifeforce, training, resurrection, and the continuity of Minion society under an Overlord.
 
 ### 6. Humor does not replace information
 
-Many gameplay lines are funny, but the joke rarely removes the instruction. The player can normally still tell what changed, what is wrong, or what to do next.
+A comic Gnarl line normally still tells the player what changed, what matters, or what to do.
 
 ### 7. Repetition is intentionally varied
 
-The source production notes explicitly call for multiple recordings or formulations for recurring triggers such as low Minion availability, Minion deaths, player idling, resource acquisition, and Tower interactions.
+Recurring reminders and state reactions use variant lines or requested alternate performances. REIGN should likewise use contextual pools rather than one endlessly repeated reminder.
 
-REIGN should follow the same principle for recurrent quest reminders and ambient reactions: use pools of context-equivalent lines rather than one endlessly repeated sentence.
+### 8. Gnarl is knowledgeable, not omniscient
+
+The source sometimes has him discover, infer, reconsider, or react to new information. Quest writing should not grant him knowledge merely because the writer needs exposition.
 
 ## Recommended REIGN Gnarl registers
 
 Status: DESIGN PROPOSAL derived from source evidence.
 
-These registers are useful tags for the quest-writing system:
-
 - `CEREMONIAL`: enthronement, major victory, Tower milestones, succession.
 - `DIRECTIVE`: immediate objective instruction.
 - `TACTICAL`: combat, Minion use, enemy weakness, route warning.
 - `ADMINISTRATIVE`: Tower systems, resources, prisoners, tribute, Minion capacity.
-- `HISTORICAL`: old Overlords, civilizations, past disasters, remembered places.
-- `MOCKING`: enemy or NPC ridicule tied to context.
-- `REACTIVE`: player idling, failure, death, shortages, repeated mistakes.
-- `REWARD`: acquisition, upgrade, recovered artifact, successful conquest.
-- `CHOICE`: frames alternatives and later comments on the selected outcome.
-- `OMINOUS`: threats or discoveries where humor is intentionally reduced.
+- `HISTORICAL`: old Overlords, civilizations, disasters, remembered places.
+- `MOCKING`: context-specific ridicule.
+- `REACTIVE`: idling, failure, death, shortages, repeated mistakes.
+- `REWARD`: acquisition, upgrade, recovered artifact, conquest success.
+- `CHOICE`: frames alternatives and reacts to resolution.
+- `OMINOUS`: threats/discoveries where comedy is reduced.
 
-A single line may carry more than one register, but one should normally be primary.
+A line may combine registers, but one should normally dominate.
 
-## Anti-patterns for future writing
+## Anti-patterns
 
-The source corpus gives us reason to avoid:
+Avoid:
 
-- making every Gnarl line a long monologue;
-- using `Overlord` as a repetitive sentence-opening vocative;
-- generic faux-Shakespearean speech;
+- making every Gnarl line a monologue;
+- repeatedly opening with `Overlord`;
+- generic faux-Shakespearean diction;
 - constant purple gothic prose;
-- random cruelty with no objective or situational connection;
-- modern neutral tutorial language with a joke pasted onto the end;
-- treating him as merely comic relief;
-- treating him as omniscient when the source situation gives him no basis to know something;
+- random cruelty unrelated to the situation;
+- neutral tutorial text with a joke pasted on afterward;
+- reducing him to comic relief;
+- treating him as omniscient;
 - making him servile or afraid to correct the Overlord;
-- forcing a joke into scenes that need genuine threat or historical weight.
+- forcing jokes into scenes that need genuine threat or historical weight.
 
 ## Quest-system implementation recommendation
 
 Status: PROPOSAL.
 
-Every authored Gnarl line in OVERLORD REIGN should eventually carry structured metadata similar to:
+Each authored REIGN Gnarl line should eventually support metadata similar to:
 
 ```text
 speaker: GNARL
@@ -211,12 +254,18 @@ repeat_pool:
 source_inspiration:
 ```
 
-This mirrors information already present in the original localization production sheets and will make the new quest corpus easier to audit for voice drift.
+This mirrors information already present in the original production sheets and makes voice drift auditable.
 
-## Remaining work
+## Research completion boundary
 
-- classify all 911 explicitly actor-labelled Overlord I / Raising Hell Gnarl rows by function and register;
-- reconcile the eleven unresolved Overlord I direct Minion Master map references;
-- reconstruct Overlord II speaker ownership before incorporating it into quantitative Gnarl voice statistics;
-- isolate how Gnarl's language changes between tutorial, mid-game administration, major choices, finales, and post-game/Abyss material;
-- use the resulting evidence to produce a smaller operational `GNARL_WRITING_RULES.md` for the actual quest authorship phase.
+The baseline Gnarl voice research required for quest authorship is complete.
+
+Completed:
+
+- explicit Overlord I actor corpus;
+- explicit Raising Hell actor corpus;
+- high-confidence direct Overlord II speaker-recovery pass;
+- correction of the false `ShowMinionMasterText == Gnarl` assumption;
+- operational REIGN writing rules in `GNARL_WRITING_RULES.md`.
+
+Actorless Overlord II lines without direct implementation attribution remain unattributed primary text. They are not a blocker and will not be guessed into the Gnarl corpus.
