@@ -91,11 +91,17 @@ The chosen camp can become NEUTRAL or SUBJUGATED without changing every naturall
 
 ### Kobolds
 
-Status: PLANNED
+Status: PLANNED / SOURCE-BACKED
 
-Anchor: Kobold Den.
+Anchor: designated Kobold Den.
 
-Pirate and other Kobold subcultures may appear at secondary locations.
+The civilization main quest begins through one protected, explicitly marked Kobold Captain in the chosen Den. Ordinary Captains, Dens, and Kobolds elsewhere do not automatically become civilization quest starters.
+
+The chosen Den is one independent underground Kobold community rather than the capital of every Kobold in the world.
+
+Pirate Kobolds are a recognizable Kobold subculture and remain politically independent from the main Den unless an authored quest explicitly connects them.
+
+Subjugating the chosen Den does not globally alter all naturally generated Kobolds. Other Kobold communities remain independent unless separately addressed.
 
 ### Ribbits
 
