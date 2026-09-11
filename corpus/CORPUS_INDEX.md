@@ -10,14 +10,14 @@ This corpus is derived directly from the user-supplied Overlord game localizatio
 
 Current localization extraction totals:
 
-- extracted English text rows: 2,587
+- extracted English text rows: 2,588
 - localization workbook rows explicitly naming actor `GNARL`: 759
 
 ### Map-routing correction
 
 `ShowMinionMasterText(...)` is not a speaker-identity function.
 
-After stripping commented Lua, the maps contain 451 live call occurrences representing 365 unique references. Of those, 359 resolve to decoded localization rows. Only 288 of those resolved references have workbook actor `GNARL`; 71 have explicit non-Gnarl actors such as Brown Minions, the Minion Jester, Melvin, Elf ghosts, Rose, Sir William, the Wizard, Jewel, Oberon, and Kahn.
+After stripping commented Lua, the maps contain 451 live call occurrences representing 365 unique references. Of those, 359 resolve to decoded localization rows. Only 288 of those resolved rows have workbook actor `GNARL`; 71 have explicit non-Gnarl actors such as Brown Minions, the Minion Jester, Melvin, Elf ghosts, Rose, Sir William, the Wizard, Jewel, Oberon, and Kahn.
 
 Accordingly, map calls through `ShowMinionMasterText(...)` are retained as routing/presentation evidence only. They are not added to the Gnarl corpus unless independent actor evidence identifies Gnarl.
 
@@ -44,7 +44,7 @@ Current extraction totals:
 
 The narrative workbooks generally leave actor cells blank. Speaker identity is therefore reconstructed only where map implementation directly identifies a speaker role, actor entity, or character-specific source label.
 
-The current direct implementation pass has recovered a high-confidence Gnarl subset and is documented in `corpus/overlord2/SPEAKER_ATTRIBUTION_INDEX.md`.
+The completed direct implementation pass currently attributes 173 unique decoded Overlord II lines to Gnarl. The method and evidence boundary are documented in `corpus/overlord2/SPEAKER_ATTRIBUTION_INDEX.md`.
 
 `System_Quests.8ld` preserves internal quest IDs, text identifiers such as `DESC` and `DESC_DONE`, English quest strings, ordering, and developer notes.
 
