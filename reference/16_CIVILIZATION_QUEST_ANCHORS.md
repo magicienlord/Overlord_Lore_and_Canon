@@ -81,9 +81,13 @@ The civilization main quest begins through a designated Elder Shaman at the chos
 
 ### Goblins
 
-Status: PLANNED
+Status: PLANNED / SOURCE-BACKED
 
 Anchor: major Goblin Camp.
+
+The civilization main quest begins through a designated `leader_goblin` at the chosen camp. Ordinary Goblin Camps and Goblins elsewhere do not automatically become civilization quest starters.
+
+The chosen camp can become NEUTRAL or SUBJUGATED without changing every naturally generated Goblin in the world. Other Goblin groups remain independent unless separately addressed through authored quests.
 
 ### Kobolds
 
