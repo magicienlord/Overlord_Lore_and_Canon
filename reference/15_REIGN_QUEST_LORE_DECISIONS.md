@@ -58,6 +58,98 @@ Player intent is expressed through actions, quest decisions, and persistent worl
 
 For quest writing, NPCs and Gnarl may react to what the Overlord does or selects, but the system should not require ordinary authored protagonist speech.
 
+## Gnarl, Minions, and the Silence
+
+### Q-006: What happened to Gnarl during the Silence?
+
+Status: `CANON`
+
+Gnarl is a continuous institutional witness to the Overlord cycle. Overlords rise, rule, fall, disappear, or are defeated; Gnarl remains to guide the next Master.
+
+During the Silence he remained with the remnant Minion population in the dormant Netherworld. His boredom turned toward Biomancy research, inspired especially by Solarius' magically overexposed transformation. He studied the animation and reshaping of flesh through magic and life essence, while lacking an Overlord to direct that work toward suitably unfortunate subjects.
+
+### Q-007: What happened to the Minions?
+
+Status: `CANON`
+
+Browns, Reds, Greens, and Blues all survive into the present era, as do the four traditional Hives.
+
+The Minion population has been reduced to a scattered, dormant remnant. Without an active Master, normal spawning became impaired. The current Overlord's anointment begins the recovery of Minion society and spawning infrastructure.
+
+### Q-008: What is the present status of the Netherworld?
+
+Status: `CANON / IMPLEMENTATION MAPPING`
+
+The Netherworld survived but became largely dormant during the Silence. It begins to awaken gradually after choosing the current Overlord.
+
+In Minecraft implementation, the vanilla Nether dimension is the Netherworld. This is an implementation of the same in-universe realm, not a second duplicate realm.
+
+The Netherworld remains distinct from the Evil/Infernal Abysses.
+
+### Q-009: Which named legacy Minions/personnel still exist?
+
+Status: `CANON / PROPOSAL SPLIT`
+
+Mortis and Quaver survive into the current REIGN era.
+
+They do not require fully corporeal Minecraft NPC implementations. Essential named personnel may participate through dedicated visual pop-up interjections when their narrative or administrative function does not require local world interaction.
+
+Grubby himself is not established as surviving. A present-day descendant of Grubby is a `PROPOSAL`. The placeholder name `Grubbisom Jr` is not canon.
+
+## Dark Tower and First Main-Quest Arc
+
+### Q-010: Why did the new Dark Tower rise?
+
+Status: `CANON`
+
+The Netherworld gives a newly anointed Overlord a seat of power in the Overworld. The Dark Tower manifests for that purpose.
+
+The deeper supernatural mechanism by which the Netherworld grows or forms the structure remains UNKNOWN.
+
+### Q-011: What condition is the Dark Tower in when play begins?
+
+Status: `CANON`
+
+The Tower manifests primarily as an architectural shell rather than a completed operating fortress or a conventional ruin.
+
+Rooms already possess clear intended architectural functions, but most facilities are absent or non-operational. The throne room already contains its defining central endless pit. Other chambers may contain built-in features such as lava pits intended for later forge installations.
+
+Progression through the relevant gameplay systems represents installing, furnishing, activating, and expanding these facilities rather than repairing ordinary structural damage.
+
+Gnarl does not require a permanent physical presence beside the Overlord. When the Overlord operates in the Overworld, Gnarl may oversee from the Netherworld Tower; when the Overlord is in the Netherworld, Gnarl may oversee from the Overworld Tower. This provides the in-universe basis for non-corporeal quest presentation.
+
+### Q-012: What is Gnarl's first strategic objective?
+
+Status: `CANON DESIGN / PLANNED QUEST STRUCTURE`
+
+Gnarl should point the new Overlord toward two immediately available instincts rather than force one linear tutorial chain.
+
+One path directs him toward the opening loop of Minions Remastered so that Minion capability can begin recovering.
+
+The other acknowledges that a newly anointed Overlord may prefer immediate chaos, exploration, and direct personal action before rebuilding the machinery of rule.
+
+Both are legitimate opening directions and may later converge.
+
+### Q-013: What is the early-game pressure?
+
+Status: `CANON DESIGN / PLANNED QUEST STRUCTURE`
+
+The long-term strategic pressure is rebuilding the Dark Tower and restoring the infrastructure of Overlord rule.
+
+The Tower's empty purpose-built rooms provide the in-universe framework for guiding the player through the relevant installed mods. Their native progression should become the means by which Tower facilities are made operational rather than being bypassed by the quest system.
+
+Example: Hot Iron progression may provide the means to turn the Tower's pre-shaped forge room into an actual working forge.
+
+The early game should therefore support both immediate personal chaos and systemic restoration, with the latter becoming increasingly necessary as the Overlord expands his power.
+
+## Personnel Presentation Decision
+
+Status: `CANON IMPLEMENTATION DESIGN`
+
+Essential non-corporeal Overlord personnel such as Gnarl, Mortis, Quaver, and similar high-value characters may appear through visual pop-up interjections with character-specific presentation rather than requiring physical Minecraft entities.
+
+Ordinary, local, or inconsequential quest-giving NPCs remain the responsibility of the generalized NPC-provider framework in Overlord Quests derived from the Villager Retaliation fork.
+
 ## Canonical files updated
 
 The corresponding project decisions were applied to:
@@ -65,8 +157,13 @@ The corresponding project decisions were applied to:
 - `00_OVERLORD_CANON.md`
 - `02_LOCATIONS.md`
 - `04_HISTORY.md`
+- `06_ARCHITECTURE.md`
+- `07_MINECRAFT_IMPLEMENTATION.md`
 - `10_CHANGELOG.md`
+- `11_PERSONNEL.md`
 
 ## Implementation consequence
 
-The exact Minecraft mechanism remains TECHNICAL rather than narrative canon, but the final implementation must guarantee that the player begins at the summit of the newly manifested Dark Tower in accordance with the opening scene.
+The exact Minecraft mechanism for Tower manifestation remains TECHNICAL rather than narrative canon, but the final implementation must guarantee that the player begins at the summit of the newly manifested Dark Tower.
+
+The Tower must be treated as a purpose-built architectural shell whose operational systems are progressively installed through mod-native gameplay loops. Essential named personnel do not all require corporeal world entities, while generalized sidequest providers continue to use the Villager Retaliation-derived NPC framework.
