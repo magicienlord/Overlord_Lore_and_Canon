@@ -15,13 +15,41 @@ Evidence labels:
 
 ## Before Overlord I
 
-### The previous Overlord is killed
+### A hero group defeats the reigning Overlord
 
 Evidence: `PRIMARY-EXPLICIT`
 
-Source: `Throneroom_Intro.8ld`, scene `100`, text IDs `20-80`.
+Sources: `Throneroom_Intro.8ld` and `End_Tower_Battle_Narrative.8ld`.
 
-Gnarl states that a group of heroes killed the player's predecessor, looted and damaged the Tower, and left its power source missing. The player is then identified as the new Overlord and charged with rebuilding the Tower and re-establishing a Dark Domain.
+Gnarl initially describes the prior ruler as having been killed by heroes who then looted and damaged the Tower.
+
+The final battle later reveals that this was only the apparent outcome. The prior Overlord survived by taking over the Wizard who had opposed him, purging the Wizard's soul and using his mortal body.
+
+### The future Overlord I player was one of those heroes
+
+Evidence: `PRIMARY-EXPLICIT`
+
+Source: `End_Tower_Battle_Narrative.8ld`, scenes `400` and `1201`.
+
+The possessed prior Overlord states that the future player had fought against him with the other heroes, fell during the struggle, and was left behind by them.
+
+The old Overlord's Minions then found and healed the abandoned hero and prepared him to become the old ruler's successor.
+
+### The other heroes are corrupted
+
+Evidence: `PRIMARY-EXPLICIT`
+
+Source: `End_Tower_Battle_Narrative.8ld`.
+
+The surviving prior Overlord states that he corrupted the other heroes one by one. The campaign's regional antagonists are therefore tied to the same post-victory corruption scheme rather than being independent coincidences.
+
+### Rose and Velvet are daughters of the prior Overlord
+
+Evidence: `PRIMARY-EXPLICIT`
+
+Source: `End_Tower_Battle_Narrative.8ld`, scenes `200-300`.
+
+The prior Overlord, speaking through the Wizard's body, explicitly identifies Rose and Velvet as his daughters.
 
 ### The Tower Heart is displaced
 
@@ -29,15 +57,33 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Sources: `Throneroom_Intro.8ld` and `Tower_HeartIntro.8ld`.
 
-The Tower Portal lacks its power source because the Tower Heart is missing. Recovering the Heart restores access to Tower resources, supports Minion command capacity, and retains magical functions.
+The damaged Tower lacks its power source because the Tower Heart is missing. Recovering it restores access to Tower resources, travel functions, Minion capacity, and retained magic.
 
 ## Overlord I campaign
 
-### A new Overlord rebuilds the Dark Domain
+### The prepared successor becomes the new Overlord
 
 Evidence: `PRIMARY-EXPLICIT`
 
-The opening premise is restoration after the predecessor's defeat. The campaign's map-state corpus records 87 internal quest IDs governing reconstruction, Minion recovery, Tower-object recovery, regional objectives, and player choices.
+Gnarl formally identifies the player as the new Overlord and directs him to rebuild the Tower, punish the heroes, and re-establish a Dark Domain.
+
+The player is therefore a distinct successor rather than the same individual as the prior ruler.
+
+### The new Overlord confronts his former hero companions
+
+Evidence: `PRIMARY-EXPLICIT`
+
+The final-battle source explicitly treats the corrupted regional heroes as the player's old companions and preserves their voices as memories/echoes within the Tower.
+
+### The prior Overlord reveals himself and attempts to eliminate his successor
+
+Evidence: `PRIMARY-EXPLICIT`
+
+Source: `End_Tower_Battle_Narrative.8ld`.
+
+The entity using the Wizard's body reveals his identity, explains the succession scheme, and turns against the successor once he is no longer useful.
+
+The Overlord I player ultimately defeats him.
 
 ### Player choices accumulate persistent recognition
 
@@ -45,7 +91,7 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Source: `Tower_Titles.8ld`.
 
-The Minion Jester has alternate titles tied to different actions and outcomes. The source therefore tracks and comments on the Overlord's conduct beyond simple mission completion.
+The Minion Jester has alternate titles tied to actions and outcomes. The source therefore tracks and comments on the Overlord's conduct beyond simple mission completion.
 
 ## Raising Hell
 
@@ -57,7 +103,7 @@ Source: `EXP_D1_Abyss.8ld`, early scenes `100-102`.
 
 Gnarl detects a surge of Evil energy. Abyss structures appear, subjects are drawn into them, and the interior contains Wraiths described as spirits of the Evil dead. Gnarl concludes that something powerful opened a rift to their world.
 
-Developer trigger notes make the expansion material available after specific base-game progression states, including the defeat of Melvin and the Wizard. This is implementation chronology and should not be over-read as an exact date for every Raising Hell event.
+Developer trigger notes make expansion content available after particular base progression states. This is implementation chronology and should not be over-read as an exact date for every Abyss event.
 
 ### Abyss Stones control individual Abysses
 
@@ -79,7 +125,7 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Source: `EXP_Endboss_Abyss.8ld`, scenes `202` and `300`.
 
-After the Forgotten God's defeat, the dying deity gives the Infernal Abyss to the Overlord as a curse. Gnarl loses reliable contact and directs the Overlord toward the Abyss Gate. In the closing lines Gnarl speaks of his "last" master, expresses unusual personal attachment to him, and allows that he may still find a way to escape, while considering the need to find another Overlord.
+After the Forgotten God's defeat, the dying deity gives the Infernal Abyss to the Overlord as a curse. Gnarl loses reliable contact and directs him toward the Abyss Gate. In the closing sequence Gnarl speaks of this ruler as his last Master, expresses unusual personal attachment, and allows that he may still find a way to escape while considering the need for another Overlord.
 
 ## Between Raising Hell and Overlord II
 
@@ -89,9 +135,9 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Sources: Overlord II `Wastelands.8ld`, scene `100`; `NW_B.8ld`, `TOUR` sequence.
 
-Overlord II describes its player's predecessor as having mysteriously disappeared during a trip to the Infernal Abyss. Gnarl also says that the Minions lost their last Master.
+Overlord II describes its player's predecessor as having mysteriously disappeared during a trip to the Infernal Abyss. Gnarl also says the Minions lost their last Master.
 
-This matches the Raising Hell ending directly and provides a primary-source continuity bridge between the games.
+This deliberately matches the Raising Hell ending.
 
 ### The Minions retreat to the Netherworld in the Exodus
 
@@ -99,7 +145,7 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Source: `NW_B.8ld`, `TOUR` sequence.
 
-Gnarl states that after losing the last Master, and before the Great Cataclysm decimated the old lands, the Minions retreated to the Netherworld in an event he calls the Exodus.
+After losing the last Master, and before the Great Cataclysm decimated the old lands, the Minions retreated to the Netherworld in an event Gnarl calls the Exodus.
 
 ### Florian attempts to take the predecessor's Tower Heart
 
@@ -107,7 +153,7 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Source: `Empire_Endbattle.8ld`, scene `620`.
 
-Florian states that he tried to steal the predecessor's Tower Heart in hope of unlocking his own magical potential. He says he did not know it would become unstable and explode. Gnarl explicitly identifies this as the cause of the Cataclysm.
+Florian states that he tried to steal the predecessor's Tower Heart in hope of unlocking his own magical potential. He did not know it would become unstable and explode. Gnarl explicitly identifies Florian as the cause of the Cataclysm.
 
 ### The Great Cataclysm devastates the old lands and Dark Tower
 
@@ -115,20 +161,20 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Sources: `Wastelands.8ld`, scenes `100-130`; `Empire_Endbattle.8ld`, scene `620`.
 
-The exploded Tower Heart causes the Great Cataclysm. The old Dark Tower is ruined. Gnarl connects the released/pent-up magical energy with the magical plague that follows.
+The exploding Tower Heart causes the Great Cataclysm. The old Dark Tower is ruined. Gnarl connects the released/pent-up magical energy with the magical plague that follows.
 
-The current corpus therefore establishes a causal chain:
+The current corpus establishes this relative chain:
 
 ```text
-last Master lost in Infernal Abyss
+Overlord I / Raising Hell Master lost in Infernal Abyss
 -> Minion Exodus to Netherworld
--> Florian attempts to steal predecessor's Tower Heart
+-> Florian attempts to steal that predecessor's Tower Heart
 -> Tower Heart becomes unstable and explodes
 -> Great Cataclysm
 -> magical plague
 ```
 
-The exact elapsed time between each event is not specified in the current text corpus.
+The exact elapsed time between these events is not specified in the current localization corpus.
 
 ## Overlord II opening
 
@@ -138,7 +184,7 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Source: `Prelude.8ld`, scene `100`.
 
-The Minions describe themselves as searching widely for a new Overlord after the preceding ending.
+The Minions describe themselves as searching high and low for a new Overlord.
 
 ### The future Overlord is found in Nordberg
 
@@ -146,25 +192,29 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Source: `Prelude.8ld`.
 
-On Midwinter's Eve the Minions encounter the future Overlord in Nordberg. The local children call him a witch-boy and a foundling and indicate that he had been found outside Nordberg's gates.
+On Midwinter's Eve the Minions encounter the future Overlord in Nordberg. Local children call him a witch-boy and a foundling and indicate that he had been found outside Nordberg's gates.
 
-### Rose is his mother
+### Rose is his mother and belongs to an Overlord bloodline
 
 Evidence: `PRIMARY-EXPLICIT`
 
-Sources: `Wastelands.8ld`, scene `110`; `Empire_Endbattle.8ld`, scenes `430-440`.
+Sources: Overlord I `End_Tower_Battle_Narrative.8ld`; Overlord II `Wastelands.8ld` and `Empire_Endbattle.8ld`.
 
-Gnarl says the player's "spawn-mother" left before he was born. Later he identifies former Mistress Rose as the player's mother and accuses her of keeping him away from his Minions and his birthright.
+Overlord I establishes Rose as a daughter of the ruler who preceded the Overlord I player.
 
-Rose is at that time known as Mrs Marius. The current source does NOT directly identify Marius as the player's father, so this reference does not make that claim.
+Overlord II later identifies Rose as the new player's mother. Gnarl accuses her of having kept the boy away from his Minions and his birthright.
 
-### The player's exact paternal relationship to the prior Overlord
+This gives the Overlord II player explicit maternal descent from an earlier Overlord.
 
-Evidence: `PRIMARY-IMPLIED`, not yet `PRIMARY-EXPLICIT`
+### The player's father remains unidentified in the reviewed text
 
-The game repeatedly frames the new player's Overlord status as inherited or inherent: Rose is his mother, Gnarl calls Overlordship his birthright, and he is discussed in relation to his predecessor. The supplied text reviewed so far does not contain one direct sentence explicitly naming the previous Overlord as his father.
+Evidence: `UNKNOWN`
 
-Until additional primary evidence is found, the precise paternal statement remains source-implied rather than promoted to explicit fact in this reference corpus.
+Rose is called Mrs Marius in the later period, but the supplied localization does not state that Marius is the player's father.
+
+Nor has the reviewed text yet directly stated that the Overlord I / Raising Hell ruler fathered him.
+
+Do not silently choose either interpretation.
 
 ## Overlord II campaign
 
@@ -174,13 +224,13 @@ Evidence: `PRIMARY-EXPLICIT`
 
 Sources: `Nordberg_Town_Chunk_4.8ld`, `NW_TR.8ld`.
 
-The Netherworld is described as awakening and accepting the player as its true Master. It becomes his new seat of power.
+The Netherworld awakens and accepts the player as its true Master. It becomes his new seat of power.
 
 ### The old Tower Heart is reconstructed and weaponized
 
 Evidence: `PRIMARY-EXPLICIT`
 
-Multiple Overlord II sequences concern recovering Tower Heart shards, restoring the Heart, charging it with magical energy, using it for protection and mana recovery, and carrying it into the assault on Empire City.
+Overlord II includes recovery of Tower Heart shards, restoration/charging of the Heart, use of it for protection and Mana recovery, and deployment of it in the assault on Empire City.
 
 ## Overlord II ending
 
@@ -196,26 +246,27 @@ The ending records the fall of the Glorious Empire and the beginning of a new re
 
 Evidence: `BRANCH-DEPENDENT`
 
-`End_Scene.8ld` contains three alternative summary lines:
+`End_Scene.8ld` contains alternative summary states for:
 
-- Destruction-oriented reign
-- mixed Destruction/Domination reign
-- Domination-oriented reign
+- a Destruction-oriented reign;
+- a mixed Destruction/Domination reign;
+- a Domination-oriented reign.
 
 The source therefore does not establish one universal Overlord II tyranny ending.
 
 For OVERLORD REIGN, the exact Domination versus Destruction outcome remains `UNKNOWN` unless the Overlord explicitly selects one.
 
-### The ending leaves later threats open
+### Later threats remain open
 
 Evidence: `PRIMARY-EXPLICIT`
 
-The final narration says that an Overlord's power may eventually end and that threats can arise from multiple directions, while reiterating the recurring franchise principle that evil finds a way.
+The closing narration states that an Overlord's power can eventually end and that threats may arise from multiple directions.
 
 ## Current chronology gaps
 
 - exact absolute dates are unknown;
 - exact durations between Raising Hell, the Exodus, Cataclysm, magical plague, and Overlord II are not supplied by the decoded text reviewed so far;
-- the player's paternal lineage is strongly implied but not yet explicitly stated in the reviewed localization text;
+- the Overlord II player's father remains unverified in the reviewed primary text;
+- the exact history of the pre-Overlord-I ruler before the hero attack remains incomplete;
 - no post-Overlord-II continuation is made binding by this file;
 - Dark Legend and other prequel material have not yet been added to this primary-source corpus.
