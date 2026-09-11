@@ -10,7 +10,7 @@ This corpus is derived directly from the user-supplied Overlord game localizatio
 
 Current extraction totals:
 
-- extracted English text rows: 2,588
+- extracted English text rows: 2,587
 - original localization workbook rows explicitly naming actor `GNARL`: 759
 - direct map-script Minion Master references matched exactly or through source-name normalization: 368 of 379
 - remaining direct references requiring source reconciliation: 11
