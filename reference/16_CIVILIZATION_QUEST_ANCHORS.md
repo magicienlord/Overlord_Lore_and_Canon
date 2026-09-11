@@ -151,13 +151,23 @@ Piglins and Minions regard one another as unusually close Netherworld cousin-peo
 
 ### Umvuthana
 
-Status: PLANNED ANCHOR / ORIGIN PROPOSAL
+Status: CANON ORIGIN / PLANNED ANCHOR
 
-Anchor: Umvuthana Grove centered on Umvuthi's throne complex.
+Anchor: designated Umvuthana Grove centered on one Umvuthi's throne complex.
 
-PROPOSAL: the Umvuthana may represent a forest-derived tribal people or sub-species that developed without Elven influence. The precise ancestral relationship is not yet defined and is not canon yet.
+Umvuthi is literally the creator of the present Umvuthana people associated with his Grove. REIGN also permits those people to have been remade from a pre-existing forest-derived population; the exact deeper ancestry remains UNKNOWN.
 
-## Demons
+Umvuthi and the first Umvuthana arose during the Silence in the ecological and cultural vacuum created by the Glorious Empire's destruction of Elven populations.
+
+The civilization main quest begins through the Umvuthi of the designated Grove. His native hostility is preserved until the player establishes a legitimate audience.
+
+The peaceful route reuses the native Umvuthana-mask recognition mechanic. Wearing a mask permits non-hostile approach and the initial audience. Completion of that authored audience moves the canonical Grove into NEUTRAL so the mask does not remain a permanent requirement for basic peaceful interaction.
+
+Multiple Umvuthis may exist. Each Grove can be treated as a local theocratic polity centered on its own creator-god. Subjugating or killing the canonical Umvuthi affects his Grove, not all Umvuthis globally.
+
+Subjugation should emphasize the humiliation of a living creator-god forced to acknowledge the Overlord as the greater power before his worshippers.
+
+### Demons
 
 Status: CANON RECLASSIFICATION
 
