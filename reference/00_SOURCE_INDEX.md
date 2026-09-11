@@ -21,10 +21,10 @@ The `source/` tree contains:
 
 - all selected Overlord I / Raising Hell `.8ld` localization binaries;
 - all selected Overlord II `.8ld` localization binaries;
-- the Overlord I Tower map used as the first decoder validation fixture;
+- selected map/source fixtures required for reproducible implementation analysis;
 - minimal supporting metadata.
 
-Bulk map files, audio payloads, manuals, and unrelated installation files are not required for ordinary text-corpus work and are added only when a specific source question requires them.
+Bulk audio payloads and unrelated installation files are not required for ordinary text-corpus work. Additional maps are imported or consulted only when a specific source-analysis pass requires them.
 
 ## 3. Localization format status
 
@@ -113,9 +113,19 @@ Wiki summaries and memory are not acceptable sole authority for a claim that can
 
 ## 7. Speaker-attribution rule
 
-Overlord I and Raising Hell workbooks frequently include explicit actor fields. Those actor values may be used directly.
+Overlord I and Raising Hell workbooks frequently include explicit actor fields. Those actor values are authoritative for the corresponding localization rows.
 
-The supplied Overlord II narrative workbooks generally leave actor cells blank. Missing actors remain missing until independently reconstructed from map/event context. Speaker identity must not be filled from memory simply because a line sounds characteristic of a known character.
+Implementation function names are not sufficient by themselves. In particular, `ShowMinionMasterText(...)` routes lines spoken by multiple actors and must not be interpreted as a guarantee that Gnarl is speaking. The corrected analysis is in `corpus/overlord1/MINIONMASTER_ROUTING_RECONCILIATION.md`.
+
+The supplied Overlord II narrative workbooks generally leave actor cells blank. Speaker identity is accepted only when direct map implementation identifies the speaker through structures such as:
+
+- face-expression speaker routing;
+- explicit `Speak` actor entities;
+- conservative character-specific implementation labels adjacent to a resolved localization reference.
+
+`tools/extract_o2_map_speakers.py` and `tools/extract_o2_named_gnarl_labels.py` reproduce those source-attribution passes.
+
+Missing actors remain missing when no direct source mechanism identifies them. Similar vocabulary is not evidence.
 
 ## 8. Major source coverage
 
@@ -127,11 +137,11 @@ The current reference layer covers:
 - peoples, factions, cultures, and political institutions;
 - named franchise locations and geographic relationships;
 - magic, Mana, Evil energy, Light magic, Spell Stones, Tower Hearts, and anti-magic;
-- major quest-relevant characters;
-- quest architecture and branch-specific outcomes;
-- Gnarl's explicitly attributed dialogue and production-direction metadata.
-
-Files `10` through `13` extend the corpus into non-Gnarl dialogue practice, everyday-world rules, ambiguities, and the OVERLORD REIGN adoption ledger.
+- major and quest-relevant secondary characters;
+- quest architecture, live Overlord I state logic, source-proven dependency relationships, and branch-specific outcomes;
+- Gnarl's directly attributed dialogue and production-direction metadata across all three supplied campaign phases;
+- non-Gnarl dialogue practice and ordinary-world social stakes;
+- unresolved source ambiguities and franchise-to-REIGN adoption status.
 
 ## 9. Canon boundary
 
