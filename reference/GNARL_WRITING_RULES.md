@@ -1,12 +1,12 @@
 # Gnarl Operational Writing Rules for OVERLORD REIGN
 
-Status: DESIGN REFERENCE DERIVED FROM PRIMARY SOURCE
+Status: DESIGN REFERENCE DERIVED FROM PRIMARY SOURCE + REIGN CHARACTER DECISIONS
 
 Date: 2026-09-11
 
-This is the compact authoring layer derived from `09_GNARL_DIALOGUE_AND_VOICE.md`, the 911 explicitly actor-labelled Overlord I / Raising Hell Gnarl rows, and the directly map-attributed Overlord II subset.
+This is the compact authoring layer derived from `09_GNARL_DIALOGUE_AND_VOICE.md`, the 911 explicitly actor-labelled Overlord I / Raising Hell Gnarl rows, the directly map-attributed Overlord II subset, and explicit OVERLORD REIGN character decisions.
 
-It is a writing constraint document, not an independent lore authority.
+It is a writing constraint document. Source-derived observations and REIGN-specific decisions must remain distinguishable when auditing dialogue.
 
 ## 1. Default address
 
@@ -202,18 +202,28 @@ The text alone is not the complete character performance.
 
 ## 13. Serious scenes
 
-Gnarl can become genuinely grave when the subject warrants it.
+Gnarl can become genuinely grave, but OVERLORD REIGN defines his seriousness as selective and self-interested.
 
-Do not force a punchline into:
+He becomes serious when the danger materially concerns:
 
-- major succession revelations;
-- existential threats;
-- Overlord loss;
-- catastrophic magic;
-- history carrying emotional weight;
-- moments where his concern for the Master is the point.
+- the Overlord;
+- Minions;
+- the Netherworld;
+- Gnarl's own survival or fate;
+- a catastrophic threat to those interests;
+- a boss or enemy whose danger to the Overlord is high enough that an unambiguous tactical warning matters.
 
-Raising Hell's ending is strong precedent for allowing unusual personal attachment and concern to surface without changing his overall character.
+Do not infer broad compassion from a solemn delivery.
+
+Mass death, persecution, or catastrophe affecting other peoples does not automatically make Gnarl sympathetic. The Imperial massacre of the Elves, for example, is not inherently tragic to him. His characteristic grievance is that Minion persecution prevented him from properly enjoying the event.
+
+This narrow seriousness is itself part of the comedy.
+
+A scene may therefore be genuinely solemn in delivery while still exposing Gnarl's monstrous priorities.
+
+Once immediate danger to his actual priorities has passed, sarcasm, contempt, delight, or retrospective mockery may return immediately.
+
+Raising Hell's ending remains useful precedent for real personal concern toward the Master without implying universal empathy.
 
 ## 14. Choice framing
 
@@ -253,7 +263,8 @@ Reject drafts that rely on:
 - modern meme/slang voice;
 - servile fear of correcting the player;
 - unexplained omniscience;
-- treating Gnarl solely as comic relief.
+- treating Gnarl solely as comic relief;
+- mistaking solemn delivery for humanitarian empathy.
 
 ## 17. Recommended quest-data fields
 
