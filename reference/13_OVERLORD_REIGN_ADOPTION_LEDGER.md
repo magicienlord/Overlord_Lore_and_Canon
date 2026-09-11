@@ -32,17 +32,17 @@ Consequence: the pre-Overlord-I ruler, Overlord I campaign, Raising Hell loss in
 
 Franchise evidence: `PRIMARY-EXPLICIT`.
 
-REIGN status: `ADOPTED`.
+REIGN status: `ADOPTED AS FRANCHISE HISTORY`.
 
-Basis: REIGN explicitly establishes multiple intervening Overlords and a current player who is not the Overlord II ruler.
+Multiple Overlords exist historically across the inherited franchise chronology. REIGN no longer inserts additional rulers between the Overlord II ruler and the current player.
 
 ### R-003: One universal hereditary succession law
 
 Franchise evidence: `NOT ESTABLISHED`; hereditary potential exists but succession also involves preparation/recognition.
 
-REIGN status: `UNDECIDED`.
+REIGN status: `REJECTED AS A REQUIREMENT / CURRENT SUCCESSION ADAPTED`.
 
-Basis: the present Overlord's ancestry and method of succession remain UNKNOWN in `04_HISTORY.md`.
+The current Overlord is anointed directly by the Netherworld. No bloodline proof is required. A hereditary connection may exist but is intentionally UNKNOWN and need never be answered.
 
 ### R-004: Overlord II player's father
 
@@ -56,9 +56,9 @@ Do not use Marius, the Overlord I ruler, or another named figure as the father w
 
 Franchise evidence: `BRANCH-DEPENDENT`.
 
-REIGN status: `UNDECIDED`.
+REIGN status: `ADOPTED BRANCH SELECTION: DOMINATION`.
 
-Basis: `04_HISTORY.md` explicitly leaves the ending state UNKNOWN.
+The Overlord II ruler follows a predominantly Domination-oriented historical reign. Where the source presents a direct Domination versus Destruction resolution and no later REIGN exception is established, Domination is the default historical outcome.
 
 ### R-006: Later post-Overlord-II sequel storylines
 
@@ -80,13 +80,15 @@ REIGN status: `ADAPTED / REIGN-ORIGINAL CANON`.
 
 Basis: `04_HISTORY.md`.
 
-### R-008: A couple of intervening Overlords
+### R-008: Intervening Overlords after Overlord II
 
 Franchise evidence: not established by supplied pre-REIGN source.
 
-REIGN status: `ADAPTED / REIGN-ORIGINAL CANON`.
+REIGN status: `REJECTED / REMOVED CANON ERROR`.
 
-Their identities, reigns, succession methods, and fates remain `UNDECIDED`.
+Earlier REIGN drafts stated that a couple of intervening Overlords existed. That statement was an authoring error and has been superseded.
+
+There are no intervening Overlords between the Overlord II ruler and the current REIGN Overlord.
 
 ### R-009: The Silence
 
@@ -94,7 +96,11 @@ Franchise evidence: not a franchise event.
 
 REIGN status: `ADAPTED / REIGN-ORIGINAL CANON`.
 
-The cause and duration remain UNKNOWN.
+The Silence begins directly after the fall or disappearance of the Overlord II ruler and continues until the current Overlord is anointed several centuries later.
+
+The Overlord II ruler's Domination-oriented legacy leaves many civilizations alive, productive, and organized. Their later stability and complacency help explain why Evil fails to regain an Overlord-scale foothold for centuries and why the present world diverges so strongly from the old one.
+
+The exact supernatural reason the Netherworld waits centuries before choosing another Master remains UNKNOWN.
 
 ## 3. Dark Tower and seats of power
 
@@ -110,7 +116,7 @@ Franchise evidence: franchise Towers have historical continuity but source does 
 
 REIGN status: `REJECTED`.
 
-Basis: `04_HISTORY.md` explicitly establishes the present Tower as a new structure that rose from the ground immediately before the Silence ended.
+The present Tower is a new structure manifested by the Netherworld for the newly anointed current Overlord.
 
 ### R-012: Present Tower inherits recognizable earlier Tower identity
 
@@ -118,7 +124,7 @@ Franchise evidence: architectural identity available from original Towers.
 
 REIGN status: `ADAPTED`.
 
-Basis: `04_HISTORY.md` and `06_ARCHITECTURE.md` preserve recognizable Overlord architecture without requiring physical continuity.
+The Tower preserves recognizable Overlord architecture without requiring physical continuity.
 
 ### R-013: Original named franchise locations survive as present REIGN locations
 
@@ -126,7 +132,7 @@ Franchise evidence: locations such as Spree, Evernight, Golden Hills, Heaven's P
 
 REIGN status: `RESERVED / UNDECIDED INDIVIDUALLY`.
 
-Basis: `02_LOCATIONS.md` states that original locations are not automatically adopted. Only the Dark Tower is currently a named canonical REIGN location.
+Original locations are not automatically adopted. Each may be reused, transformed, ruined, remembered, or omitted only through a later explicit decision.
 
 ## 4. Minions
 
@@ -136,25 +142,21 @@ Franchise evidence: `PRIMARY-EXPLICIT`.
 
 REIGN status: `ADOPTED`.
 
-Basis: `03_FACTIONS.md`.
-
 ### R-015: Minions remain tied to Overlord succession across reigns
 
 Franchise evidence: `PRIMARY-EXPLICIT`.
 
-REIGN status: `ADOPTED AT HIGH LEVEL`.
+REIGN status: `ADOPTED / PRESENT STATE DEFINED`.
 
-Basis: `04_HISTORY.md` preserves Minions as part of the Overlord tradition.
+Browns, Reds, Greens, and Blues survive into the current era, as do their traditional Hives. During the Silence they withdraw into the Netherworld and decline into a scattered, dormant remnant. Normal spawning becomes impaired without an active Master.
 
-Which individual Minions survived, how populations persisted, and what happened during the Silence remain `UNDECIDED`.
+Gnarl, Mortis, and Quaver survive into the present era. Grubby's survival is not established; a descendant remains a proposal.
 
 ### R-016: Lifeforce supports Minion creation/summoning
 
 Franchise evidence: `PRIMARY-EXPLICIT`.
 
 REIGN status: `ADOPTED`.
-
-Basis: `05_MAGIC.md`.
 
 ### R-017: Raw Lifeforce equals a complete persistent personal soul
 
@@ -168,9 +170,9 @@ REIGN treats Lifeforce as soul-related extractable vital essence while allowing 
 
 Franchise evidence: `PRIMARY-EXPLICIT` for the original games.
 
-REIGN status: `RESERVED / IMPLEMENTATION-SPECIFIC UNLESS SEPARATELY CANONIZED`.
+REIGN status: `ADOPTED AT IDENTITY LEVEL / IMPLEMENTATION-SPECIFIC FOR EXACT ABILITIES`.
 
-The franchise reference may guide Minion implementation, but this ledger does not claim every original immunity or combat number is already REIGN canon.
+The four traditional tribes survive canonically. Exact combat statistics and mod implementation remain technical matters.
 
 ## 5. Netherworld and Abysses
 
@@ -178,9 +180,9 @@ The franchise reference may guide Minion implementation, but this ledger does no
 
 Franchise evidence: `PRIMARY-EXPLICIT`.
 
-REIGN status: `ADAPTED`.
+REIGN status: `ADAPTED / CANON IMPLEMENTATION MAPPING`.
 
-REIGN preserves the Netherworld concept within its wider Minecraft cosmology and magic mapping.
+The Netherworld is the in-universe realm represented mechanically by Minecraft's vanilla Nether dimension. It becomes dormant during the Silence and begins waking after choosing the current Overlord.
 
 ### R-020: Evil/Infernal Abysses exist historically
 
@@ -194,7 +196,7 @@ Franchise evidence: not established and source terminology/function distinguishe
 
 REIGN status: `NOT ADOPTED AS AN EQUIVALENCE`.
 
-REIGN magic mappings should preserve the distinction unless an explicit future decision deliberately changes it.
+REIGN preserves the distinction.
 
 ## 6. Magic and metaphysics
 
@@ -252,9 +254,9 @@ REIGN status: `UNDECIDED / INTENTIONALLY OPEN`.
 
 Franchise evidence: `PRIMARY-EXPLICIT`.
 
-REIGN status: `ADOPTED: HISTORICAL BACKGROUND` under inherited pre-Overlord-II continuity.
+REIGN status: `ADOPTED: HISTORICAL BACKGROUND`.
 
-This does not require Holy magic to derive from the Mother Goddess. REIGN explicitly does not require a specific deity as the source of Good Mana.
+This does not require Holy magic to derive from the Mother Goddess.
 
 ### R-031: Forgotten God and Raising Hell Abyss crisis
 
@@ -282,8 +284,6 @@ Franchise evidence: not stated by the original games.
 
 REIGN status: `ADAPTED / REIGN-ORIGINAL CANON`.
 
-Basis: `05_MAGIC.md`.
-
 ### R-035: Ender magic / Endermen mapping to the Wasteland rupture
 
 Franchise evidence: not original source terminology.
@@ -308,7 +308,7 @@ REIGN status: `ADAPTED`.
 
 Franchise evidence: not direct franchise systems in this form.
 
-REIGN status: `ADAPTED / REIGN-ORIGINAL SYSTEM INTEGRATION` as defined in `05_MAGIC.md` and the completed unification files.
+REIGN status: `ADAPTED / REIGN-ORIGINAL SYSTEM INTEGRATION`.
 
 ### R-039: Biomancy developed by Gnarl during the long period without an Overlord
 
@@ -316,13 +316,15 @@ Franchise evidence: not an original game fact.
 
 REIGN status: `ADAPTED / REIGN-ORIGINAL CANON`.
 
+During the Silence Gnarl develops Biomancy from ideas inspired especially by Solarius' magically overexposed transformation.
+
 ## 9. Peoples and civilizations
 
 ### R-040: Historical human settlements, Elves, Dwarves, Gnomes, Empire, Sanctuary forces
 
 Franchise evidence: `PRIMARY-EXPLICIT`.
 
-REIGN status: `ADOPTED: HISTORICAL` where part of inherited continuity, but present-day survival/political identity is `UNDECIDED` unless separately established.
+REIGN status: `ADOPTED: HISTORICAL` where part of inherited continuity, but present-day survival/political identity remains civilization-specific.
 
 ### R-041: Dwarves as a present REIGN civilization
 
@@ -338,23 +340,19 @@ Franchise evidence: no such equivalence.
 
 REIGN status: `REJECTED AS AN ASSUMPTION`.
 
-Do not use name similarity to merge unrelated peoples.
-
 ### R-043: Goblins, Kobolds, Ribbits, Sea Dwellers, Piglins, Umvuthana, and other modded civilizations existed in the original games
 
 Franchise evidence: not established by this corpus.
 
 REIGN status: `ADAPTED / REIGN-SPECIFIC CIVILIZATIONS`.
 
-Their cultures must be grounded in their own source mods and REIGN decisions, not retroactively inserted into original Overlord history without a decision.
+Their rise or emergence during the long masterless interval may be used where appropriate, but their specific origins must still be grounded in their own source mods and REIGN decisions.
 
 ### R-044: Gold as a general world currency
 
 Franchise evidence: gold/treasure is widely valuable, but one universal currency is not established.
 
 REIGN status: `ADAPTED`.
-
-Basis: `03_FACTIONS.md` / project decision that Gold is the general world currency.
 
 ## 10. Geography
 
@@ -363,8 +361,6 @@ Basis: `03_FACTIONS.md` / project decision that Gold is the general world curren
 Franchise evidence: original geography exists.
 
 REIGN status: `REJECTED AS A REQUIREMENT`.
-
-Basis: `01_WORLD_AND_GEOGRAPHY.md` establishes original REIGN geography and procedural Minecraft distribution.
 
 ### R-046: Preserve adopted location identity rather than exact coordinates
 
@@ -396,7 +392,9 @@ The Reputation! mod was removed. Quest-state and civilization-disposition design
 
 Franchise evidence: `PRIMARY-EXPLICIT`.
 
-REIGN status: `ADOPTED / PLANNED IMPLEMENTATION` through the Gnarl main-quest system.
+REIGN status: `ADOPTED / PLANNED IMPLEMENTATION`.
+
+Gnarl remains the principal adviser but need not be a permanently spawned physical NPC.
 
 ### R-050: Main quests gate local sidequest pools
 
@@ -412,15 +410,13 @@ REIGN status: `ADAPTED / PLANNED DESIGN PRINCIPLE`.
 
 ## 12. Present unresolved adoption questions
 
-The following should become part of the upcoming REIGN lore interview because they materially affect quest writing:
+The following remain useful future decisions because they materially affect quest writing:
 
 1. Which, if any, original named settlements/regions still physically exist or are remembered in the present era?
 2. Which historical peoples survived continuously into the present, and which present civilizations are unrelated successors?
-3. What happened to the Netherworld and Minion institutions during the intervening Overlords and the Silence?
-4. Does the current Overlord have hereditary connection to any earlier Overlord, or is succession based on another mechanism?
-5. Which Overlord II branch-sensitive outcomes matter enough to select explicitly?
-6. Which old religions remain active, extinct, transformed, or unknown in the present?
-7. How much reliable history do ordinary present-day populations know about Overlord I, Raising Hell, the Cataclysm, and Overlord II?
-8. Which old artifacts or institutional systems can plausibly survive several centuries and appear in quests?
+3. Which old religions remain active, extinct, transformed, or unknown in the present?
+4. Which old artifacts or institutional systems can plausibly survive several centuries and appear in quests?
+5. What were the exact circumstances of the Overlord II ruler's final fall or disappearance, if a future quest ever requires them?
+6. Why did the Netherworld wait centuries before anointing another Master, if that question ever needs an explicit answer?
 
-These remain `UNDECIDED` until the Overlord makes explicit project decisions.
+The former questions concerning intervening Overlords are closed. There were none.
