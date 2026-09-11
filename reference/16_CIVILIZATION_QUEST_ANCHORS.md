@@ -49,9 +49,13 @@ The goal is historical continuity without forcing one old map onto every possibl
 
 Status: PLANNED / SOURCE-BACKED
 
-Anchor: the Bastille from Take a Pillage.
+Anchor: a designated Bastille from Take a Pillage.
 
 Installed source confirms the Bastille as a fortified Illager worldgen complex with cages, barracks, stables, ravager areas, gates, church, farm, graveyard, Illager entity pools, and prisoner infrastructure.
+
+The chosen Bastille is not merely one example of an Illager location. It is the explicit civilization quest starter and principal Illager quest anchor.
+
+Ordinary Illager patrols, raids, camps, mansions, outposts, unrelated Bastilles, or arbitrary combat must not automatically initiate the civilization questline. Overlord Quests needs a clear Bastille-bound starter so player actions elsewhere cannot accidentally create the main Illager arc.
 
 ### Dwarves
 
