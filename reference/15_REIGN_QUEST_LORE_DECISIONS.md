@@ -162,7 +162,7 @@ Depending on the civilization, earlier Overlords, old Towers, the Great Cataclys
 
 Different civilizations may preserve different portions of the past.
 
-### Q-015: How much does Gnarl know about the intervening Overlords and past reigns?
+### Q-015: How much does Gnarl know about past reigns?
 
 Status: `CANON`
 
@@ -172,13 +172,17 @@ He is not omniscient. His principal blind spots concern what happens in the wide
 
 ### Q-016: What caused the Silence?
 
-Status: `PENDING CANON RECONCILIATION`
+Status: `CANON`
 
-Proposed answer from the Overlord: the fall of the Overlord II ruler after a Domination-focused reign created a world of fruitful, complacent civilizations in which Evil had little opportunity to grow back. This long stability also helps explain major changes in world state and the emergence of new civilizations.
+There were no intervening Overlords after the Overlord II ruler. The earlier project statement that a couple of additional Overlords existed was an authoring error and is superseded.
 
-Conflict: existing REIGN canon establishes multiple genuine intervening Overlords between Overlord II and the Silence, and states that the Silence begins only after the last of them.
+The Overlord II ruler is the final active Overlord before the Silence. His fall or disappearance leads directly into the centuries-long masterless era.
 
-No canon change has yet been made to reconcile those two statements.
+His predominantly Domination-oriented reign left many conquered civilizations alive, productive, organized, and accustomed to functioning under ordered control rather than being annihilated. After his fall, those societies and their successors had room to become fruitful, stable, and increasingly complacent.
+
+That inherited stability helped prevent Evil from regaining a durable Overlord-scale foothold for centuries and contributed to the radically altered world state encountered in REIGN, including the rise, transformation, or emergence of civilizations absent from the earlier games.
+
+The exact supernatural reason the Netherworld did not choose another Master during those centuries remains UNKNOWN.
 
 ### Q-017: Which historical branches are canonical?
 
@@ -190,12 +194,20 @@ The Overlord II ruler follows a predominantly Domination-oriented reign. Where t
 
 This gives Gnarl two contrasting inherited models of Overlord rule before the current player: an aggressively Evil/corruption-oriented ruler and a ruler whose tyranny relies predominantly on control, subjugation, and productive subjects.
 
-## Canonical files updated
+## Canonical correction
 
-The corresponding project decisions have been applied through Block 04 to the appropriate canonical project files. Q-016 remains pending because it conflicts with the established intervening-Overlord chronology.
+The former REIGN premise that one or more intervening Overlords existed between Overlord II and the current era is removed completely.
+
+The authoritative chronology is now:
+
+1. Overlord II ruler reigns predominantly through Domination.
+2. He falls or disappears.
+3. The Silence begins directly afterward.
+4. Several centuries pass without another active Overlord.
+5. The Netherworld finally chooses the current REIGN Overlord.
 
 ## Implementation consequence
 
-Ancient-history exposition should normally be civilization-specific, incomplete, or distorted. Gnarl may provide reliable first-hand history of active Overlord reigns but should not be written as omniscient about masterless eras.
+Ancient-history exposition should normally be civilization-specific, incomplete, or distorted. Gnarl may provide reliable first-hand history of active Overlord reigns but should not be written as omniscient about the centuries of the Silence.
 
 The current player remains free to define his own style between, beyond, or against the two inherited historical models.
