@@ -71,9 +71,13 @@ Status: CANON ORIGIN / PLANNED ANCHOR
 
 Anchor: principal Large Gnumus Settlement or equivalent main Gnumus settlement.
 
-In REIGN, Gnumus are a Halfling-derived subrace descended from Halflings corrupted by dark magic.
+In REIGN, the regional Gnumus population descends from Halflings altered over centuries by the misuse of Gluttony magic.
 
-The exact historical corruption event, date, and mechanism remain UNKNOWN. This does not imply that every historical Halfling lineage became Gnumu.
+This transformation is not a universal Halfling fate. Ordinary Halflings still exist elsewhere in the world.
+
+The affected regional population gradually became Gnumus, and the truth of their Halfling ancestry has been lost even to the Gnumus themselves.
+
+The civilization main quest begins through a designated Elder Shaman at the chosen Gnumus anchor. Ordinary Gnumus settlements do not automatically become civilization quest starters.
 
 ### Goblins
 
