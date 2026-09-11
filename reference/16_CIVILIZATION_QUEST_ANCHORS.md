@@ -1,0 +1,132 @@
+# OVERLORD REIGN Civilization Quest Anchors
+
+Status: PROJECT DECISION MIRROR
+
+Date: 2026-09-11
+
+Authority: this file mirrors explicit OVERLORD REIGN location and civilization decisions made during the quest-lore interview. Numbered canonical project files remain authoritative.
+
+## Governing Rule
+
+Major civilization questlines use deliberately authored anchor locations. Their narrative identity and quest function are established before final world placement, while exact coordinates and terrain integration wait for the canonical world.
+
+Ordinary settlements remain procedural unless later promoted or used as local sidequest populations around an anchor.
+
+Historical Overlord locations are not preserved automatically. They may be reused when they provide a meaningful historical remnant or successor-site for the relevant civilization.
+
+## Current Disposition-Civilization Roster
+
+Status: CANON
+
+The generalized civilization-disposition roster contains ten civilizations:
+
+1. Villagers
+2. Illagers
+3. Dwarves
+4. Gnumus
+5. Goblins
+6. Kobolds
+7. Ribbits
+8. Sea Dwellers
+9. Piglins
+10. Umvuthana
+
+Demons are excluded from this roster.
+
+## Planned Questline Anchors
+
+### Villagers
+
+Status: PLANNED
+
+Anchor model: biome-appropriate remnant or successor-site of a historical human location.
+
+Spree is a strong candidate, but the exact historical origin may vary according to the biome, terrain, and final-world fit. Another suitable inherited human location may be used instead.
+
+The goal is historical continuity without forcing one old map onto every possible canonical world.
+
+### Illagers
+
+Status: PLANNED / SOURCE-BACKED
+
+Anchor: the Bastille from Take a Pillage.
+
+Installed source confirms the Bastille as a fortified Illager worldgen complex with cages, barracks, stables, ravager areas, gates, church, farm, graveyard, Illager entity pools, and prisoner infrastructure.
+
+### Dwarves
+
+Status: PLANNED
+
+Anchor: a present Dwarven settlement associated with remnants or successor territory of the Golden Hills / Golden Halls.
+
+No exact surviving layout or coordinate continuity is required at this stage.
+
+### Gnumus
+
+Status: CANON ORIGIN / PLANNED ANCHOR
+
+Anchor: principal Large Gnumus Settlement or equivalent main Gnumus settlement.
+
+In REIGN, Gnumus are a Halfling-derived subrace descended from Halflings corrupted by dark magic.
+
+The exact historical corruption event, date, and mechanism remain UNKNOWN. This does not imply that every historical Halfling lineage became Gnumu.
+
+### Goblins
+
+Status: PLANNED
+
+Anchor: major Goblin Camp.
+
+### Kobolds
+
+Status: PLANNED
+
+Anchor: Kobold Den.
+
+Pirate and other Kobold subcultures may appear at secondary locations.
+
+### Ribbits
+
+Status: PLANNED
+
+Anchor: Ribbit Village.
+
+### Sea Dwellers
+
+Status: PLANNED
+
+Anchor: Sea Village.
+
+### Piglins
+
+Status: PLANNED ANCHOR / ORIGIN PROPOSAL
+
+Anchor: Nether Village.
+
+Because Minecraft's Nether dimension represents the Netherworld in REIGN, Piglins occupy a territorial civilization center within the same supernatural realm as Minion society.
+
+PROPOSAL: Piglins may ultimately be explained as descendants of an ancient and deeply regrettable union between a Minion and an ordinary pig. This is not canon yet.
+
+### Umvuthana
+
+Status: PLANNED ANCHOR / ORIGIN PROPOSAL
+
+Anchor: Umvuthana Grove centered on Umvuthi's throne complex.
+
+PROPOSAL: the Umvuthana may represent a forest-derived tribal people or sub-species that developed without Elven influence. The precise ancestral relationship is not yet defined and is not canon yet.
+
+## Demons
+
+Status: CANON RECLASSIFICATION
+
+Demons are not a peer civilization in the generalized disposition system and do not receive a civilization questline anchor.
+
+They remain a small Netherworld subculture. Across long periods, Minion proliferation and dominance constrained Demon expansion and kept Demon society comparatively localized.
+
+Demon Lords and Demon groups may still support encounters, local quests, lore, and Netherworld subplots without receiving a civilization-wide disposition state.
+
+## Quest-Writing Consequence
+
+Overlord Quests should author main civilization arcs against these stable anchor identities rather than waiting for arbitrary generated settlements to become important later.
+
+Final-world integration chooses coordinates and terrain fit. It must not be allowed to erase a quest-critical anchor entirely.
