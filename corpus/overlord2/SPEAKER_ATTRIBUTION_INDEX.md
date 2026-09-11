@@ -8,7 +8,7 @@ Sources: supplied Overlord II single-player `.omp` maps correlated against decod
 
 ## Evidence rule
 
-The supplied narrative workbooks generally leave actor cells blank. Speaker identity is therefore accepted only when the map implementation itself supplies a direct character/speaker structure.
+The supplied narrative workbooks generally leave actor cells blank. Speaker identity is accepted only when the map implementation itself supplies a direct character/speaker structure.
 
 Three direct structures are used. Dialogue wording, memory, and voice recognition are not speaker evidence.
 
@@ -65,7 +65,9 @@ CS_BU_GNARL
 CS_AU_GNARL
 ```
 
-This route adds direct Gnarl references beyond the face-expression subset. Map-side markers without matching decoded localization rows are not promoted into dialogue.
+The matched `Speak` pass contributes 17 unique decoded Gnarl references before union with the other direct methods.
+
+Map-side markers without matching decoded localization rows are not promoted into dialogue.
 
 ## 3. Named Gnarl implementation labels
 
@@ -93,21 +95,23 @@ The result is then validated against the decoded localization corpus.
 
 Tool: `tools/extract_o2_named_gnarl_labels.py`.
 
-Observed totals:
+Validated against the extracted 26 single-player maps and normalized Overlord II localization corpus:
 
-- 176 named-Gnarl label/reference occurrences before conservative filtering
-- 166 occurrences resolve to decoded localization before control-label filtering
-- 148 unique decoded localization references remain in the conservative named-label set
+- 173 de-duplicated conservative named-label records
+- 165 of those records resolve to decoded localization
+- 149 unique decoded localization references are represented by the matched named-label records
+
+The one-reference difference from the earlier exploratory count is due to final de-duplication/filter ordering in the reproducible extractor. The combined corpus total below is unchanged.
 
 This structure recovers Gnarl material outside the Netherworld-heavy face-routing subset, including ambient Netherworld lines, Hunting Grounds material, Wasteland Sanctuary material, and smaller numbers from Empire and Everlight contexts.
 
 ## Combined direct Gnarl corpus
 
-The union of all three direct implementation methods contains **173 unique decoded Overlord II Gnarl references**.
+The normalized union of all three direct implementation methods contains **173 unique decoded Overlord II Gnarl references**.
 
 No line enters this set because it merely sounds like Gnarl.
 
-Source-group distribution of the 173-line set:
+Source-group distribution:
 
 | Source group | Direct Gnarl rows |
 | --- | ---: |
@@ -143,7 +147,7 @@ For these 173 source-attributed rows:
 
 This independently confirms the pattern already visible in Overlord I and Raising Hell: `Sire` remains Gnarl's dominant direct honorific, `Master` remains common, and repetitive direct-address use of `Overlord` remains rare.
 
-The Overlord II subset is now broad enough to cover multiple gameplay contexts, but it is still a source-attributed subset rather than a claim that every Gnarl line in the game has been recovered.
+The Overlord II subset is broad enough to cover multiple gameplay contexts, but it remains a source-attributed subset rather than a claim that every Gnarl line in the game has been recovered.
 
 ## Other speakers
 
@@ -157,7 +161,7 @@ The high-confidence speaker-recovery task is complete for the current source cor
 
 A remaining actorless line is not treated as an unfinished attribution task merely because a speaker could perhaps be guessed. It remains unattributed unless an additional direct map structure is discovered.
 
-This preserves a useful distinction:
+This preserves the distinction:
 
 ```text
 direct source-attributed speaker
@@ -165,4 +169,4 @@ unattributed primary text
 inferred speaker, not admitted to corpus
 ```
 
-The first category is usable for quantitative voice analysis. The second remains usable for event/lore analysis without a named speaker. The third is deliberately excluded.
+Only the first category is used for quantitative named-character voice analysis.
