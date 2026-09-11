@@ -1,0 +1,106 @@
+# OVERLORD REIGN Religion and Infernal Abyss Decisions
+
+Status: PROJECT DECISION MIRROR
+
+Date: 2026-09-11
+
+Authority: mirrors explicit OVERLORD REIGN decisions. Numbered project canon files remain authoritative.
+
+## Q-035 / Q-036 - Mother Goddess worship
+
+Status: CANON WORLD RULE
+
+Mother Goddess worship remains a living religious tradition in the present era among Elves and other peoples culturally or religiously connected to that tradition.
+
+The Imperial persecution and massacre of Elves did not erase the religion.
+
+Its present form may be fragmented across surviving populations, diasporas, sacred sites, family traditions, local priesthoods, relics, or successor communities rather than one universal centralized institution.
+
+The exact list of non-Elven peoples who remain connected to Mother Goddess worship is not automatically defined here. It should be established only where source material, present-world culture, or authored quests justify that connection.
+
+This preserves the source-established importance of Mother Goddess worship to Elven culture without inventing a universal modern church.
+
+## Order of the Silent God
+
+Status: CANON WORLD RULE
+
+The original centralized Order of the Silent God associated with historical Heaven's Peak does not survive unchanged as one continuous institution.
+
+Its beliefs, rituals, sayings, practices, local churches, cults, and successor sects may survive among present human and Villager populations.
+
+This survival is decentralized and locally variable.
+
+Modern human settlements therefore may contain Silent God-derived religious traditions without implying that the old Heaven's Peak hierarchy remained intact for centuries.
+
+## Forgotten God
+
+Status: CANON WORLD RULE
+
+The Forgotten God remains defeated following the events of Raising Hell.
+
+He is not restored as an active civilization-scale divine power merely because later cultists remember or worship him.
+
+Small forbidden cults, occult scholars, fanatics, or other quest-specific groups may:
+
+- worship him;
+- preserve fragments of his history;
+- attempt to contact him;
+- seek Abyss-related relics;
+- misinterpret his former power;
+- attempt rituals connected to the Infernal Abyss.
+
+Such groups are local authored quest elements, not a generalized civilization religion.
+
+Nothing in this decision by itself establishes that attempts to contact the Forgotten God succeed.
+
+## Religion in gameplay
+
+Status: CANON DESIGN / PLANNED IMPLEMENTATION
+
+Religion is a quest, dialogue, culture, and local-world factor rather than a global simulation system.
+
+Overlord Quests must not maintain continuously evaluated religious adherence percentages, conversion scores, or civilization-wide theology statistics.
+
+Religious consequences are authored explicitly where relevant, for example:
+
+- desecrating a shrine;
+- stealing a sacred object;
+- helping or killing a priest;
+- supporting or suppressing a cult;
+- exploiting a religious dispute;
+- discovering a sacred ruin;
+- manipulating a prophecy or ritual.
+
+If such an act changes later quests, disposition, dialogue, services, or local world state, the relevant quest writes the required explicit marker or consequence.
+
+## Overlord I / Raising Hell ruler and the Infernal Abyss
+
+Status: CANON CONTINUITY DECISION / SOURCE-CONSISTENT
+
+The ruler played in Overlord I and Raising Hell remains trapped or lost in the Infernal Abyss in the present OVERLORD REIGN timeline unless a later explicit story decision establishes an escape or other fate.
+
+Primary-source continuity establishes that:
+
+- he defeated the Forgotten God;
+- the dying Forgotten God trapped/cursed him within the Infernal Abyss;
+- Gnarl lost reliable contact but allowed that escape might still be possible;
+- Overlord II later describes the immediately preceding Master as having disappeared during a trip to the Infernal Abyss.
+
+OVERLORD REIGN does not currently establish that he escaped, died, was destroyed, became an Abyss entity, or otherwise changed state during the intervening centuries.
+
+Therefore the safe present rule is:
+
+```text
+KNOWN: trapped/lost in the Infernal Abyss and not known to have escaped.
+UNKNOWN: exact current physical, spiritual, magical, or conscious condition.
+```
+
+This leaves the ruler available as a future mystery or quest element without silently inventing a centuries-long fate.
+
+### Naming discipline
+
+The recovered primary-source corpus identifies this character as the Overlord I / Raising Hell ruler and as the lost Master immediately preceding Overlord II.
+
+The corpus reviewed so far does not independently establish an ordinal title such as `Third Overlord` for him.
+
+If OVERLORD REIGN adopts `Third Overlord` as project terminology, it may be used as a REIGN naming convention, but source-reference material should continue to distinguish that project label from primary-source wording.
