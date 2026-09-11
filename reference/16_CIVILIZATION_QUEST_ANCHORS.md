@@ -105,15 +105,29 @@ Subjugating the chosen Den does not globally alter all naturally generated Kobol
 
 ### Ribbits
 
-Status: PLANNED
+Status: PLANNED / SOURCE-BACKED
 
-Anchor: Ribbit Village.
+Anchor: designated Ribbit Village.
+
+The civilization main quest begins through one protected, explicitly marked Gardener assigned the local role of Elder. Ordinary Ribbit Gardeners and villages elsewhere do not automatically become civilization quest starters.
+
+The chosen village is an independent local community rather than the capital of every Ribbit in the world.
+
+Ribbits remain peaceful toward everyone and everything by default. Their civilization quest should preserve the source mod's cozy, musical, cheerful character so domination or destruction produces the intended darkly comic Overlord contrast.
 
 ### Sea Dwellers
 
-Status: PLANNED
+Status: PLANNED / SOURCE-BACKED
 
-Anchor: Sea Village.
+Anchor: designated Sea Village.
+
+The civilization main quest begins through one protected, explicitly marked senior Sea Dweller trader assigned the social title `Sea Elder`. Ordinary Sea Villages and Sea Dwellers elsewhere do not automatically become civilization quest starters.
+
+The chosen village is one independent local community rather than the capital of every Sea Dweller in the world.
+
+The Sea Dweller arc should point the player toward the native Ocean Dragon questline rather than replacing it. Overlord Quests tracks relevant Ocean Dragon milestones for story continuity while leaving the native progression mechanically authoritative.
+
+The Ocean Dragon remains politically separate from the Sea Village and is not automatically affected by the village's disposition.
 
 ### Piglins
 
