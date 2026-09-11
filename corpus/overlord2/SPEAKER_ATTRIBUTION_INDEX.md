@@ -1,16 +1,20 @@
 # Overlord II Speaker Attribution Index
 
-Status: PRIMARY-IMPLEMENTATION EXTRACTION, HIGH-PRECISION SUBSET
+Status: PRIMARY-IMPLEMENTATION EXTRACTION, COMPLETE HIGH-CONFIDENCE PASS
 
 Date: 2026-09-11
 
 Sources: supplied Overlord II single-player `.omp` maps correlated against decoded `.8ld` localization.
 
-## Method
+## Evidence rule
 
-Two direct map structures are accepted.
+The supplied narrative workbooks generally leave actor cells blank. Speaker identity is therefore accepted only when the map implementation itself supplies a direct character/speaker structure.
 
-### Face-expression routing
+Three direct structures are used. Dialogue wording, memory, and voice recognition are not speaker evidence.
+
+## 1. Face-expression routing
+
+Observed structure:
 
 ```text
 Face Expression...
@@ -19,7 +23,7 @@ Face Expression...
 <map actor/entity alias>
 ```
 
-Representative source pattern:
+Representative pattern:
 
 ```text
 Face Expression
@@ -28,7 +32,19 @@ NW_TR@START@15
 GNARL
 ```
 
-### Explicit Speak routing
+Validation across the 26 supplied non-multiplayer maps:
+
+- 195 strict routing occurrences before role/reference de-duplication
+- 184 unique localization-reference plus role pairs
+- 183 resolve to a decoded localization row
+- one missing/version-mismatched reference: `Nordberg_Sanctuary@110@10`, routed through `borius`
+- 32 unique decoded references routed through `minionmaster`
+
+Major matched routing roles include `minionmaster`, `marius`, `Juno`, `elf_florian`, `Kelda`, `GhostFay`, `quaver`, `governess`, Centurion/Imperial roles, and generic NPC actor variants.
+
+## 2. Explicit `Speak` routing
+
+Observed structure:
 
 ```text
 Speak
@@ -37,134 +53,116 @@ Speak
 <LOCALIZATION_GROUP@SCENE@TEXT>
 ```
 
-For this pattern the extractor accepts only the first localization reference within the bounded Speak record. A line enters the dialogue corpus only if that reference also resolves to an actual decoded localization row.
+`tools/extract_o2_map_speakers.py` accepts only the first localization reference inside the bounded `Speak` record. A line enters the attributed corpus only if the reference also resolves to decoded localization.
 
-`tools/extract_o2_map_speakers.py` implements both structures. It does not infer speakers from dialogue content or voice.
-
-## Face-expression validation totals
-
-Across the 26 supplied non-multiplayer Overlord II maps:
-
-- 195 strict face-expression routing occurrences were found before role/reference de-duplication.
-- 184 unique localization-reference plus routing-role pairs remain after de-duplication.
-- 183 of those 184 resolve to a decoded localization row after normalizing source-group punctuation and underscore/space variants.
-- 1 map reference is absent from the supplied localization row set: `Nordberg_Sanctuary@110@10`, routed through `borius`.
-- 32 unique localization references are routed through `minionmaster` and therefore can be attributed directly to Gnarl.
-
-The unmatched Borius reference appears to be a source/version mismatch or removed line because adjacent `Nordberg_Sanctuary@110@20` and `@30` rows exist in the localization source.
-
-## Major face-expression routing roles
-
-| Map routing role | Matched unique refs | Interpretation |
-| --- | ---: | --- |
-| `minionmaster` | 32 | Gnarl / Minion Master |
-| `marius` | 21 | Marius |
-| `NB_MALE` | 18 | Generic Nordberg male role |
-| `Juno` | 16 | Juno |
-| `elf_florian` | 15 | Florian Greenheart |
-| `centurionFX` | 14 | Centurion / Empire role variant |
-| `Kelda` | 13 | Kelda |
-| `GhostFay` | 12 | Ghost Fay |
-| `Nordberg_Male_1_head_A` | 6 | Generic Nordberg male visual/actor variant |
-| `quaver` | 4 | Quaver |
-| `Empire_Fat_Fem_A` | 4 | Generic Empire female role |
-| `borius` | 4 matched, 1 unresolved | Borius |
-| `Rainbow_Warrior` variant | 4 | source actor-role label retained as implementation terminology |
-| `governess` | 3 | Everlight Governess |
-| `Imperial guard` | 3 | Imperial Guard role |
-| `centurion` | 3 | Centurion |
-
-Other generic visual/face-role labels occur in smaller numbers. They remain implementation evidence rather than invented named NPC identities.
-
-## Direct Gnarl references from face-expression routing
-
-The following 32 decoded localization references have direct `minionmaster` evidence:
+Gnarl-specific actor entities include forms such as:
 
 ```text
-NW_TR@START@15
-NW_TR@START@20
-NW_TR@START@40
-NW_TR@START@55
-NW_TR@START@70
-NW_TR@START@80
-NW_TR@START@90
-NW_TR@MM1@ACC2
-NW_TR@MM1@DEC2
-NW_TR@MM1@DEC3
-NW_TR@K_A@10
-NW_TR@MM2@ACC2
-NW_TR@MM2@DEC2
-NW_TR@MM5@ACC2
-NW_TR@MM5@DEC
-NW_TR@ROSE@10
-NW_TR@ROSE@15
-NW_TR@ROSE@30
-NW_TR@ROSE@45
-NW_TR@ROSE@50
-NW_TR@ROSE@55
-NW_TR@ROSE@65
-NW_TR@ROSE@70
-NW_TR@CHUNK5@60A
-NW_TR@CHUNK5@70A
-NW_TR@PREP2@10
-NW_TR@PREP2@20
-NW_TR@PREP2@30
-NW_TR@PREP2@50
-NW_TR@BRIDGE@10
-NW_TR@BRIDGE@30
-NW_TR@BRIDGE@40
+GNARL
+GNARL_CK4
+GNARL_ROSE
+CS_BU_GNARL
+CS_AU_GNARL
 ```
 
-## Additional Gnarl references from explicit Speak routing
+This route adds direct Gnarl references beyond the face-expression subset. Map-side markers without matching decoded localization rows are not promoted into dialogue.
 
-The map data also contains explicit `Speak` records whose actor entity is `GNARL` or a Gnarl-specific alias such as `GNARL_CK4`, `GNARL_ROSE`, `CS_BU_GNARL`, or `CS_AU_GNARL`.
+## 3. Named Gnarl implementation labels
 
-After requiring an exact decoded localization-row match, this adds 16 unique Gnarl references not already present in the face-expression set:
+A broader but still direct map structure uses character-specific event labels located immediately beside a localization reference.
+
+Representative labels include:
 
 ```text
-NW_TR@ROSE@35
-NW_TR@KELDAR1@ACC2
-NW_TR@KELDAR1@DEC2
-NW_TR@KELDAR2@ACC2
-NW_TR@KELDAR2@DEC2
-NW_TR@JUNOR1@ACC2
-NW_TR@JUNOR1@DEC2
-NW_TR@JUNOR2@ACC2
-NW_TR@JUNOR2@DEC2
-NW_TR@DFAYR1@ACC2
-NW_TR@DFAYR1@DEC2
-NW_TR@DFAYR2@ACC2
-NW_TR@DFAYR2@DEC2
-NW_TR@GFAYR1@ACC2
-NW_TR@GFAYR1@DEC2
-NW_TR@GFAYR2@DEC
+GNARL_ANNOUNCEMENT
+GNARL_MAGIC_AMBIENT
+GNARL_GENERAL
+GNARL_KELDA_*
+GNARL_JUNO_*
+GNARL_DFAY_*
+GNARL_GFAY_*
+GNARL_DOM_*
+GNARL_DES_*
+INITIAL_GNARL
+CS_GNARL_*
 ```
 
-Some additional `Speak` records point at map-side event markers such as `...@DECA` or `...@10A` that have no corresponding decoded localization row. Those markers are not promoted into the dialogue corpus.
+The extractor accepts only labels beginning with `GNARL`, `INITIAL_GNARL`, or `CS_GNARL`, rejects obvious waypoint/control labels such as `_WP`, `POINT`, `HOME`, `PORT`, and `AUDITION`, and takes only the first localization reference within the next four printable records.
 
-## Combined direct Overlord II Gnarl subset
+The result is then validated against the decoded localization corpus.
 
-The union of the two independently direct map-routing methods contains 48 unique decoded Gnarl lines.
+Tool: `tools/extract_o2_named_gnarl_labels.py`.
 
-For this source-attributed subset:
+Observed totals:
 
-- rows: 48
-- median line length: 14 words
-- average line length: 14.3 words
-- lines containing an exclamation mark: 24
-- lines containing a question mark: 4
-- lines using `Sire`: 22
-- lines using `Master`: 7
-- lines using `Overlord`: 2
+- 176 named-Gnarl label/reference occurrences before conservative filtering
+- 166 occurrences resolve to decoded localization before control-label filtering
+- 148 unique decoded localization references remain in the conservative named-label set
 
-This subset is still Netherworld-heavy and must not be treated as a complete quantitative profile of all Overlord II Gnarl dialogue. It does independently confirm continued preference for `Sire` and `Master` over repetitive use of `Overlord` as direct address.
+This structure recovers Gnarl material outside the Netherworld-heavy face-routing subset, including ambient Netherworld lines, Hunting Grounds material, Wasteland Sanctuary material, and smaller numbers from Empire and Everlight contexts.
 
-## Evidence rule
+## Combined direct Gnarl corpus
 
-Only localization rows backed by direct map routing enter the Overlord II named-speaker corpus in this pass.
+The union of all three direct implementation methods contains **173 unique decoded Overlord II Gnarl references**.
 
-Other Overlord II lines remain unattributed unless another actor-routing structure or unambiguous source record identifies the speaker. Similar vocabulary alone is not evidence.
+No line enters this set because it merely sounds like Gnarl.
 
-## Next speaker work
+Source-group distribution of the 173-line set:
 
-The two current extractors cover cutscene face-routing and explicit Speak records. Other narrative/ambient systems may encode speaker ownership differently. Those systems should be reverse engineered separately rather than weakened with proximity heuristics.
+| Source group | Direct Gnarl rows |
+| --- | ---: |
+| `NW_TR` | 62 |
+| `Ambient_NW` | 38 |
+| `Wasteland_Sanctuary` | 32 |
+| `Hunting_Grounds` | 19 |
+| `Empire_Heartlands` | 6 |
+| `Empire_Endbattle` | 3 |
+| `Empire Arena` | 2 |
+| `Everlight_Gates` | 2 |
+| `Empire Assault` | 1 |
+| `Everlight_Facility` | 1 |
+| `Everlight_Jungle` | 1 |
+| `Everlight_Temple` | 1 |
+| `MM_2` | 1 |
+| `MiniMission_1` | 1 |
+| `MiniMission_9` | 1 |
+| `NW_B` | 1 |
+| `NW_F` | 1 |
+
+## Direct Overlord II Gnarl statistics
+
+For these 173 source-attributed rows:
+
+- median line length: 15 words
+- average line length: 15.1 words
+- lines containing an exclamation mark: 101
+- lines containing a question mark: 13
+- lines using `Sire`: 62
+- lines using `Master`: 13
+- lines using `Overlord`: 4
+
+This independently confirms the pattern already visible in Overlord I and Raising Hell: `Sire` remains Gnarl's dominant direct honorific, `Master` remains common, and repetitive direct-address use of `Overlord` remains rare.
+
+The Overlord II subset is now broad enough to cover multiple gameplay contexts, but it is still a source-attributed subset rather than a claim that every Gnarl line in the game has been recovered.
+
+## Other speakers
+
+The same direct structures provide reliable attribution for portions of dialogue belonging to Marius, Juno, Florian, Kelda, Ghost Fay, Quaver, Borius, the Everlight Governess, Centurions, Imperial Guards, and generic NPC roles.
+
+Generic visual/actor labels remain implementation terminology. They are not converted into invented named characters.
+
+## Completion boundary
+
+The high-confidence speaker-recovery task is complete for the current source corpus.
+
+A remaining actorless line is not treated as an unfinished attribution task merely because a speaker could perhaps be guessed. It remains unattributed unless an additional direct map structure is discovered.
+
+This preserves a useful distinction:
+
+```text
+direct source-attributed speaker
+unattributed primary text
+inferred speaker, not admitted to corpus
+```
+
+The first category is usable for quantitative voice analysis. The second remains usable for event/lore analysis without a named speaker. The third is deliberately excluded.
