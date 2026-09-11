@@ -20,32 +20,85 @@ Evidence classes used here:
 
 ### PRIMARY-IMPLEMENTATION
 
-The 30 supplied non-multiplayer base-game maps expose:
+A comment-aware source-level pass across the 30 supplied non-multiplayer base-game maps finds:
 
-- 590 recognized quest-state function calls
-- 87 unique internal quest IDs
-- explicit enable, complete, silent-complete, disable, enabled-state, and completed-state operations
-- localization sequence references tied to scripted events
-- direct Minion Master dialogue calls for Gnarl
+- 668 live recognized quest-state API occurrences
+- 86 unique live internal quest IDs
+- explicit enabled, completed, silent-completed, Evil-completed, enabled-state, completed-state, Evil-completed-state, and counter operations
+- no live `SetQuestDisabled` calls in the reviewed source strings
+- localization references tied to scripted events
+
+The earlier 692-call / 87-ID count included commented implementation material and one commented typo ID, `D3_KHAN`. The live quest is `D3_KAHN`.
 
 Representative internal IDs include domain objectives, Tower progression, Minion progression, resource recovery, and choice-state objectives. These identifiers are implementation terminology unless separately corroborated as player-facing names.
 
+The direct state ledger is maintained in `corpus/overlord1/QUEST_STATE_LEDGER.md`.
+
+### Speaker-routing correction
+
+`ShowMinionMasterText(...)` must not be treated as a Gnarl-speaker function. Decoded localization actor fields prove that the maps route dialogue from many speakers through it.
+
+For quest reconstruction the calls remain useful as event/localization routing. For speaker identity they require independent actor evidence.
+
+The reconciliation is documented in `corpus/overlord1/MINIONMASTER_ROUTING_RECONCILIATION.md`.
+
 ### PRIMARY-TEXT
 
-The localization workbooks preserve the dialogue and production metadata associated with those events. `Tower_Titles.8ld` also demonstrates an explicit consequence-feedback layer: the Minion Jester has alternate titles associated with particular player choices and outcomes.
+The localization workbooks preserve dialogue and production metadata associated with the events. `Tower_Titles.8ld` also demonstrates an explicit consequence-feedback layer: the Minion Jester has alternate titles associated with particular player choices and outcomes.
 
 The title material is not itself a conventional quest log. It is persistent/reactive characterization of what the Overlord has done.
+
+### Source-proven dependency model
+
+The complete source survey deliberately distinguishes direct quest dependencies from world events, cutscene flags, area entry, object recovery, and other meta-state prerequisites.
+
+Confirmed direct or state-synchronized relationships include:
+
+- `D1_WORKSHOP` -> `D1_FORGE`
+- `D1_GETROSE` -> activation of `D3_PLAGUE` when that state is not already active/completed
+- `D5_SPEAKJEWEL` -> `TOWER_WIZARD1`, with the same Tower sequence also ensuring `D1_KAHN` is active
+- Wizard cutscene meta-state -> `TOWER_WIZARD2`, `TOWER_SPELLS`, `TOWER_MINIONS`
+- `D3_WILLIAM` as the explicit prerequisite for Brewery opening/progression
+- `D4_QUARRY` as the explicit prerequisite for Royal Halls / `D4_GOLDO` progression
+- `D4_MINE` and `D4S1_MINECARTS` use a main/subquest synchronization/handoff pattern rather than a simple one-way dependency
+- the Grove scripts branch between `D2_GROVE` Evil completion and `D2_GROVE_BETRAYER` Evil completion depending on prior Grove state
+
+Other local sequences, such as the Blue Cave objectives, are event-ordered but are not promoted to formal prerequisite edges unless the script explicitly states that relationship.
+
+The auditable graph is maintained in `corpus/overlord1/QUEST_DEPENDENCY_AND_BRANCH_LEDGER.md`.
+
+### Evil/corruption state
+
+Thirteen live internal quest IDs are written through `SetQuestCompletedEvil`:
+
+```text
+BAR_FIGHT
+D1_FOOD
+D1_TRAITORS_FATE
+D2_GROVE
+D2_GROVE_BETRAYER
+D3S5_MISTRESSES
+D4_FEMALE_ELVES
+D5_RETRIEVESTATUE
+HARRASS_PEASANTS
+SLUG_FEEDER
+SUPRESS_SPREE
+TRASH_HOMES
+TRASH_TOWNS
+```
+
+The previously listed `D4_FREE_ELVES` Evil write occurs only in commented code and is excluded from live state behavior.
 
 ### ANALYTICAL-INFERENCE
 
 Overlord I distributes quest communication across several systems rather than concentrating it in one UI surface:
 
 1. map-script state controls what is active and complete;
-2. Gnarl provides objective framing, reminders, warnings, and interpretation;
+2. dialogue supplies objective framing, reminders, warnings, and interpretation;
 3. world changes provide physical consequence;
 4. Tower dialogue and titles react to accumulated accomplishments and choices.
 
-This is important for OVERLORD REIGN quest design because reproducing only objective text would reproduce the state machine but not the narrative delivery style.
+This is important for OVERLORD REIGN because reproducing only objective text would reproduce part of the state machine but not the narrative delivery style.
 
 ## Raising Hell
 
@@ -53,7 +106,7 @@ This is important for OVERLORD REIGN quest design because reproducing only objec
 
 The expansion maps preserve large amounts of inherited base-campaign state while adding `EXP_*` localization and event namespaces.
 
-Expansion reconstruction therefore must distinguish newly authored Abyss material from inherited base-game hooks. The presence of a base quest reference inside a Raising Hell map does not make that quest new expansion content.
+Expansion reconstruction therefore distinguishes newly authored Abyss material from inherited base-game hooks. A base quest reference inside a Raising Hell map is not automatically new expansion content.
 
 ### PRIMARY-TEXT
 
@@ -61,7 +114,7 @@ Eight supplied `EXP_*` language workbooks decode successfully. They preserve 483
 
 ### ANALYTICAL-INFERENCE
 
-Raising Hell is particularly useful for learning how the original writers resume a completed campaign. It has to acknowledge an already-established Overlord, recontextualize known places and characters, and introduce a new threat without resetting the player's identity. That makes it a useful structural reference for REIGN even though REIGN is not narratively Raising Hell.
+Raising Hell is particularly useful for learning how the original writers resume a completed campaign. It acknowledges an established Overlord, recontextualizes known places and characters, and introduces a new threat without resetting player identity.
 
 ## Overlord II quest architecture
 
@@ -80,17 +133,21 @@ Observed text-ID distribution:
 
 216 internal quest IDs contain both a normal description and a normal completion entry.
 
-Thirteen quest IDs contain a branch-specific completion form. Eleven have paired Domination and Destruction completion text, while two use an `EVIL`-specific completion form.
+Thirteen quest IDs contain branch-specific completion forms. Eleven have paired Domination and Destruction completion text, while two use an `EVIL`-specific completion form.
+
+All thirteen have been mapped to their narrative contexts in `corpus/overlord2/BRANCH_OUTCOME_LEDGER.md`.
 
 ### PRIMARY-IMPLEMENTATION
 
-The supplied Overlord II maps do not use the same simple quest-state function vocabulary as Overlord I. An Overlord I-style parser therefore substantially undercounts their state logic. Overlord II quest reconstruction must use its own event/state model rather than forcing the first game's scripting assumptions onto it.
+Overlord II does not use the same simple quest-state API vocabulary as Overlord I. Its narrative and speaker systems are being reconstructed from its own structures rather than by forcing the first game's scripting assumptions onto it.
+
+Direct speaker-routing structures have been extracted from cutscene face-routing, explicit `Speak` records, and named character implementation labels. See `corpus/overlord2/SPEAKER_ATTRIBUTION_INDEX.md`.
 
 ### ANALYTICAL-INFERENCE
 
-Overlord II formalizes the quest-log layer more strongly than Overlord I while still preserving in-world narrative framing. Its source data shows that the quest system itself is branch-aware: a quest may have one objective description but different recorded completion text depending on the form of tyranny used to resolve it.
+Overlord II formalizes the quest-log layer more strongly than Overlord I while preserving in-world narrative framing. Its source data shows that the quest system itself is branch-aware: one objective can record materially different completion text depending on how the Overlord resolved it.
 
-For OVERLORD REIGN, this is direct structural precedent for storing an authored outcome state rather than reducing a civilization or quest to a single numeric reputation value.
+For OVERLORD REIGN, this is direct structural precedent for authored outcome state rather than a single numeric reputation score.
 
 ## Quest-writing implications for OVERLORD REIGN
 
@@ -98,19 +155,22 @@ Status: PROPOSAL / DESIGN INFERENCE, not automatically canon.
 
 A source-faithful REIGN quest should normally have four distinct layers:
 
-1. **State layer**: exact prerequisites, objectives, branches, completion markers, and persistent consequences.
-2. **Gnarl layer**: why the Overlord should care, what contempt or opportunity Gnarl sees, reminders, warnings, and reaction to success or failure.
-3. **World layer**: NPC hostility, services, settlement condition, structures, encounters, tribute, or other persistent changes that make the outcome visible.
-4. **Record layer**: concise quest-log wording that records what is required and, where relevant, what kind of resolution occurred.
+1. **State layer**: prerequisites, objectives, branches, completion markers, and persistent consequences.
+2. **Gnarl layer**: why the Overlord should care, opportunity/threat framing, reminders, warnings, and reaction.
+3. **World layer**: hostility, services, settlement condition, structures, encounters, tribute, or other persistent changes.
+4. **Record layer**: concise quest-log wording recording what is required and, where relevant, how it was resolved.
 
-The source games support branch-specific completion records. Therefore a REIGN sidequest or main quest can preserve the same objective while recording materially different resolutions such as destruction, domination, subjugation, mercy-for-usefulness, or another authored civilization-specific outcome.
+The source games support branch-specific completion records. A REIGN quest can therefore preserve the same objective while recording destruction, domination, subjugation, mercy-for-usefulness, or another authored civilization-specific outcome without requiring hidden reputation.
 
-This does not require a hidden reputation score.
+## Source-task status
 
-## Open source tasks
+Completed for the current quest-authoring baseline:
 
-- reconstruct the Overlord I 87-ID quest graph with exact enable/completion dependencies;
-- map the thirteen Overlord II branch-specific completion quest IDs to their narrative contexts;
-- build an Overlord II state/event extractor;
-- reconcile the eleven unresolved Overlord I direct Minion Master references;
-- connect quest outcomes to the later franchise/adoption ledger rather than importing them automatically into REIGN canon.
+- Overlord I live quest-state inventory and comment-aware counts
+- high-confidence Overlord I direct dependency / branch graph
+- Overlord I `ShowMinionMasterText` reconciliation and speaker-attribution correction
+- all thirteen Overlord II branch-specific completion contexts
+- high-confidence Overlord II named-speaker reconstruction where direct map implementation evidence exists
+- franchise-to-REIGN adoption ledger
+
+Remaining gaps are source limitations or optional deeper reconstruction rather than blockers for REIGN lore/quest work. They remain documented instead of being filled by inference.
