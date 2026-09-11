@@ -131,13 +131,23 @@ The Ocean Dragon remains politically separate from the Sea Village and is not au
 
 ### Piglins
 
-Status: PLANNED ANCHOR / ORIGIN PROPOSAL
+Status: CANON ORIGIN / PLANNED ANCHOR
 
-Anchor: Nether Village.
+Anchor: designated Nether Village.
 
 Because Minecraft's Nether dimension represents the Netherworld in REIGN, Piglins occupy a territorial civilization center within the same supernatural realm as Minion society.
 
-PROPOSAL: Piglins may ultimately be explained as descendants of an ancient and deeply regrettable union between a Minion and an ordinary pig. This is not canon yet.
+Piglins canonically descend from an ancient union between a Minion and an ordinary pig. Gnarl considers this origin deeply embarrassing and would strongly prefer it not be discussed.
+
+Historically, Minion proliferation and territorial dominance kept Piglin populations comparatively constrained. During the Silence, reduced Minion numbers and the loss of normal Minion spawning allowed Piglins to expand into abandoned or weakly held Netherworld territory.
+
+The civilization main quest begins through one protected, explicitly marked Piglin Brute assigned the social title `Chieftain`. Ordinary Piglin Brutes, Bastion populations, and other Piglin groups do not automatically become civilization quest starters.
+
+The chosen Nether Village is one local Piglin polity rather than the capital of every Piglin in the Netherworld.
+
+Subjugating the village makes its authored Piglins and Brutes Overlord-aligned and suppresses their normal anger toward the Overlord for lacking gold armor, opening village containers, looting village chests, or mining local gold. Wild Piglins elsewhere retain vanilla behavior.
+
+Piglins and Minions regard one another as unusually close Netherworld cousin-peoples. Piglins remain culturally and politically distinct from the four Minion tribes.
 
 ### Umvuthana
 
