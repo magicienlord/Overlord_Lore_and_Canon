@@ -73,11 +73,11 @@ Religious consequences are authored explicitly where relevant, for example:
 
 If such an act changes later quests, disposition, dialogue, services, or local world state, the relevant quest writes the required explicit marker or consequence.
 
-## Overlord I / Raising Hell ruler and the Infernal Abyss
+## Third Overlord and the Infernal Abyss
 
 Status: CANON CONTINUITY DECISION / SOURCE-CONSISTENT
 
-The ruler played in Overlord I and Raising Hell remains trapped or lost in the Infernal Abyss in the present OVERLORD REIGN timeline unless a later explicit story decision establishes an escape or other fate.
+The Third Overlord, the ruler played in Overlord I and Raising Hell, remains trapped or lost in the Infernal Abyss in the present OVERLORD REIGN timeline unless a later explicit story decision establishes an escape or other fate.
 
 Primary-source continuity establishes that:
 
@@ -91,16 +91,16 @@ OVERLORD REIGN does not currently establish that he escaped, died, was destroyed
 Therefore the safe present rule is:
 
 ```text
-KNOWN: trapped/lost in the Infernal Abyss and not known to have escaped.
-UNKNOWN: exact current physical, spiritual, magical, or conscious condition.
+KNOWN: the Third Overlord is trapped/lost in the Infernal Abyss and is not known to have escaped.
+UNKNOWN: his exact current physical, spiritual, magical, or conscious condition.
 ```
 
-This leaves the ruler available as a future mystery or quest element without silently inventing a centuries-long fate.
+This leaves the Third Overlord available as a future mystery or quest element without silently inventing a centuries-long fate.
 
 ### Naming discipline
 
-The recovered primary-source corpus identifies this character as the Overlord I / Raising Hell ruler and as the lost Master immediately preceding Overlord II.
+`Third Overlord` is accepted as the established franchise-era name for the Overlord I / Raising Hell protagonist and should be used in OVERLORD REIGN historical material.
 
-The corpus reviewed so far does not independently establish an ordinal title such as `Third Overlord` for him.
+The decoded localization corpus did not independently expose that ordinal label, but that is a limitation of the recovered localization evidence rather than a reason to reject the established series nomenclature.
 
-If OVERLORD REIGN adopts `Third Overlord` as project terminology, it may be used as a REIGN naming convention, but source-reference material should continue to distinguish that project label from primary-source wording.
+Source-reference writing may still use `Overlord I / Raising Hell ruler` where precision about a specific decoded line is useful, but it should not present `Third Overlord` as merely a REIGN invention.
