@@ -46,8 +46,6 @@ Overlord Quests should:
 
 Overlord Quests should not unnecessarily replace native progression merely to make it appear inside its own UI.
 
-The Sea Dweller to Ocean Dragon handoff is the baseline example of this rule.
-
 ## Sequence breaking and prior accomplishment recognition
 
 Status: CANON DESIGN / PLANNED IMPLEMENTATION

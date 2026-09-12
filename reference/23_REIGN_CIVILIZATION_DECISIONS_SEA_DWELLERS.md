@@ -46,18 +46,6 @@ The low-overhead benefit set is:
 
 No separate naval army, automated underwater labor system, or new production simulation is required.
 
-## Ocean Dragon progression
-
-Status: CANON DESIGN / PLANNED QUEST INTEGRATION
-
-The native Ocean Dragon questline remains its own progression path.
-
-OVERLORD Quests should point the player toward that native questline rather than replace or duplicate it.
-
-Questlog remains authoritative for the OVERLORD REIGN story state around that progression. It should track the relevant Ocean Dragon milestones so the civilization and main-story quests can react to completion without taking ownership of the Ocean Dragon mod's internal mechanics.
-
-The Ocean Dragon is politically separate from the Sea Village. Subjugating the village does not subjugate, ally, or otherwise change the Dragon automatically.
-
 ## Wild and non-anchor Sea Dwellers
 
 Status: CANON DESIGN

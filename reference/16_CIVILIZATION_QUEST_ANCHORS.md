@@ -69,7 +69,7 @@ No exact surviving layout or coordinate continuity is required at this stage.
 
 Status: CANON ORIGIN / PLANNED ANCHOR
 
-Anchor: principal Large Gnumus Settlement or equivalent main Gnumus settlement.
+Anchor: principal Large Gnumus Settlement or equivalent main Gnumu settlement.
 
 In REIGN, the regional Gnumus population descends from Halflings altered over centuries by the misuse of Gluttony magic.
 
@@ -124,10 +124,6 @@ Anchor: designated Sea Village.
 The civilization main quest begins through one protected, explicitly marked senior Sea Dweller trader assigned the social title `Sea Elder`. Ordinary Sea Villages and Sea Dwellers elsewhere do not automatically become civilization quest starters.
 
 The chosen village is one independent local community rather than the capital of every Sea Dweller in the world.
-
-The Sea Dweller arc should point the player toward the native Ocean Dragon questline rather than replacing it. Overlord Quests tracks relevant Ocean Dragon milestones for story continuity while leaving the native progression mechanically authoritative.
-
-The Ocean Dragon remains politically separate from the Sea Village and is not automatically affected by the village's disposition.
 
 ### Piglins
 
