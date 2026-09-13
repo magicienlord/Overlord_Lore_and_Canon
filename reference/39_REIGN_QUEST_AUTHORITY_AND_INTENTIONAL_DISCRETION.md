@@ -13,16 +13,19 @@ This file does not invent new lore or quest content. It defines how the existing
 For quest design and implementation, use the following order when two statements appear to conflict:
 
 1. `reference/39_REIGN_QUEST_AUTHORITY_AND_INTENTIONAL_DISCRETION.md` for authority order and interpretation rules;
-2. `reference/38_REIGN_MINION_TYPE_UNLOCK_ANCHORS.md` for Brown / Red / Green / Blue unlock ownership;
-3. `reference/37_REIGN_PERSONAL_MOD_SIDEQUEST_DECISIONS.md` for Overlord Depths / Fathoms and Overlord NightWalker / Nycto;
-4. `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md` for reviewed-mod questline, absorption, popup, systemic, and no-integration assignments;
-5. `reference/34_REIGN_TOWER_RESTORATION_DECISIONS.md` for Dark Tower room ownership and the room-restoration versus system-mastery boundary;
-6. `reference/32_REIGN_QUESTLINE_COVERAGE_LEDGER.md` for minimum coverage and completion review;
-7. older interview mirrors and research files only as supporting history/source context.
+2. `reference/44_REIGN_LESTAT_CONTINUITY_AUTHORITY_FINAL.md` for final REIGN-native Lestat continuity when NightWalker / Nycto or Lestat history is involved;
+3. `reference/38_REIGN_MINION_TYPE_UNLOCK_ANCHORS.md` for Brown / Red / Green / Blue unlock ownership;
+4. `reference/37_REIGN_PERSONAL_MOD_SIDEQUEST_DECISIONS.md` for Overlord Depths / Fathoms and Overlord NightWalker / Nycto sidequest assignment and integration direction;
+5. `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md` for reviewed-mod questline, absorption, popup, systemic, and no-integration assignments;
+6. `reference/34_REIGN_TOWER_RESTORATION_DECISIONS.md` for Dark Tower room ownership and the room-restoration versus system-mastery boundary;
+7. `reference/32_REIGN_QUESTLINE_COVERAGE_LEDGER.md` for minimum coverage and completion review;
+8. older interview mirrors and research files only as supporting history/source context.
 
 A later explicit decision overrides older provisional wording without requiring the older file to be interpreted creatively.
 
 `reference/33_REIGN_MOD_QUESTLINE_ASSIGNMENTS.md` and `reference/35_REIGN_MOD_ASSIGNMENT_CONTINUATION.md` are historical interview mirrors. They do not override `36` through `39`.
+
+`reference/41_REIGN_LESTAT_CONTINUITY_DECISIONS.md`, `reference/42_REIGN_LESTAT_CONTINUITY_INTERVIEW_CONTINUATION.md`, and `reference/43_REIGN_LESTAT_CONTINUITY_FINAL_INTERVIEW_BLOCK.md` are Lestat continuity interview-history records. `reference/44_REIGN_LESTAT_CONTINUITY_AUTHORITY_FINAL.md` consolidates them and is the implementation authority.
 
 ## 2. No remaining quest-assignment ambiguity
 
@@ -80,7 +83,14 @@ If Overlord NightWalker is implemented, the vampire-transition sidequest is mand
 
 Lestat joins the Dark Tower and acts as the principal guide through the transition.
 
-Lestat's characterization must use the available Interview with the Vampire television-series transcript corpus when dialogue is authored. Do not replace it with a generic vampire archetype.
+For Lestat authoring, responsibilities are split deliberately:
+
+- `reference/44_REIGN_LESTAT_CONTINUITY_AUTHORITY_FINAL.md` controls what actually happened in Lestat's REIGN-native history, which retained IWTV figures exist, how the histories are adapted, and what continuity facts are permitted;
+- `reference/40_REIGN_LESTAT_CHARACTER_AND_WRITING_RULES.md` controls voice, psychology, dialogue mechanics, source-confidence discipline, and character-writing behavior;
+- the supplied IWTV transcript corpus is source evidence for characterization and must not be mistaken for a second in-universe timeline;
+- final NightWalker / Nycto implementation controls operative vampire mechanics.
+
+Lestat must not be written as a transported crossover character and must not turn his adopted background into an Easter-egg inventory.
 
 The exact vampire-state hooks, powers, weaknesses, progression steps, objectives, and climax are intentionally dependent on the final NightWalker implementation.
 
@@ -135,7 +145,8 @@ The following are intentionally left to the Quest Maker unless a future explicit
 - exact boss selection from content assigned as optional monster-hunting or standalone episodes;
 - exact reward quantities unless an established system or balance constraint requires a value;
 - implementation details for optional objectives if Questlog support imposes technical limitations;
-- spoiler-heavy campaign writing and branch details that do not contradict established canon or player-experience constraints.
+- spoiler-heavy campaign writing and branch details that do not contradict established canon or player-experience constraints;
+- low-impact Lestat continuity details explicitly left UNKNOWN or delegated by `44`, such as exact dates, minor geography, or present locations of distant background characters where no quest depends on them.
 
 These are authoring responsibilities, not unanswered design questions.
 
@@ -168,7 +179,7 @@ When a planned quest concept meets a technical limitation:
 
 ## 11. Completion test
 
-Overlord Quests is not content-complete until it has deliberately reconciled implementation against `32`, `34`, `36`, `37`, `38`, and this file.
+Overlord Quests is not content-complete until it has deliberately reconciled implementation against `32`, `34`, `36`, `37`, `38`, `39`, and, for NightWalker/Lestat content, `40` plus `44`.
 
 Completion does not mean every installed mod appears in the quest log.
 
@@ -182,6 +193,7 @@ Completion means:
 - Tower-owned restoration work remains in Tower Restoration;
 - Brown / Red / Green / Blue unlock anchors receive an authored quest treatment;
 - personal backport sidequests are included when their backports and trigger conditions exist;
+- NightWalker Lestat dialogue and continuity respect both the final REIGN-native continuity authority and the transcript-grounded writing authority;
 - technically impossible requirements are explicitly deferred or adapted rather than silently omitted.
 
 ## 12. Interpretation rule
