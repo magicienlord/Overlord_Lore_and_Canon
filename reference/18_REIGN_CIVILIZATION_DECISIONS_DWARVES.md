@@ -2,7 +2,7 @@
 
 Status: PROJECT DECISION MIRROR
 
-Date: 2026-09-11
+Date: 2026-09-13
 
 Authority: mirrors explicit OVERLORD REIGN decisions. Numbered project canon files remain authoritative.
 
@@ -32,7 +32,7 @@ One designated quest NPC retains the surviving serious records of the Dwarven gl
 
 ## Economy
 
-Status: CANON DESIGN / PLANNED IMPLEMENTATION
+Status: CANON DESIGN / TECHNICAL SUPPORT VERIFIED
 
 The installed Dwarven Forge mod's amethyst-centered trading economy is preserved.
 
@@ -40,7 +40,9 @@ In-universe, amethyst became an entrenched practical internal exchange material 
 
 Gold remains culturally important as prestige, heritage, treasure, craftsmanship, and ancestral fixation. REIGN's general Gold currency may still appear in tribute and cross-cultural exchange.
 
-Dwarven subjugation discounts should reuse inherited vanilla Villager price/reputation mechanics if technical testing confirms that the Dwarf entity responds to them correctly. A separate continuous pricing simulation should not be added unless necessary.
+The exact installed Dwarven Forge 1.0.0 implementation has now been source/bytecode-audited. `DwarfEntity` inherits vanilla `Villager` reputation state, and its native trade path reads that player reputation and applies the resulting special-price modifiers to its own MerchantOffers. Hero of the Village discounts remain a separate native path.
+
+Therefore Dwarven subjugation discounts may reuse inherited vanilla Villager price/reputation mechanics rather than adding a separate continuous pricing simulation. This confirms the mechanism only. The political event, magnitude, scope and timing of any reputation change remain part of authored Dwarven quest resolution and are not established by this technical finding. Full target-instance runtime qualification should still precede production reliance on the discount effect.
 
 ## Subjugation and destruction
 
