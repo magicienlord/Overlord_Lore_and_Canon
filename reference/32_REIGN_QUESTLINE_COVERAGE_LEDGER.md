@@ -6,11 +6,11 @@ Date refreshed: 2026-09-13
 
 Authority: this file defines the minimum content that the Overlord Quests implementation must consciously review before being considered content-complete. It is a coverage inventory, not the authority for deciding which reviewed mod receives a dedicated questline.
 
-Final quest-facing assignments are governed by `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md`.
+Final quest-facing assignments are governed by `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md` together with later explicit refinements such as `reference/37_REIGN_PERSONAL_MOD_SIDEQUEST_DECISIONS.md`.
 
 Dark Tower room ownership and the boundary between room restoration and deeper system progression are governed by `reference/34_REIGN_TOWER_RESTORATION_DECISIONS.md`.
 
-Where an older classification or description from this coverage pass conflicts with `34` or `36`, `34` and `36` take precedence.
+Where an older classification or description from this coverage pass conflicts with `34`, `36`, or `37`, the later explicit decision file takes precedence.
 
 ---
 
@@ -125,29 +125,39 @@ In particular, the earlier candidate classifications for Rats, Darker Depths, Bo
 
 ---
 
-# 7. PLANNED PERSONAL MOD INTEGRATIONS
+# 7. PERSONAL BACKPORT SIDEQUEST COVERAGE
 
-These remain mandatory future coverage reviews because their implementations are still being completed in parallel.
+The former pending status of Overlord Depths and Overlord NightWalker has been resolved at the quest-treatment level. Exact objectives remain implementation-dependent.
 
 ## Overlord Depths / Fathoms adaptation
 
-Coverage: PENDING FINAL INTEGRATION REVIEW.
+Coverage: DEDICATED SIDEQUEST ARC IF IMPLEMENTED.
 
-Status: PLANNED / IMPLEMENTATION DEPENDENT.
+Status: PLANNED / IMPLEMENTATION CONDITIONAL.
 
-Once the final gameplay loop, bosses, structures, items, and progression stabilize, the Quest Maker must inspect the completed implementation and assign the appropriate authored or native-progression treatment.
+If the backport is implemented, Overlord Quests must provide a dedicated sidequest arc rather than leave its content completely uncontextualized.
 
-Do not invent final quest requirements from unfinished states, but do not silently omit the mod from final quest coverage.
+The preferred principal NPC is the Historian profession if the final NPC and quest mechanics allow it.
+
+The narrative direction may use a Dredge-like discovery/investigation escalation adapted to OVERLORD REIGN and the actual completed Fathoms mechanics. Do not copy Dredge's plot and do not invent unsupported Fathoms mechanics merely to satisfy the concept.
+
+Detailed authority: `reference/37_REIGN_PERSONAL_MOD_SIDEQUEST_DECISIONS.md`.
 
 ## Overlord NightWalker / Nycto adaptation
 
-Coverage: PENDING FINAL INTEGRATION REVIEW.
+Coverage: DEDICATED VAMPIRE-TRANSITION SIDEQUEST IF IMPLEMENTED.
 
-Status: PLANNED / IMPLEMENTATION DEPENDENT.
+Status: PLANNED / IMPLEMENTATION CONDITIONAL.
 
-Once the final progression, encounter systems, bosses, structures, and relevant mechanics stabilize, the Quest Maker must inspect the completed implementation and assign the appropriate authored or native-progression treatment.
+If the backport is implemented, the sidequest activates when the player becomes a vampire through the implemented NightWalker / Nycto system.
 
-Do not freeze assumptions from unfinished backport states, but do not silently omit the mod from final quest coverage.
+A vampire named Lestat joins the Dark Tower and guides the Overlord through the transition. Lestat is to be characterized from the existing Interview with the Vampire television-series transcript research rather than from a generic vampire archetype.
+
+Gnarl and Lestat are intended to have a conflicting but functional relationship. Exact vampire mechanics, tracking hooks, and quest climax must follow the final backport implementation.
+
+Detailed authority: `reference/37_REIGN_PERSONAL_MOD_SIDEQUEST_DECISIONS.md`.
+
+If either personal backport is not implemented in the final pack, its quest must not be fabricated with placeholder mechanics.
 
 ---
 
@@ -167,8 +177,9 @@ Before Overlord Quests is considered content-complete, the implementation owner 
 
 1. implement or deliberately account for every dedicated civilization, magic, adventure, Tower, and central-campaign assignment established in `34` and `36`;
 2. respect every absorbed, popup-only, systemic, ambient, or no-integration decision in `36` rather than manufacturing extra mod-specific questlines;
-3. review Overlord Depths and Overlord NightWalker again when their implementations stabilize and record their final assignment;
-4. preserve the campaign spoiler firewall while doing so;
-5. record any technically impossible integration as an explicit deferment rather than silently dropping it.
+3. implement the Overlord Depths dedicated sidequest if that backport is present and sufficiently complete to support it;
+4. implement the Lestat-led Overlord NightWalker vampire-transition sidequest if that backport is present and the player becomes a vampire;
+5. preserve the campaign spoiler firewall while doing so;
+6. record any technically impossible integration as an explicit deferment rather than silently dropping it.
 
-A mod may intentionally receive no questline. It may not be silently forgotten when this ledger or `36` says it requires review.
+A mod may intentionally receive no questline. It may not be silently forgotten when this ledger, `36`, or `37` says it requires authored treatment.
