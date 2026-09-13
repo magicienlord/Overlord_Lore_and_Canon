@@ -16,7 +16,8 @@ For Overlord Quests design and implementation, start with:
 
 Then consult the specialized authorities it orders, plus later specialized authorities where applicable:
 
-- `reference/44_REIGN_LESTAT_CONTINUITY_AUTHORITY_FINAL.md` - authoritative final REIGN-native Lestat continuity for the NightWalker sidequest. It controls what IWTV-derived history actually happened in REIGN and supersedes older generic statements that Lestat's pre-Tower history is wholly unknown;
+- `reference/45_REIGN_SILENT_ORDER_AND_LESTAT_RELIGION_CLARIFICATION.md` - authoritative targeted clarification separating the post-conquest Heaven's Peak Overlord-dedicated order from Lestat's Silent God splinter monastery and delegating only the old Heaven's Peak line's lip-sewing survival to the Quest Maker;
+- `reference/44_REIGN_LESTAT_CONTINUITY_AUTHORITY_FINAL.md` - authoritative general REIGN-native Lestat continuity for the NightWalker sidequest. It controls what IWTV-derived history actually happened in REIGN except where specifically refined by the later `45` clarification;
 - `reference/38_REIGN_MINION_TYPE_UNLOCK_ANCHORS.md` - authoritative division of responsibility for Brown / Red / Green / Blue unlocks: the Minion implementation exposes anchors, while Overlord Quests authors and triggers the unlock progression;
 - `reference/37_REIGN_PERSONAL_MOD_SIDEQUEST_DECISIONS.md` - authoritative Overlord Depths / Fathoms and Overlord NightWalker / Nycto sidequest decisions;
 - `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md` - authoritative final assignment for reviewed mods: dedicated questline, absorbed content, popup acknowledgement, systemic/ambient treatment, or no quest-facing treatment;
@@ -25,18 +26,19 @@ Then consult the specialized authorities it orders, plus later specialized autho
 
 `reference/33_REIGN_MOD_QUESTLINE_ASSIGNMENTS.md` and `reference/35_REIGN_MOD_ASSIGNMENT_CONTINUATION.md` are interview-history mirrors and are superseded by the later authority files for assignment decisions.
 
-`reference/41_REIGN_LESTAT_CONTINUITY_DECISIONS.md`, `reference/42_REIGN_LESTAT_CONTINUITY_INTERVIEW_CONTINUATION.md`, and `reference/43_REIGN_LESTAT_CONTINUITY_FINAL_INTERVIEW_BLOCK.md` are Lestat continuity interview-history records. Use `reference/44_REIGN_LESTAT_CONTINUITY_AUTHORITY_FINAL.md` for implementation rather than independently reconciling those three records.
+`reference/41_REIGN_LESTAT_CONTINUITY_DECISIONS.md`, `reference/42_REIGN_LESTAT_CONTINUITY_INTERVIEW_CONTINUATION.md`, and `reference/43_REIGN_LESTAT_CONTINUITY_FINAL_INTERVIEW_BLOCK.md` are Lestat continuity interview-history records. Use `reference/44_REIGN_LESTAT_CONTINUITY_AUTHORITY_FINAL.md` for general Lestat continuity, with `reference/45_REIGN_SILENT_ORDER_AND_LESTAT_RELIGION_CLARIFICATION.md` controlling its later targeted religious clarification.
 
-Where an older coverage or implementation statement conflicts with a later explicit decision file, follow the authority order in `reference/39_REIGN_QUEST_AUTHORITY_AND_INTENTIONAL_DISCRETION.md` together with later explicit specialized authorities such as `44`.
+Where an older coverage or implementation statement conflicts with a later explicit decision file, follow the authority order in `reference/39_REIGN_QUEST_AUTHORITY_AND_INTENTIONAL_DISCRETION.md` together with later explicit specialized authorities.
 
 ## Character-writing references
 
 - `reference/GNARL_WRITING_RULES.md` - operational source-grounded Gnarl voice rules for OVERLORD REIGN.
 - `reference/40_REIGN_LESTAT_CHARACTER_AND_WRITING_RULES.md` - transcript-grounded television-series Lestat character sheet and REIGN adaptation rules for voice, psychology, dialogue mechanics, and source-confidence discipline.
-- `reference/44_REIGN_LESTAT_CONTINUITY_AUTHORITY_FINAL.md` - final continuity authority for what REIGN-native Lestat actually lived, who exists in his history, and which source-continuity facts are adapted, rejected, or deliberately left unknown.
+- `reference/44_REIGN_LESTAT_CONTINUITY_AUTHORITY_FINAL.md` - general continuity authority for what REIGN-native Lestat actually lived, who exists in his history, and which source-continuity facts are adapted, rejected, or deliberately left unknown.
+- `reference/45_REIGN_SILENT_ORDER_AND_LESTAT_RELIGION_CLARIFICATION.md` - later religious continuity refinement for Lestat's monastery and the historical Heaven's Peak Silent Order.
 - `reference/IWTV_Complete_Attributed_Transcripts/` - supplied 22-episode IWTV transcript corpus used for Lestat characterization. Attribution confidence must be respected when deriving dialogue rules.
 
-For Lestat, use `40` and `44` together: `40` governs how he is written; `44` governs what happened to him in REIGN.
+For Lestat, use `40`, `44`, and `45` together: `40` governs how he is written; `44` governs his general REIGN history; `45` controls the later Silent Order / monastery clarification.
 
 ## Repository layout
 
