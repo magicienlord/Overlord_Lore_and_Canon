@@ -70,6 +70,12 @@ Assignment: FULL QUESTLINE, compact scale
 
 Decision: deserves a finite self-contained questline even though its scope is much smaller than dimension-scale or civilization-scale arcs.
 
+## Oddities
+
+Assignment: FULL QUESTLINE, compact scale
+
+Decision: deserves a compact dedicated questline. Its Orchid Shrine / Orchid Altar / Queen of Orchid progression provides a sufficiently coherent location-to-boss-to-reward arc without requiring a large campaign-scale treatment.
+
 ---
 
 # Confirmed acknowledgement-only / non-questline assignments
@@ -130,6 +136,40 @@ Decision: Hot Iron must be explicitly acknowledged because the Dark Tower contai
 
 Its integration belongs inside Tower restoration rather than in a separate Hot Iron questline.
 
+## Rotten Creatures
+
+Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
+
+Decision: no dedicated questline. Mortis is an especially appropriate popup commentator for noteworthy undead encounters, but acknowledgement must not trigger on every mob death or become repetitive.
+
+Prefer first discovery, first meaningful kill, unusual named encounter, or other sparse milestone triggers over per-kill reactions.
+
+## Enchanting System Overhaul
+
+Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
+
+Decision: a one-time introductory popup explaining or contextualizing the altered enchanting system is appropriate. After introduction, the system should function normally without a manufactured quest arc.
+
+## Enderman Overhaul
+
+Assignment: ABSORBED IN END / WASTELAND CONTENT
+
+Decision: no independent questline. Its expanded Enderman variants belong within the established End / Wasteland context and may receive sparse contextual popup acknowledgement where useful.
+
+## Realm RPG: Fallen Adventurers
+
+Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
+
+Decision: treat the remains primarily as environmental storytelling and occasional popup material. As with mob-overhaul content, acknowledgement must remain sparse and should not fire for every encountered remains entity or loot event.
+
+## Yet Another Gravestone Mod
+
+Assignment: NO QUEST INTEGRATION
+
+Decision: no dedicated questline and no redundant introductory popup.
+
+The death-screen functionality already incorporated into Overlord Quests, together with its built-in death markers, owns the relevant narrative/quest-facing death handling. YAGM remains an underlying gameplay recovery system and should not compete with or duplicate that implementation.
+
 ---
 
 # Conditional small arc
@@ -145,6 +185,24 @@ The quest chain follows the path toward resurrecting the dead pet and serves as 
 This is not a permanently visible generic questline and should not trigger without the relevant pet-death condition.
 
 The implementation must remain consistent with REIGN's broader rule that ordinary sapient resurrection is exceptional and difficult. Pet resurrection is a specific supported gameplay system, not proof that all deaths are routinely reversible.
+
+---
+
+# Popup acknowledgement restraint
+
+Popup acknowledgement is not a substitute for ambient spam.
+
+For mods assigned popup-only treatment, reactions should normally be tied to sparse meaningful events such as:
+
+- first discovery of a notable creature, structure, system, or relic;
+- first defeat of a notable named or elite enemy;
+- an actual progression milestone;
+- a contextually important acquisition;
+- a later callback where the fact genuinely matters.
+
+Do not attach commentary to every kill, every repeated structure, every ordinary item acquisition, or every member of a mob-overhaul roster.
+
+Different popup personnel should be used where their established role makes the reaction more natural. Mortis, for example, is preferable to Gnarl for selected death/undead observations.
 
 ---
 
