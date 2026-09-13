@@ -1,6 +1,6 @@
 # Overlord Lore and Canon
 
-Private working repository for OVERLORD REIGN franchise-source research, lore reconciliation, quest-source reconstruction, and Gnarl dialogue analysis.
+Private working repository for OVERLORD REIGN franchise-source research, lore reconciliation, quest-source reconstruction, and character dialogue analysis.
 
 ## Authority boundary
 
@@ -26,6 +26,12 @@ Then consult the specialized authorities it orders:
 
 Where an older coverage or implementation statement conflicts with a later explicit decision file, follow the authority order in `reference/39_REIGN_QUEST_AUTHORITY_AND_INTENTIONAL_DISCRETION.md`.
 
+## Character-writing references
+
+- `reference/GNARL_WRITING_RULES.md` - operational source-grounded Gnarl voice rules for OVERLORD REIGN.
+- `reference/40_REIGN_LESTAT_CHARACTER_AND_WRITING_RULES.md` - transcript-grounded television-series Lestat character sheet and REIGN adaptation rules for the NightWalker vampire-transition sidequest.
+- `reference/IWTV_Complete_Attributed_Transcripts/` - supplied 22-episode IWTV transcript corpus used for Lestat characterization. Attribution confidence must be respected when deriving dialogue rules.
+
 ## Repository layout
 
 ```text
@@ -47,7 +53,7 @@ corpus/
 reference/
   pass01/
   pass02/
-  ...current REIGN decision ledgers...
+  ...current REIGN decision ledgers and character-writing references...
 ```
 
 The `source/` tree intentionally contains only the minimal active non-audio research subset. Original game archives and MP3 payloads remain outside the repository.
@@ -64,12 +70,16 @@ See `research/8LD_FORMAT.md` for the validated format description and remaining 
 
 Searchable primary-source CSVs can be generated directly from the supplied localization workbooks. Current extraction covers Overlord I dialogue and Gnarl material, Raising Hell dialogue and Gnarl material, Overlord II dialogue, and Overlord II quest/objective text from `System_Quests.8ld`.
 
-Speaker fields are preserved only where the original source supplies them. Overlord II actor cells are blank in the supplied narrative sheets, so speaker identity is not invented.
+The repository also contains the supplied IWTV episode-transcript corpus used specifically for the NightWalker Lestat characterization work. Its attribution-confidence metadata is part of the source and must not be discarded during character analysis.
+
+Speaker fields are preserved only where the original source supplies them or where a separate reconstruction explicitly records its confidence. Do not silently upgrade inferred attribution to primary certainty.
 
 ## Source discipline
 
 Internal quest IDs, debug labels, aliases, map comments, and developer-facing names are `PRIMARY-IMPLEMENTATION` evidence, not automatically player-facing franchise terminology.
 
-Decoded localization text is `PRIMARY-TEXT`.
+Decoded Overlord localization text is `PRIMARY-TEXT` for franchise research.
+
+The supplied IWTV corpus is an external character-reference corpus for the REIGN Lestat adaptation and is not Overlord franchise canon.
 
 Nothing in this repository becomes OVERLORD REIGN `CANON` merely by being present here.
