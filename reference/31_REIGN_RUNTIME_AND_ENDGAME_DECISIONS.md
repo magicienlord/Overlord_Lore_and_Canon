@@ -78,18 +78,18 @@ Completed records should describe what the Overlord actually did rather than onl
 
 ## Optional objectives
 
-Status: CANON DESIGN / IMPLEMENTATION UNKNOWN
+Status: CANON DESIGN / IMPLEMENTED QUEST CAPABILITY
 
 Optional objectives are desirable when they produce a concrete reward, consequence, shortcut, extra cruelty, useful opportunity, or later remembered fact.
 
-The current technical ability of Questlog to represent optional objectives cleanly has not yet been confirmed.
+The OVERLORD QUESTS fork has now verified clean optional-objective support. Quest completion is determined from required objectives while optional objectives retain their own persisted progress and presentation state. Repository validation also guards the optional-objective contract.
 
 Therefore:
 
-- do not make optional-objective support a hard dependency of the central campaign until verified;
-- if Questlog supports them cleanly, use them selectively;
-- if not, equivalent optional actions may be implemented as side conditions, hidden/explicit markers, alternate interactions, or small linked sidequests where technically appropriate;
-- avoid generic bonus-condition scoring such as arbitrary XP checklists.
+- optional objectives may be used selectively where the authored campaign or sidequest genuinely benefits from them;
+- they must not become generic bonus-condition scoring or arbitrary XP checklists;
+- an optional objective should still produce a concrete reward, consequence, shortcut, extra cruelty, useful opportunity, or remembered state when authored;
+- the existence of engine support does not make any specific optional objective canonical until that quest content is explicitly authored.
 
 ## Quest rewards
 
