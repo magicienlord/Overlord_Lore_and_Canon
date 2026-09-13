@@ -12,13 +12,15 @@ OVERLORD REIGN canon remains governed by the canonical project files and the Ove
 
 For Overlord Quests design and implementation, consult these current decision files before older interview mirrors:
 
-- `reference/32_REIGN_QUESTLINE_COVERAGE_LEDGER.md` - minimum coverage checklist, including unfinished personal-mod integrations that must be revisited;
+- `reference/32_REIGN_QUESTLINE_COVERAGE_LEDGER.md` - minimum coverage checklist;
 - `reference/34_REIGN_TOWER_RESTORATION_DECISIONS.md` - authoritative Dark Tower restoration ownership and the boundary between room activation and deeper system progression;
-- `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md` - authoritative final assignment for reviewed mods: dedicated questline, absorbed content, popup acknowledgement, systemic/ambient treatment, or no quest-facing treatment.
+- `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md` - authoritative final assignment for reviewed mods: dedicated questline, absorbed content, popup acknowledgement, systemic/ambient treatment, or no quest-facing treatment;
+- `reference/37_REIGN_PERSONAL_MOD_SIDEQUEST_DECISIONS.md` - authoritative Overlord Depths / Fathoms and Overlord NightWalker / Nycto sidequest decisions;
+- `reference/38_REIGN_MINION_TYPE_UNLOCK_ANCHORS.md` - authoritative division of responsibility for Brown / Red / Green / Blue unlocks: the Minion implementation exposes anchors, while Overlord Quests authors and triggers the unlock progression.
 
-`reference/33_REIGN_MOD_QUESTLINE_ASSIGNMENTS.md` and `reference/35_REIGN_MOD_ASSIGNMENT_CONTINUATION.md` are interview-history mirrors and are superseded by `36` for assignment decisions.
+`reference/33_REIGN_MOD_QUESTLINE_ASSIGNMENTS.md` and `reference/35_REIGN_MOD_ASSIGNMENT_CONTINUATION.md` are interview-history mirrors and are superseded by the later authority files for assignment decisions.
 
-Where a pre-interview coverage classification conflicts with `34` or `36`, the later explicit decision file takes precedence.
+Where an older coverage or implementation statement conflicts with a later explicit decision file, the later explicit decision takes precedence.
 
 ## Repository layout
 
