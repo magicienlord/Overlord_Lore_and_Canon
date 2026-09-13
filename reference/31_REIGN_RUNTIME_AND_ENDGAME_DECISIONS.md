@@ -127,7 +127,7 @@ Detailed narrative framing remains behind the spoiler firewall.
 
 ## Overlord-specific end presentation
 
-Status: PLANNED IMPLEMENTATION
+Status: PLANNED CONTENT / TECHNICAL ACTIVATION IMPLEMENTED
 
 After the Ender Dragon is defeated, the ordinary Minecraft end presentation should be replaced or modified into an OVERLORD REIGN-specific ending screen/sequence.
 
@@ -139,7 +139,13 @@ Design goals:
 - return the player to the same persistent world afterward;
 - preserve unresolved civilization arcs, sidequests, native progression, Tower work, exploration, and sandbox play.
 
-This resolves the campaign-ending problem without requiring New Game+, a pre-ending reload, or a separate disposable world state.
+The OVERLORD QUESTS fork now contains the technical activation boundary required to support this design without prematurely authoring the hidden ending quest. Production presentation remains dormant until server-authoritative campaign state explicitly arms it. The implementation also records one-time presentation state separately from narrative canon.
+
+Sequence breaking is supported mechanically. If the Ender Dragon was legitimately defeated before the central campaign reaches its ending-ready state, the quest system can recognize Minecraft's persistent prior-Dragon defeat state and request the same one-time ending presentation without respawning, replaying, or rewriting the Dragon fight.
+
+The current visible ending screen remains a neutral development scaffold. No final ending narration, Gnarl dialogue, artwork, music, credits treatment, branch summary, or hidden prerequisite chain is established by this technical implementation.
+
+This resolves the campaign-ending transport problem without requiring New Game+, a pre-ending reload, a repeated Ender Dragon kill, or a separate disposable world state.
 
 ## End and Cataclysm continuity
 
