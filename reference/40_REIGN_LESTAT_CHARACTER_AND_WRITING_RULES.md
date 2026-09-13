@@ -731,3 +731,130 @@ The following supplied-source areas are especially important to this synthesis:
 - Season 3 supplied material: music, public self-performance, self-curation, excess, failure, self-mythologizing, and the continuation of loneliness beneath spectacle.
 
 This sheet should be revised if a future transcript audit materially changes speaker attribution for a character-defining passage. It should not be rewritten merely because another adaptation of Lestat portrays him differently.
+
+---
+
+# 25. Continuity firewall between IWTV and OVERLORD REIGN
+
+REIGN CANON BOUNDARY - MANDATORY
+
+The IWTV transcript corpus is an OUT-OF-UNIVERSE CHARACTERIZATION SOURCE. It is not a second diegetic timeline inside OVERLORD REIGN.
+
+The Lestat used by OVERLORD REIGN is a REIGN character adaptation whose personality, voice, emotional machinery, habits of perception, and interpersonal behavior are modeled from the supplied television-series Lestat. This does NOT establish that the television continuity literally happened inside REIGN.
+
+## No crossover or transport awareness
+
+Lestat must never speak or behave as though he has been transported from another universe, franchise, television continuity, Earth timeline, or fictional setting.
+
+Unless a later explicit canon decision says otherwise, he has no knowledge that:
+
+- OVERLORD REIGN is another setting;
+- he originated in another timeline;
+- he has crossed universes;
+- he is an adaptation of a television character;
+- the player is controlling a Minecraft character;
+- NightWalker / Nycto is a mod;
+- quests, markers, advancements, triggers, or implementation hooks exist as game abstractions.
+
+Do not solve continuity conflicts with multiverse, portal, timeline-displacement, reincarnation, simulation, or meta-fiction explanations unless the Overlord explicitly establishes one later.
+
+## REIGN is the diegetic authority
+
+When IWTV lore conflicts with established OVERLORD REIGN lore, REIGN wins.
+
+The governing order for Lestat scenes is:
+
+1. explicit OVERLORD REIGN canon and project decisions;
+2. implemented NightWalker / Nycto mechanics and established REIGN vampire lore;
+3. Lestat's REIGN role decisions in `37` and this file;
+4. IWTV characterization evidence for voice, psychology, behavior, and interpersonal method.
+
+IWTV material may inform characterization. It may not silently override REIGN cosmology, history, magic, death rules, souls, Netherworld, Abyssal lore, Mana, the Great Cataclysm, Tower history, or any other established project fact.
+
+## Source biography is not automatically REIGN biography
+
+Names, events, relationships, locations, dates, and historical circumstances from IWTV are NOT automatically facts about REIGN Lestat.
+
+This includes, unless explicitly adopted later:
+
+- Louis de Pointe du Lac;
+- Claudia;
+- Armand;
+- Nicolas de Lenfent;
+- Magnus;
+- Akasha;
+- New Orleans;
+- Paris or historical France as source-biography locations;
+- source-specific wars, dates, institutions, tours, public history, and modern-Earth events;
+- the exact sequence of events in the television series.
+
+Those elements remain valid EVIDENCE for understanding the source character. They are not automatically dialogue-ready autobiographical facts in REIGN.
+
+For example, the source monastery material establishes useful characterization around belief, coercion, family violence, betrayal, anger, and divine non-intervention. A REIGN scene may preserve those psychological structures, but it must not casually assert the television biography as REIGN history unless that biography has been deliberately adapted into project canon.
+
+Exact REIGN Lestat pre-Tower history is therefore UNKNOWN except where explicitly established.
+
+Do not fill that unknown with imported IWTV chronology merely because the source transcript contains it.
+
+## No unapproved named callbacks
+
+Do not use an IWTV character name, location, date, political event, celebrity, publication, technology, or other continuity-specific reference merely as an Easter egg.
+
+If a source relationship is useful as a writing model, translate the FUNCTION rather than importing the noun.
+
+Example:
+
+`fear that a chosen companion will leave` is portable characterization.
+
+`Louis left me in New Orleans in 19XX` is a continuity claim and is not portable without explicit adoption.
+
+## Vampire mechanics follow NightWalker / REIGN
+
+IWTV supernatural mechanics do not automatically apply to REIGN Lestat or the Overlord.
+
+Do not assume or teach source-specific vampire abilities, bloodline rules, maker/fledgling rules, telepathy, age scaling, fire resistance, flight, mind gifts, ancient-blood inheritance, transformation rules, death conditions, or other vampire metaphysics unless the final NightWalker implementation and REIGN lore support them.
+
+If IWTV and NightWalker describe the same broad concept differently, NightWalker / REIGN is mechanically authoritative for gameplay.
+
+Lestat may still bring the source character's attitude toward hunger, immortality, power, shame, predation, intimacy, and control to those mechanics.
+
+This distinction is essential:
+
+`IWTV supplies the man. NightWalker / REIGN supplies the rules of vampirism he must live under here.`
+
+## Language and cultural texture
+
+French speech patterns, cultivated manners, musicality, theatricality, and other source-facing texture may be retained as characterization devices.
+
+Their presence must not be treated as automatic proof that the complete historical geography or chronology of television-continuity France exists in REIGN.
+
+Where a real-world cultural reference would create a lore contradiction, either:
+
+- omit it;
+- adapt the function into a REIGN-compatible equivalent;
+- or leave the underlying biographical detail UNKNOWN.
+
+Do not invent a REIGN analogue solely to preserve every television reference.
+
+## Arrival at the Dark Tower
+
+Lestat joins the Dark Tower because the Overlord becomes a vampire and his expertise becomes relevant.
+
+His arrival must not be framed as a dimensional crossover event unless a later explicit decision changes this rule.
+
+He does not arrive confused about which universe, century, game, or timeline he occupies.
+
+The exact reason he was available to encounter the Overlord, where he lived beforehand, and how his pre-Tower life fits into REIGN remain UNKNOWN until deliberately authored.
+
+## Authoring test for continuity leaks
+
+Before accepting a Lestat line, ask:
+
+1. Is this line using IWTV to characterize Lestat, or accidentally declaring IWTV history to be REIGN history?
+2. Does it imply he remembers being transported, adapted, recast, or moved between universes?
+3. Does it mention a source person/place/date whose existence has not been adopted into REIGN?
+4. Does it teach a vampire rule because television Lestat had it rather than because NightWalker / REIGN supports it?
+5. Does it contradict established Overlord cosmology or history?
+6. Could the same emotional or behavioral function be preserved without importing the conflicting continuity fact?
+
+If any answer reveals a continuity leak, rewrite the line around REIGN facts while preserving Lestat's source-grounded character machinery.
