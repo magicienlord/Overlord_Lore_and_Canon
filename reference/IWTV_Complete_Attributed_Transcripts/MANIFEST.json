@@ -1,0 +1,220 @@
+{
+  "episodes": {
+    "S01E01": {
+      "title": "In Throes of Increasing Wonder...",
+      "turns": 1143,
+      "confidence": {
+        "confirmed": 903,
+        "high": 234,
+        "uncertain": 6
+      },
+      "speakers": 31
+    },
+    "S01E02": {
+      "title": "After the Phantoms of Your Former Self",
+      "turns": 866,
+      "confidence": {
+        "uncertain": 829,
+        "high": 37
+      },
+      "speakers": 5
+    },
+    "S01E03": {
+      "title": "Is My Very Nature That of a Devil",
+      "turns": 762,
+      "confidence": {
+        "uncertain": 730,
+        "high": 32
+      },
+      "speakers": 5
+    },
+    "S01E04": {
+      "title": "The Ruthless Pursuit of Blood with All a Child's Demanding",
+      "turns": 716,
+      "confidence": {
+        "uncertain": 694,
+        "confirmed": 1,
+        "high": 21
+      },
+      "speakers": 7
+    },
+    "S01E05": {
+      "title": "A Vile Hunger for Your Hammering Heart",
+      "turns": 760,
+      "confidence": {
+        "uncertain": 731,
+        "high": 29
+      },
+      "speakers": 6
+    },
+    "S01E06": {
+      "title": "Like Angels Put in Hell by God",
+      "turns": 781,
+      "confidence": {
+        "uncertain": 739,
+        "high": 42
+      },
+      "speakers": 4
+    },
+    "S01E07": {
+      "title": "The Thing Lay Still",
+      "turns": 711,
+      "confidence": {
+        "uncertain": 692,
+        "high": 19
+      },
+      "speakers": 5
+    },
+    "S02E01": {
+      "title": "What Can the Damned Really Say to the Damned",
+      "turns": 690,
+      "confidence": {
+        "uncertain": 668,
+        "high": 22
+      },
+      "speakers": 4
+    },
+    "S02E02": {
+      "title": "Do You Know What It Means to Be Loved by Death",
+      "turns": 867,
+      "confidence": {
+        "uncertain": 849,
+        "high": 18
+      },
+      "speakers": 5
+    },
+    "S02E03": {
+      "title": "No Pain",
+      "turns": 772,
+      "confidence": {
+        "uncertain": 673,
+        "confirmed": 86,
+        "high": 13
+      },
+      "speakers": 17
+    },
+    "S02E04": {
+      "title": "I Want You More Than Anything in the World",
+      "turns": 902,
+      "confidence": {
+        "uncertain": 819,
+        "confirmed": 69,
+        "high": 14
+      },
+      "speakers": 18
+    },
+    "S02E05": {
+      "title": "Don't Be Afraid, Just Start the Tape",
+      "turns": 962,
+      "confidence": {
+        "uncertain": 915,
+        "high": 47
+      },
+      "speakers": 5
+    },
+    "S02E06": {
+      "title": "Like the Light by Which God Made the World Before He Made Light",
+      "turns": 741,
+      "confidence": {
+        "uncertain": 714,
+        "high": 27
+      },
+      "speakers": 8
+    },
+    "S02E07": {
+      "title": "I Could Not Prevent It",
+      "turns": 813,
+      "confidence": {
+        "uncertain": 779,
+        "high": 34
+      },
+      "speakers": 7
+    },
+    "S02E08": {
+      "title": "And That's the End of It. There's Nothing Else",
+      "turns": 897,
+      "confidence": {
+        "high": 93,
+        "uncertain": 283,
+        "confirmed": 521
+      },
+      "speakers": 14
+    },
+    "S03E01": {
+      "title": "Detroit",
+      "turns": 985,
+      "confidence": {
+        "uncertain": 819,
+        "confirmed": 2,
+        "high": 164
+      },
+      "speakers": 8
+    },
+    "S03E02": {
+      "title": "Toledo",
+      "turns": 957,
+      "confidence": {
+        "uncertain": 881,
+        "confirmed": 2,
+        "high": 74
+      },
+      "speakers": 8
+    },
+    "S03E03": {
+      "title": "Toronto",
+      "turns": 1025,
+      "confidence": {
+        "uncertain": 888,
+        "high": 133,
+        "confirmed": 4
+      },
+      "speakers": 6
+    },
+    "S03E04": {
+      "title": "The Devil's Road",
+      "turns": 1066,
+      "confidence": {
+        "uncertain": 885,
+        "high": 179,
+        "confirmed": 2
+      },
+      "speakers": 5
+    },
+    "S03E05": {
+      "title": "New York",
+      "turns": 1016,
+      "confidence": {
+        "confirmed": 4,
+        "uncertain": 883,
+        "high": 129
+      },
+      "speakers": 9
+    },
+    "S03E06": {
+      "title": "Montreal",
+      "turns": 1053,
+      "confidence": {
+        "uncertain": 921,
+        "confirmed": 7,
+        "high": 125
+      },
+      "speakers": 7
+    },
+    "S03E07": {
+      "title": "The Failures",
+      "turns": 1036,
+      "confidence": {
+        "high": 65,
+        "uncertain": 962,
+        "confirmed": 9
+      },
+      "speakers": 6
+    }
+  },
+  "totals": {
+    "confirmed": 1610,
+    "high": 1551,
+    "uncertain": 16360
+  },
+  "script_segments_s02e08": 307
+}
