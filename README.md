@@ -10,17 +10,21 @@ OVERLORD REIGN canon remains governed by the canonical project files and the Ove
 
 ## Current quest-integration authorities
 
-For Overlord Quests design and implementation, consult these current decision files before older interview mirrors:
+For Overlord Quests design and implementation, start with:
 
-- `reference/32_REIGN_QUESTLINE_COVERAGE_LEDGER.md` - minimum coverage checklist;
-- `reference/34_REIGN_TOWER_RESTORATION_DECISIONS.md` - authoritative Dark Tower restoration ownership and the boundary between room activation and deeper system progression;
-- `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md` - authoritative final assignment for reviewed mods: dedicated questline, absorbed content, popup acknowledgement, systemic/ambient treatment, or no quest-facing treatment;
+- `reference/39_REIGN_QUEST_AUTHORITY_AND_INTENTIONAL_DISCRETION.md` - master interpretation and authority-order file. It distinguishes genuine unknowns from implementation-dependent details and deliberately delegated Quest Maker decisions.
+
+Then consult the specialized authorities it orders:
+
+- `reference/38_REIGN_MINION_TYPE_UNLOCK_ANCHORS.md` - authoritative division of responsibility for Brown / Red / Green / Blue unlocks: the Minion implementation exposes anchors, while Overlord Quests authors and triggers the unlock progression;
 - `reference/37_REIGN_PERSONAL_MOD_SIDEQUEST_DECISIONS.md` - authoritative Overlord Depths / Fathoms and Overlord NightWalker / Nycto sidequest decisions;
-- `reference/38_REIGN_MINION_TYPE_UNLOCK_ANCHORS.md` - authoritative division of responsibility for Brown / Red / Green / Blue unlocks: the Minion implementation exposes anchors, while Overlord Quests authors and triggers the unlock progression.
+- `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md` - authoritative final assignment for reviewed mods: dedicated questline, absorbed content, popup acknowledgement, systemic/ambient treatment, or no quest-facing treatment;
+- `reference/34_REIGN_TOWER_RESTORATION_DECISIONS.md` - authoritative Dark Tower restoration ownership and the boundary between room activation and deeper system progression;
+- `reference/32_REIGN_QUESTLINE_COVERAGE_LEDGER.md` - minimum coverage and completion checklist.
 
 `reference/33_REIGN_MOD_QUESTLINE_ASSIGNMENTS.md` and `reference/35_REIGN_MOD_ASSIGNMENT_CONTINUATION.md` are interview-history mirrors and are superseded by the later authority files for assignment decisions.
 
-Where an older coverage or implementation statement conflicts with a later explicit decision file, the later explicit decision takes precedence.
+Where an older coverage or implementation statement conflicts with a later explicit decision file, follow the authority order in `reference/39_REIGN_QUEST_AUTHORITY_AND_INTENTIONAL_DISCRETION.md`.
 
 ## Repository layout
 
