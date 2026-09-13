@@ -170,6 +170,48 @@ Decision: no dedicated questline and no redundant introductory popup.
 
 The death-screen functionality already incorporated into Overlord Quests, together with its built-in death markers, owns the relevant narrative/quest-facing death handling. YAGM remains an underlying gameplay recovery system and should not compete with or duplicate that implementation.
 
+## Pale Garden Backport
+
+Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
+
+Decision: the Pale Garden and Creaking deserve sparse contextual popup acknowledgement, especially on meaningful first discovery, but no compact horror questline is required.
+
+## Nether Depths Upgrade
+
+Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
+
+Decision: acknowledge significant Nether ecology or lava-fishing discoveries where useful. It may support Piglin, Netherworld, or other Nether content, but receives no dedicated questline.
+
+## LevelUP + RPG Skill Trees
+
+Assignment: INTRODUCTORY POPUP / NO DEDICATED QUESTLINE
+
+Decision: one introductory popup is appropriate to contextualize the player-progression systems. After that they remain systemic and should not be questified.
+
+## Small Ships
+
+Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
+
+Decision: no transport questline. A meaningful first ship or major vessel may receive popup acknowledgement, and ships may be used naturally by Sea Dweller, coastal, exploration, or other quests.
+
+## [Let's Do] BloomingNature
+
+Assignment: POPUP ACKNOWLEDGEMENT / PROVIDER SUPPORT
+
+Decision: no dedicated BloomingNature questline. The Wandering Gardener may be linked as a provider or participant by other authored quests where useful, but BloomingNature remains primarily environmental content.
+
+## Pillager Caravans
+
+Assignment: ABSORBED IN ILLAGER QUESTLINE
+
+Decision: roaming pillager caravans are part of the established Illager content pool and may be used as encounters, targets, or objectives within that arc. No separate caravan questline.
+
+## Legendary Farming
+
+Assignment: ABSORBED IN FOOD / AGRICULTURAL CONTENT + POPUP ACKNOWLEDGEMENT
+
+Decision: no independent questline. Its crop content may support the Gluttony arc, Villager/agricultural quests, provider content, or other relevant stories, with sparse popup acknowledgement where useful.
+
 ---
 
 # Conditional small arc
