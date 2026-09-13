@@ -76,6 +76,18 @@ Assignment: FULL QUESTLINE, compact scale
 
 Decision: deserves a compact dedicated questline. Its Orchid Shrine / Orchid Altar / Queen of Orchid progression provides a sufficiently coherent location-to-boss-to-reward arc without requiring a large campaign-scale treatment.
 
+## Immersive Melodies / Quaver's Tower Band
+
+Assignment: SMALL QUESTLINE / TOWER PERSONNEL ARC
+
+Decision: Immersive Melodies should support a dedicated Quaver questline in which Quaver organizes a full band in the Dark Tower.
+
+This is a deliberate nod to Overlord II's Netherworld court and Quaver's established minstrel role, not a generic instrument-progression tutorial.
+
+The questline should use Immersive Melodies as the musical implementation substrate while remaining character-driven around Quaver, Tower life, recruitment/acquisition, performance, and the restoration of a proper evil court atmosphere.
+
+Exact band membership, required instruments, and conclusion remain for quest authoring behind the spoiler firewall.
+
 ---
 
 # Confirmed acknowledgement-only / non-questline assignments
@@ -212,6 +224,52 @@ Assignment: ABSORBED IN FOOD / AGRICULTURAL CONTENT + POPUP ACKNOWLEDGEMENT
 
 Decision: no independent questline. Its crop content may support the Gluttony arc, Villager/agricultural quests, provider content, or other relevant stories, with sparse popup acknowledgement where useful.
 
+## Golem Overhaul
+
+Assignment: ABSORBED IN EXISTING CONTENT + POPUP ACKNOWLEDGEMENT
+
+Decision: no dedicated golem questline. Its construct variants may support Villager, Tower, smithing, magical-construction, or other authored content where useful, with sparse acknowledgement for noteworthy first encounters or creations.
+
+Do not create a collect-every-golem progression merely because the variants exist.
+
+## Creeper Overhaul
+
+Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
+
+Decision: no dedicated questline. Biome-specific Creeper variants may receive very sparse contextual acknowledgement, but not one popup per variant or repeated kill commentary.
+
+## Crop Critters
+
+Assignment: ABSORBED IN AGRICULTURAL / GLUTTONY / VILLAGER CONTENT + POPUP ACKNOWLEDGEMENT
+
+Decision: no dedicated questline. Crop creatures may be used where they naturally fit existing agricultural or food-related content, with an occasional humorous first-discovery popup if appropriate.
+
+## AstikorCarts Redux / Trotting Wagons / Horseman
+
+Assignment: NO DEDICATED QUESTLINE / SYSTEMIC SUPPORT
+
+Decision: these remain transport and horse utility systems. Other quests may use wagons, carts, or mounted travel where useful, but no transport questline should be manufactured around them.
+
+## Supplementaries
+
+Assignment: NO DEDICATED QUESTLINE / NO GENERIC INTRODUCTORY POPUP
+
+Decision: Supplementaries should remain invisible as a mod identity. Its blocks and mechanics may be used freely by authored quests and builds, but the player should not be told that a separate Supplementaries content system has been discovered.
+
+## Savage & Ravage + The Conjurer
+
+Assignment: ABSORBED IN ILLAGER QUESTLINE
+
+Decision: both belong inside the established Illager quest architecture rather than receiving separate political or mod-specific questlines.
+
+The Conjurer's theater and encounter progression may support a memorable authored episode within the Illager material.
+
+## Abyssal Decor
+
+Assignment: NO DEDICATED QUESTLINE / NO GENERIC POPUP
+
+Decision: use as atmosphere, building vocabulary, environmental dressing, and quest-location material where appropriate. Do not draw attention to it as an independent progression system.
+
 ---
 
 # Conditional small arc
@@ -245,6 +303,16 @@ For mods assigned popup-only treatment, reactions should normally be tied to spa
 Do not attach commentary to every kill, every repeated structure, every ordinary item acquisition, or every member of a mob-overhaul roster.
 
 Different popup personnel should be used where their established role makes the reaction more natural. Mortis, for example, is preferable to Gnarl for selected death/undead observations.
+
+---
+
+# Interview interpretation rule
+
+When the Overlord answers `yes` to a proposed assignment during this interview, that means the proposal itself is accepted.
+
+It does not mean the referenced mod should automatically receive a dedicated questline.
+
+Questline promotion requires an explicit proposal or explicit Overlord statement assigning a questline, as occurred with Immersive Melodies / Quaver's Tower Band.
 
 ---
 
