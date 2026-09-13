@@ -22,15 +22,19 @@ This preserves the source-established importance of Mother Goddess worship to El
 
 ## Order of the Silent God
 
-Status: CANON WORLD RULE
+Status: CANON DIRECTION / PRESENT DETAILS PARTLY DELEGATED
 
-The original centralized Order of the Silent God associated with historical Heaven's Peak does not survive unchanged as one continuous institution.
+The original centralized Order of the Silent God associated with historical Heaven's Peak does not survive unchanged as one continuous Silent God institution.
 
-Its beliefs, rituals, sayings, practices, local churches, cults, and successor sects may survive among present human and Villager populations.
+After the Third Overlord conquered the Heaven's Peak church, the old institutional line was redirected into an order dedicated to the Overlord. Over the following centuries that Overlord-dedicated order declined into obscurity or near-oblivion rather than remaining a major present-day religious power.
 
-This survival is decentralized and locally variable.
+This does not erase all Silent God belief. Splinter traditions, breakaway communities, local churches, sayings, rites, and successor sects may preserve Silent God-derived religion outside the conquered Heaven's Peak institutional line.
 
-Modern human settlements therefore may contain Silent God-derived religious traditions without implying that the old Heaven's Peak hierarchy remained intact for centuries.
+Lestat's human monastery belongs to one such post-conquest Silent God splinter tradition. It is not the later Overlord-dedicated Heaven's Peak order.
+
+Whether surviving branches of either tradition still practice sewing their lips as an act or sign of worship is QUEST-MAKER DISCRETION. The project does not currently require either answer.
+
+Do not infer that every modern Silent God-derived community is secretly an Overlord cult, or that every remnant of the conquered Heaven's Peak order still follows its historical practices unchanged.
 
 ## Forgotten God
 
