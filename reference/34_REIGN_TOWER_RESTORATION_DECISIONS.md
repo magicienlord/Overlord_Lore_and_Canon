@@ -41,30 +41,54 @@ When a gameplay system has a dedicated Tower room or facility, the boundary is:
 
 Tower Restoration should therefore establish that the Overlord has acquired, installed, activated, or made a facility usable.
 
-It should not absorb an entire magic, crafting, smithing, or progression system merely because the Tower contains a room for it.
+It should not absorb an entire magic, crafting, smithing, storage, equipment, or progression system merely because the Tower contains a room for it.
 
 Example already established:
 
 - Hot Iron's forge-room installation belongs to Tower Restoration;
 - further Hot Iron use and progression does not become a separate Tower-restoration chain merely because the forge is housed in the Tower.
 
+The same rule governs the Storage Room and Armory: the initial furnishing/activation of each room is Tower Restoration, while later storage use, organization, equipment acquisition, weapon progression, and collection are ordinary gameplay or belong to other relevant quests.
+
 ## 4. Core Tower restoration milestones
 
 Status: CANON DESIGN
 
-The following established Tower functions should each receive an explicit restoration, activation, or operational milestone where technically appropriate:
+The following established Tower functions should each receive an explicit restoration, activation, furnishing, or operational milestone where technically appropriate:
 
 - Throne room;
 - Forge;
 - Minion infrastructure;
 - Gates;
-- Treasury.
+- Treasury;
+- Storage Room;
+- Armory.
 
 These milestones do not all need equal quest length.
 
 A room or system may require only a short activation objective if that is all the underlying gameplay supports.
 
 The Quest Maker must not manufacture disproportionate progression simply to make every Tower function equally large.
+
+### Storage Room
+
+Status: CANON DESIGN
+
+The Tower contains a dedicated Storage Room.
+
+Its initial room restoration may use appropriate installed storage/display systems as implementation substrate where useful. The quest is about making the Tower's storage facility operational, not about creating a standalone questline for a storage mod.
+
+After restoration, storage upgrades, organization, capacity expansion, and ordinary use are not Tower-restoration progression unless a later explicit quest requires a specific improvement.
+
+### Armory
+
+Status: CANON DESIGN
+
+The Tower contains a dedicated Armory.
+
+Its initial room restoration may use appropriate installed weapon, armor, rack, display, or storage systems as implementation substrate. The quest is about establishing a functioning Tower armory, not about turning every installed weapon or armor mod into its own questline.
+
+After restoration, collecting equipment, replacing loadouts, finding better weapons, filling displays, and expanding the player's arsenal remain ordinary gameplay or belong to the quests that actually grant or require that equipment.
 
 ## 5. Selected magical Tower rooms
 
@@ -137,6 +161,8 @@ Completion does not require:
 - every optional room;
 - every personnel comfort;
 - every trophy or decorative object;
+- filling the Armory with every equipment set;
+- filling the Storage Room to any arbitrary capacity threshold;
 - every later specialist facility;
 - every magical system to be fully mastered;
 - every Minion-related possibility to be unlocked if it does not exist in the installed implementation;
