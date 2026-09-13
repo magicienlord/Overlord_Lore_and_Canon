@@ -90,23 +90,19 @@ Exact band membership, required instruments, and conclusion remain for quest aut
 
 ---
 
-# Confirmed acknowledgement-only / non-questline assignments
+# Confirmed acknowledgement-only / absorbed / non-questline assignments
 
 ## Darker Depths
 
 Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
 
-Decision: despite substantial underground content and possible mechanical endpoints, it should not receive its own questline. This prevents questline inflation across the modpack.
-
-Popup NPCs may acknowledge noteworthy discoveries, structures, enemies, or progression where appropriate.
+Decision: despite substantial underground content and possible mechanical endpoints, it should not receive its own questline. Popup NPCs may acknowledge noteworthy discoveries, structures, enemies, or progression where appropriate.
 
 ## Born in Chaos
 
 Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
 
-Decision: despite multiple bosses and an advancement structure, it should not receive a dedicated questline.
-
-Selected bosses, encounters, or achievements may receive contextual popup acknowledgement from Gnarl or other appropriate non-corporeal personnel.
+Decision: despite multiple bosses and an advancement structure, it should not receive a dedicated questline. Selected bosses, encounters, or achievements may receive contextual popup acknowledgement from Gnarl or other appropriate non-corporeal personnel.
 
 ## Realm RPG: Imps & Demons
 
@@ -118,7 +114,7 @@ Decision: demonic content does not warrant a standalone questline. It remains ou
 
 Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
 
-Decision: do not create a synthetic Beastmaster or Menagerie questline merely to unify these mods. Appropriate acquisitions, taming events, rare creatures, or milestones may receive popup acknowledgement.
+Decision: do not create a synthetic Beastmaster or Menagerie questline. Appropriate acquisitions, taming events, rare creatures, or milestones may receive popup acknowledgement.
 
 ## Artifacts / Relics
 
@@ -130,9 +126,7 @@ Decision: use as treasure, equipment, rewards, discoveries, or quest objects whe
 
 Assignment: POPUP ACKNOWLEDGEMENT / ABSORBED IN OTHER QUESTLINES
 
-Decision: no separate cooking questline.
-
-The established Gluttony / Farmer's Spell questline is the dedicated food-magic arc. Other food mods support existing questlines, dungeons, civilization content, Cataclysm content, or general play and may receive popup acknowledgement.
+Decision: no separate cooking questline. The established Gluttony / Farmer's Spell questline is the dedicated food-magic arc. Other food mods support existing questlines, dungeons, civilization content, Cataclysm content, or general play.
 
 ## Shield Expansion / Fantasy Weapons / Fantasy Armor and similar general equipment systems
 
@@ -144,23 +138,19 @@ Decision: these provide equipment, rewards, specialist-provider material, and or
 
 Assignment: ABSORBED IN TOWER RESTORATION QUESTLINE
 
-Decision: Hot Iron must be explicitly acknowledged because the Dark Tower contains a dedicated forge room for it.
-
-Its integration belongs inside Tower restoration rather than in a separate Hot Iron questline.
+Decision: Hot Iron must be explicitly acknowledged because the Dark Tower contains a dedicated forge room for it. Its integration belongs inside Tower restoration rather than in a separate Hot Iron questline.
 
 ## Rotten Creatures
 
 Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
 
-Decision: no dedicated questline. Mortis is an especially appropriate popup commentator for noteworthy undead encounters, but acknowledgement must not trigger on every mob death or become repetitive.
-
-Prefer first discovery, first meaningful kill, unusual named encounter, or other sparse milestone triggers over per-kill reactions.
+Decision: no dedicated questline. Mortis is an especially appropriate popup commentator for noteworthy undead encounters, but acknowledgement must not trigger on every mob death or become repetitive. Prefer first discovery, first meaningful kill, unusual named encounter, or other sparse milestone triggers.
 
 ## Enchanting System Overhaul
 
 Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
 
-Decision: a one-time introductory popup explaining or contextualizing the altered enchanting system is appropriate. After introduction, the system should function normally without a manufactured quest arc.
+Decision: a one-time introductory popup contextualizing the altered enchanting system is appropriate. After introduction, the system should function normally without a manufactured quest arc.
 
 ## Enderman Overhaul
 
@@ -172,15 +162,13 @@ Decision: no independent questline. Its expanded Enderman variants belong within
 
 Assignment: POPUP ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
 
-Decision: treat the remains primarily as environmental storytelling and occasional popup material. As with mob-overhaul content, acknowledgement must remain sparse and should not fire for every encountered remains entity or loot event.
+Decision: treat the remains primarily as environmental storytelling and occasional popup material. Acknowledgement must remain sparse and should not fire for every encountered remains entity or loot event.
 
 ## Yet Another Gravestone Mod
 
 Assignment: NO QUEST INTEGRATION
 
-Decision: no dedicated questline and no redundant introductory popup.
-
-The death-screen functionality already incorporated into Overlord Quests, together with its built-in death markers, owns the relevant narrative/quest-facing death handling. YAGM remains an underlying gameplay recovery system and should not compete with or duplicate that implementation.
+Decision: no dedicated questline and no redundant introductory popup. The death-screen functionality already incorporated into Overlord Quests, together with its built-in death markers, owns the relevant narrative/quest-facing death handling. YAGM remains an underlying gameplay recovery system.
 
 ## Pale Garden Backport
 
@@ -228,9 +216,7 @@ Decision: no independent questline. Its crop content may support the Gluttony ar
 
 Assignment: ABSORBED IN EXISTING CONTENT + POPUP ACKNOWLEDGEMENT
 
-Decision: no dedicated golem questline. Its construct variants may support Villager, Tower, smithing, magical-construction, or other authored content where useful, with sparse acknowledgement for noteworthy first encounters or creations.
-
-Do not create a collect-every-golem progression merely because the variants exist.
+Decision: no dedicated golem questline. Its construct variants may support Villager, Tower, smithing, magical-construction, or other authored content where useful. Do not create a collect-every-golem progression merely because the variants exist.
 
 ## Creeper Overhaul
 
@@ -254,21 +240,67 @@ Decision: these remain transport and horse utility systems. Other quests may use
 
 Assignment: NO DEDICATED QUESTLINE / NO GENERIC INTRODUCTORY POPUP
 
-Decision: Supplementaries should remain invisible as a mod identity. Its blocks and mechanics may be used freely by authored quests and builds, but the player should not be told that a separate Supplementaries content system has been discovered.
+Decision: Supplementaries should remain invisible as a mod identity. Its blocks and mechanics may be used freely by authored quests and builds.
 
 ## Savage & Ravage + The Conjurer
 
 Assignment: ABSORBED IN ILLAGER QUESTLINE
 
-Decision: both belong inside the established Illager quest architecture rather than receiving separate political or mod-specific questlines.
-
-The Conjurer's theater and encounter progression may support a memorable authored episode within the Illager material.
+Decision: both belong inside the established Illager quest architecture rather than receiving separate political or mod-specific questlines. The Conjurer's theater and encounter progression may support a memorable authored episode within the Illager material.
 
 ## Abyssal Decor
 
 Assignment: NO DEDICATED QUESTLINE / NO GENERIC POPUP
 
 Decision: use as atmosphere, building vocabulary, environmental dressing, and quest-location material where appropriate. Do not draw attention to it as an independent progression system.
+
+## Mowzie's Mobs beyond Umvuthi / Umvuthana
+
+Assignment: ABSORBED IN OTHER QUESTS / STANDALONE EPISODES AS NEEDED
+
+Decision: no second Mowzie's Mobs questline. The Umvuthi / Umvuthana material remains part of the established Umvuthana civilization arc. Other major creatures may be used by quests that need boss monsters, monster-hunting content, or self-contained encounter episodes. Popup acknowledgement may support first or notable encounters where appropriate.
+
+## Waystones
+
+Assignment: NO QUEST INTEGRATION
+
+Decision: no questline and no required popup. Waystones remain gameplay infrastructure and must not be conflated with franchise Netherworld / Minion Gate technology.
+
+## VillagersPlus + VillagerTradingPlus
+
+Assignment: ABSORBED IN VILLAGER CIVILIZATION
+
+Decision: their professions, workstations, and trades extend the established Villager framework. They do not become separate factions or questlines.
+
+## Spice of Life: Carrot Edition
+
+Assignment: POPUP MILESTONE ACKNOWLEDGEMENT / NO DEDICATED QUESTLINE
+
+Decision: food-variety progression may receive its own sparse popup acknowledgements on the road toward 100 foods tasted. A Minion cook NPC is planned as the natural character voice for this material. This does not replace or duplicate the established Gluttony / Farmer's Spell questline.
+
+## Sophisticated Backpacks
+
+Assignment: NO DEDICATED QUESTLINE
+
+Decision: inventory progression remains systemic. No questline is needed and no generic popup is required.
+
+## Straw Statues
+
+Assignment: NO QUEST INTEGRATION
+
+Decision: decorative use only. No questline or popup is required.
+
+## Towns and Towers / Better Village / YUNG structure overhauls / Luki strongholds and mansions
+
+Assignment: ABSORBED AS QUEST LOCATIONS
+
+Decision: these are places where quests may happen, not subjects requiring mod-specific questlines or introductory popups.
+
+## RoadArchitect
+
+Assignment: NO QUEST INTEGRATION
+
+Decision: road generation and road infrastructure remain world support. Individual roads may matter to other authored quests, but RoadArchitect itself receives no questline or popup merely for existing.
 
 ---
 
@@ -278,11 +310,7 @@ Decision: use as atmosphere, building vocabulary, environmental dressing, and qu
 
 Assignment: SMALL ARC, conditionally triggered
 
-Decision: the system should be introduced through a small authored arc only if a pet dies.
-
-The quest chain follows the path toward resurrecting the dead pet and serves as an in-world introduction/tutorial to the resurrection system.
-
-This is not a permanently visible generic questline and should not trigger without the relevant pet-death condition.
+Decision: the system should be introduced through a small authored arc only if a pet dies. The quest chain follows the path toward resurrecting the dead pet and serves as an in-world introduction/tutorial to the resurrection system. This is not a permanently visible generic questline and should not trigger without the relevant pet-death condition.
 
 The implementation must remain consistent with REIGN's broader rule that ordinary sapient resurrection is exceptional and difficult. Pet resurrection is a specific supported gameplay system, not proof that all deaths are routinely reversible.
 
