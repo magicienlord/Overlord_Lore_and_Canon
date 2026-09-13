@@ -42,32 +42,34 @@ The exact NightWalker mechanics to track, vampire-state triggers, progression ho
 
 ## 3. Gnarl and Lestat relationship
 
-Status: PROPOSAL / CHARACTERIZATION DIRECTION
+Status: APPROVED REIGN CHARACTERIZATION DIRECTION / NOT FRANCHISE-SOURCE CANON
 
-The Overlord franchise corpus reviewed for this project does not establish a direct canonical opinion by Gnarl about vampires as a species. Therefore the following is a REIGN characterization proposal derived from Gnarl's established source-faithful priorities and writing rules, not a recovered franchise fact.
+The Overlord franchise corpus reviewed for this project does not establish a direct canonical opinion by Gnarl about vampires as a species. The relationship direction below is therefore an approved OVERLORD REIGN characterization decision derived from Gnarl's established source-faithful priorities and writing rules, not a recovered franchise fact.
 
-Gnarl should not object to vampirism on moral or religious grounds. Predation, domination, immortality, bloodshed, exploitation, and supernatural power are not things he finds inherently objectionable.
+Gnarl does not object to vampirism on moral or religious grounds. Predation, domination, immortality, bloodshed, exploitation, and supernatural power are not things he finds inherently objectionable.
 
-His evaluation of vampires should instead be pragmatic:
+His evaluation of vampires is instead pragmatic:
 
 - useful if they are powerful, controllable, knowledgeable, and beneficial to the Overlord;
 - contemptible when they are vain, melodramatic, self-important, wasteful, or difficult to subordinate;
 - dangerous when their appetites, politics, or influence threaten the Overlord, Minions, Netherworld interests, or Gnarl's ability to keep the Tower functioning.
 
-The Overlord becoming a vampire should therefore produce a split reaction. During the transformation Gnarl becomes genuinely serious because the Master's survival and continued fitness to rule are directly at stake. Once the transformation proves stable, moral concern disappears and he rapidly reframes vampirism as another potentially useful source of power.
+The Overlord becoming a vampire therefore produces a split reaction. During the transformation Gnarl becomes genuinely serious because the Master's survival and continued fitness to rule are directly at stake. Once the transformation proves stable, moral concern disappears and he rapidly reframes vampirism as another potentially useful source of power.
 
-Lestat specifically should create conflict because he intrudes on Gnarl's traditional advisory domain. Gnarl is the ancient institutional adviser to successive Overlords and is accustomed to being the principal interpreter of threats, power, Tower administration, and what is best for the Master. Lestat enters with expertise Gnarl does not possess: how to live as a vampire, how to manage hunger, identity, powers, vulnerabilities, and the psychological consequences of the condition.
+Lestat specifically creates conflict because he intrudes on Gnarl's traditional advisory domain. Gnarl is the ancient institutional adviser to successive Overlords and is accustomed to being the principal interpreter of threats, power, Tower administration, and what is best for the Master. Lestat enters with expertise Gnarl does not possess: how to live as a vampire, how to manage hunger, identity, powers, vulnerabilities, and the psychological consequences of the condition.
 
-Gnarl's hostility toward Lestat should therefore be primarily institutional and personal rather than species-wide hatred. He can accept that Lestat is useful while resenting that the Overlord now has reason to listen to him.
+Gnarl's hostility toward Lestat is therefore primarily institutional and personal rather than species-wide hatred. He can accept that Lestat is useful while resenting that the Overlord now has reason to listen to him.
 
 Gnarl is likely to regard Lestat as a talented but intolerably theatrical predator whose confidence approaches insolence. Lestat, in turn, has strong reason to dislike being treated as another Tower asset to be administratively categorized by an ancient Minion.
 
-The resulting relationship should be adversarial, witty, and functional rather than constant shouting. Both characters may genuinely want the Overlord to survive and become stronger, but they approach that goal from incompatible positions:
+The resulting relationship should be adversarial, witty, and functional rather than constant shouting. Both characters genuinely want the Overlord to survive and become stronger, but they approach that goal from incompatible positions:
 
 - Gnarl protects the continuity of the Overlord institution, Minions, and Tower;
 - Lestat guides the person undergoing vampiric transformation and treats vampirism as an identity and way of existence rather than merely another strategic resource.
 
 This gives them a durable source of conflict without requiring either character to become irrationally hostile or sabotage the Overlord.
+
+Detailed dialogue remains flexible and must still respect the source-grounded Gnarl writing rules and the transcript-grounded Lestat characterization corpus.
 
 ## 4. Quest Maker rule
 
