@@ -30,9 +30,9 @@ After the Third Overlord conquered the Heaven's Peak church, the old institution
 
 This does not erase all Silent God belief. Splinter traditions, breakaway communities, local churches, sayings, rites, and successor sects may preserve Silent God-derived religion outside the conquered Heaven's Peak institutional line.
 
-Lestat's human monastery belongs to one such post-conquest Silent God splinter tradition. It is not the later Overlord-dedicated Heaven's Peak order.
+Lestat's human monastery belongs to one such post-conquest Silent God splinter tradition. It is not the later Overlord-dedicated Heaven's Peak order. Lestat's specific splinter does NOT sew its adherents' lips together as a sign of worship.
 
-Whether surviving branches of either tradition still practice sewing their lips as an act or sign of worship is QUEST-MAKER DISCRETION. The project does not currently require either answer.
+Whether the conquered Heaven's Peak institutional line, or any obscure remnants descended from its later Overlord-dedicated form, continued the lip-sewing practice is QUEST-MAKER DISCRETION.
 
 Do not infer that every modern Silent God-derived community is secretly an Overlord cult, or that every remnant of the conquered Heaven's Peak order still follows its historical practices unchanged.
 
