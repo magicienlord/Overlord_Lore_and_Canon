@@ -8,6 +8,18 @@ This repository is a reference and research workspace. Original Overlord franchi
 
 OVERLORD REIGN canon remains governed by the canonical project files and the Overlord's explicit decisions.
 
+## Current quest-integration authorities
+
+For Overlord Quests design and implementation, consult these current decision files before older interview mirrors:
+
+- `reference/32_REIGN_QUESTLINE_COVERAGE_LEDGER.md` - minimum coverage checklist, including unfinished personal-mod integrations that must be revisited;
+- `reference/34_REIGN_TOWER_RESTORATION_DECISIONS.md` - authoritative Dark Tower restoration ownership and the boundary between room activation and deeper system progression;
+- `reference/36_REIGN_MOD_QUESTLINE_ASSIGNMENTS_FINAL.md` - authoritative final assignment for reviewed mods: dedicated questline, absorbed content, popup acknowledgement, systemic/ambient treatment, or no quest-facing treatment.
+
+`reference/33_REIGN_MOD_QUESTLINE_ASSIGNMENTS.md` and `reference/35_REIGN_MOD_ASSIGNMENT_CONTINUATION.md` are interview-history mirrors and are superseded by `36` for assignment decisions.
+
+Where a pre-interview coverage classification conflicts with `34` or `36`, the later explicit decision file takes precedence.
+
 ## Repository layout
 
 ```text
@@ -29,6 +41,7 @@ corpus/
 reference/
   pass01/
   pass02/
+  ...current REIGN decision ledgers...
 ```
 
 The `source/` tree intentionally contains only the minimal active non-audio research subset. Original game archives and MP3 payloads remain outside the repository.
