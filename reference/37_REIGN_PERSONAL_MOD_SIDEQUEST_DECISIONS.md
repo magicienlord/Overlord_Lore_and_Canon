@@ -38,6 +38,22 @@ Lestat is intentionally modeled after the version of Lestat from the Interview w
 
 Operational character-writing authority for Lestat is now `reference/40_REIGN_LESTAT_CHARACTER_AND_WRITING_RULES.md`, derived from the supplied IWTV transcript corpus with source-confidence discipline. Quest dialogue should use that sheet together with the underlying transcripts rather than re-deriving Lestat from general cultural knowledge.
 
+### 2.1 Continuity boundary
+
+Status: CANON BOUNDARY FOR THE REIGN ADAPTATION.
+
+The IWTV material is an out-of-universe characterization source, not a literal second timeline operating inside OVERLORD REIGN.
+
+REIGN Lestat must not speak or behave as though he has been transported from the television continuity, another universe, another franchise, modern Earth, or a different historical timeline. His arrival at the Dark Tower is not a crossover event and should not be explained through multiverse, portal, reincarnation, timeline-displacement, simulation, or meta-fiction language unless the Overlord explicitly establishes such a mechanism later.
+
+The television-series biography is not automatically REIGN biography. IWTV names, relationships, locations, dates, historical events, and vampire cosmology may be used as evidence for characterization, but they are not automatically in-universe facts. Exact REIGN Lestat pre-Tower history remains UNKNOWN except where explicitly established.
+
+When the two source bodies conflict, established OVERLORD REIGN lore and the implemented NightWalker / Nycto mechanics take precedence. IWTV supplies Lestat's characterization. REIGN supplies the world he inhabits, and NightWalker / REIGN supplies the operative rules of vampirism.
+
+Do not import source-specific vampire powers, weaknesses, bloodline rules, maker/fledgling rules, supernatural history, or named relationships merely because television Lestat possessed or discussed them. Such elements require explicit REIGN adoption or actual NightWalker implementation support.
+
+The detailed continuity firewall and authoring tests are mandatory in `reference/40_REIGN_LESTAT_CHARACTER_AND_WRITING_RULES.md`, Section 25.
+
 Lestat's presence in the Tower is not part of formal Tower Restoration completion. He is a later personnel addition caused by the Overlord's vampire state.
 
 The exact NightWalker mechanics to track, vampire-state triggers, progression hooks, weaknesses, powers, and quest climax remain implementation-dependent until the backport stabilizes.
