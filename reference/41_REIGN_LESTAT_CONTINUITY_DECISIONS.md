@@ -28,17 +28,19 @@ Lestat has no awareness of another continuity and must never describe himself as
 
 ## L002 - Age and historical placement
 
-Status: PARTIALLY DEFINED.
+Status: PARTIALLY DEFINED / CHRONOLOGY CONSTRAINED.
 
-Lestat is not currently fixed to a precise chronological age.
+Lestat is not fixed to a precise numerical age.
 
-He may have been human during the era of the Glorious Empire.
+He is born as a human during the Glorious Empire era and is turned into a vampire before the Silence begins.
 
-This is the preferred historical placement direction at present because it gives him substantial lived history without making him arbitrarily primordial or older than the relevant Overlord-era world.
+This means his human life and transformation occur in the post-Great-Cataclysm world. The Great Cataclysm predates the Glorious Empire, and Solarius rules in the post-Cataclysm climate. Lestat therefore does not personally remember the Great Cataclysm merely from this placement.
 
-Exact birth date, transformation date, and age remain UNKNOWN until later interview decisions or quest requirements require precision.
+He is already a vampire by the time the Overlord II ruler falls or disappears and the Silence begins.
 
-Do not infer that Lestat personally witnessed every major Empire, Overlord, Cataclysm, or Silence event merely from this placement.
+Exact birth date and exact transformation date remain UNKNOWN unless later quest or continuity work requires them.
+
+Do not infer that Lestat personally witnessed every major Empire or Overlord event merely because he lived during that era.
 
 ---
 
@@ -50,7 +52,7 @@ Lestat retains the cultural texture that makes his source identity recognizable,
 
 However, OVERLORD REIGN does not need to invent or name a literal France counterpart merely to explain these traits.
 
-His origin may come from an analogous culture within the wider REIGN world, but that culture should remain unnamed unless future world-building has an independent reason to define it.
+His origin comes from an analogous culture within the wider REIGN world, but that culture should remain unnamed unless future world-building has an independent reason to define it.
 
 Do not establish a one-to-one Earth country analogue solely to preserve IWTV geography.
 
@@ -80,9 +82,9 @@ Status: CANON CHARACTER / BIOGRAPHICAL ROLE, MECHANICS ADAPTED TO NIGHTWALKER.
 
 Magnus exists as a REIGN-native equivalent and remains Lestat's maker.
 
-The broad source relationship may remain true, including involuntary or coercive transformation and Magnus's damaging role in Lestat's origin as a vampire.
+The source relationship is retained rather than rewritten merely to simplify REIGN integration. Magnus's coercive turning, damaging role in Lestat's origin, and failure to remain as a stable long-term mentor are preserved in substance.
 
-NightWalker / Nycto permits vampire transformation through blood consumption. This allows the maker event to be retained without requiring a contradiction with the gameplay implementation.
+NightWalker / Nycto permits vampire transformation through blood consumption. This allows the core maker event to remain recognizable without contradicting the gameplay implementation.
 
 Exact turning mechanics, blood requirements, powers, weaknesses, and post-transformation rules must follow the implemented NightWalker / REIGN vampire system.
 
@@ -98,9 +100,9 @@ Nicolas de Lenfent exists as an OVERLORD REIGN-native equivalent.
 
 He remains important to Lestat's emotional history, music, love, loss, and later relationship patterns.
 
-His exact REIGN biography and fate are not yet fully defined and should be adapted when required rather than copied scene-for-scene from the television continuity.
+His exact REIGN geography and chronology are adapted to the Overlord world rather than copied from Earth.
 
-The character's narrative function and emotional importance are preserved. Earth chronology and geography are not automatically preserved.
+His narrative function, emotional importance, and core relationship with Lestat are preserved.
 
 ---
 
@@ -110,15 +112,13 @@ Status: CANON CHARACTER DIRECTION.
 
 Louis de Pointe du Lac, Claudia, and Armand also exist as OVERLORD REIGN-native equivalents.
 
-They are considered too important to Lestat's character history to discard and replace only with abstract emotional lessons.
+They are too important to Lestat's character history to discard and replace only with abstract emotional lessons.
 
 Their existence does NOT mean that the entire IWTV television chronology automatically happened inside REIGN.
 
-Each character must be adapted as a native person of the Overlord world, subject to REIGN history, geography, cosmology, death rules, magic, and the NightWalker vampire implementation.
+Each character is a native person of the Overlord world, subject to REIGN history, geography, cosmology, death rules, magic, and the NightWalker vampire implementation.
 
-Their relationships with Lestat may preserve the major emotional and character-defining functions established by the supplied source, but exact events, dates, places, technologies, public institutions, and source-specific supernatural mechanics must be reconciled separately.
-
-Until those details are explicitly interviewed or needed for quest writing, they remain UNKNOWN rather than silently inherited from the television series.
+The major emotional and character-defining relationships are preserved and are further specified below.
 
 ---
 
@@ -146,41 +146,263 @@ Lestat remembers his REIGN-native life, not another timeline.
 
 ---
 
+## L009 - Magnus after the turning
+
+Status: CANON DIRECTION.
+
+There is no reason to soften Magnus into a conventional mentor merely for REIGN.
+
+The source-defining abandonment structure remains: Magnus turns Lestat coercively and does not remain to provide a healthy, stable maker-fledgling education.
+
+The precise NightWalker-compatible staging of the event may be adapted, but its emotional function is not to be removed.
+
+---
+
+## L010 - Vampire society
+
+Status: CANON.
+
+Vampires have existed quietly across the wider OVERLORD REIGN world for a long time.
+
+They are not a civilization-state and do not possess a single vampire nation, empire, universal government, or global political simulation.
+
+Their society consists primarily of:
+
+- small secretive covens;
+- isolated vampires;
+- local or regional traditions;
+- old personal networks, grudges, maker relationships, rivalries, and reputations.
+
+A coven may exercise authority over its members or territory without that becoming universal vampire sovereignty.
+
+This structure is intended to support the adapted Lestat / Armand / Claudia history without creating a second world-scale faction system.
+
+---
+
+## L011 - Vampire laws
+
+Status: CANON FRAMEWORK / DETAILS SELECTIVE.
+
+Ancient vampire laws, taboos, and punishments exist in some covens and traditions.
+
+The project does NOT automatically import every law from IWTV.
+
+Only laws needed by the adapted histories of Lestat, Armand, Claudia, Louis, or by the NightWalker quest should be established explicitly.
+
+Different covens may preserve, reinterpret, ignore, or enforce old customs differently unless a later decision establishes a genuinely universal rule.
+
+---
+
+## L012 - Louis relationship
+
+Status: CANON BIOGRAPHICAL STRUCTURE.
+
+The central Lestat / Louis relationship survives substantially intact in REIGN-native form.
+
+Lestat encounters Louis, becomes fascinated with him, ultimately makes him a vampire, and Louis becomes an intimate companion.
+
+The relationship retains the defining mixture of:
+
+- love;
+- companionship;
+- mentorship;
+- fascination;
+- manipulation;
+- possessiveness;
+- conflict;
+- repeated tension between intimacy and control.
+
+The geography, dates, surrounding mortal society, and exact event staging are translated into the Overlord world.
+
+Do not reduce Louis to a renamed stranger who merely reproduces a few emotional beats. He is the REIGN-native Louis de Pointe du Lac and remains a real part of Lestat's history.
+
+---
+
+## L013 - Claudia and her fate
+
+Status: CANON BIOGRAPHICAL STRUCTURE / FATE FIXED.
+
+Claudia exists as a REIGN-native vampire and the essential dysfunctional family structure involving Lestat and Louis is preserved.
+
+Her history remains central to the rupture between Lestat and Louis and to Lestat's later grief, guilt, anger, possessiveness, and relationship history.
+
+Claudia's death is fixed and must remain part of REIGN Lestat's past. It is too important to the source character and the retained Louis / Lestat history to be reopened merely for convenience.
+
+Exact geography, chronology, institutions, and mechanical vampire details surrounding her story must be adapted to REIGN.
+
+---
+
+## L014 - Armand
+
+Status: CANON BIOGRAPHICAL STRUCTURE.
+
+Armand exists as a REIGN-native old vampire strongly associated with an established coven and becomes entangled with Louis, Claudia, and Lestat.
+
+His broad function as a coven authority, rival, intimate political figure, and major force in the collapse and reconfiguration of those relationships is preserved.
+
+Literal Paris geography is not required. The relevant coven and theatrical institution receive REIGN-native placement.
+
+---
+
+## L015 - Human during the Glorious Empire, vampire before the Silence
+
+Status: CANON CHRONOLOGICAL ANCHOR.
+
+Lestat's human life occurs during the Glorious Empire era.
+
+The Great Cataclysm has already happened before this period. The Empire and Solarius belong to the post-Cataclysm world.
+
+Lestat is turned into a vampire before the Silence begins.
+
+Because the Silence begins directly after the fall or disappearance of the Overlord II ruler, Lestat therefore crosses the end of the Empire-era world as a vampire and then survives through the Silence.
+
+This placement deliberately avoids making him ancient beyond necessity while still giving him centuries of vampiric experience by the current REIGN era.
+
+---
+
+## L016 - Silence and Akasha
+
+Status: CANON DIRECTION / EVENT DETAILS NOT YET FULLY DEFINED.
+
+The Great Cataclysm itself is not a personal Lestat memory under the adopted chronology because it predates his human life.
+
+The Silence, however, spans most of his vampiric existence and may contain major defining events from his adapted source biography.
+
+Akasha exists as a REIGN-native equivalent and Lestat's encounter with her is placed during the Silence.
+
+The source-defining fact that Lestat carries Akasha's blood is preserved.
+
+The precise encounter, Akasha's origin, status, age, agenda, and how the blood transfer occurs are not yet fully defined. They must be reconciled with REIGN cosmology and NightWalker rather than copied automatically from Earth continuity.
+
+This Silence-era placement is preferred because it gives the long masterless age meaningful personal history for Lestat without inserting him into the Great Cataclysm retroactively.
+
+---
+
+## L017 - Theatre des Vampires equivalent
+
+Status: CANON DIRECTION.
+
+A REIGN-native equivalent of the Theatre des Vampires exists.
+
+The institution preserves the useful source functions:
+
+- organized vampire troupe or coven life;
+- performance as concealment and spectacle;
+- vampire politics beneath theatrical presentation;
+- a setting capable of supporting the adapted Armand / Claudia / Louis / Lestat history.
+
+It does not require literal Paris, modern theatre infrastructure, or source-continuity geography.
+
+Its exact name, location, architecture, period, and surviving status in the present era remain to be defined only if relevant.
+
+---
+
+## L018 - How Lestat senses the Overlord's vampiric transformation
+
+Status: CANON NARRATIVE TRIGGER.
+
+Lestat is not summoned by Gnarl and does not learn of the Overlord's transformation through arbitrary omniscience.
+
+Because Lestat carries Akasha's exceptionally old vampire blood, he possesses an unusual sensitivity to the emergence of a vampire whose supernatural presence is extraordinarily powerful.
+
+When the Overlord becomes a vampire, Lestat senses that a new and unusually powerful vampire has effectively joined the ranks of his kind.
+
+This draws his attention and curiosity toward the Dark Tower and gives him a direct reason to investigate personally.
+
+This is a specific narrative capability attached to Lestat's Akasha blood and the Overlord's exceptional nature. It should NOT automatically be generalized into a universal vampire radar mechanic unless the project later decides that NightWalker should support such a rule.
+
+The Overlord does not derive vampirism from Akasha merely because Lestat can sense him.
+
+---
+
+## L019 - Why Lestat stays at the Dark Tower
+
+Status: CANON CHARACTER DIRECTION.
+
+Lestat initially remains because the newly vampiric Overlord is fascinating, exceptionally powerful, and genuinely benefits from expertise Lestat possesses.
+
+He continues to remain because the Dark Tower offers an unusually compelling environment:
+
+- proximity to a powerful immortal ruler;
+- a place where vampirism itself does not need to be hidden from the ruling power;
+- events and people worth observing;
+- political and supernatural danger sufficient to keep his attention;
+- an institution strong enough that Lestat cannot simply make himself the uncontested center of everything around him;
+- an enduring opportunity to advise, provoke, observe, and participate without becoming an ordinary subordinate.
+
+This makes his residence character-driven rather than contractual or mechanically forced.
+
+---
+
+## L020 - Music and public performance in REIGN
+
+Status: CANON ADAPTATION RULE.
+
+Lestat's musical and performance identity remains central but is translated into the pre-modern / medieval-fantasy cultural level of OVERLORD REIGN.
+
+The project does not preserve a literal modern rock-star career.
+
+Instead, Lestat may have been:
+
+- a musician;
+- a performer;
+- a patron of performers;
+- a theatrical provocateur;
+- a public spectacle in period-appropriate forms;
+- someone who repeatedly uses performance to author his own reputation.
+
+The violin is his preferred instrument and should remain especially important to him.
+
+His source rock-star material is used to understand the scale of his appetite for public performance, self-curation, spectacle, music, and notoriety rather than imported as modern history.
+
+This makes Quaver and the Dark Tower band an especially natural point of interest for Lestat without turning either character into a copy of the other.
+
+---
+
 ## Current continuity rule
 
-The following are now explicitly portable into REIGN in some form:
+The following are now explicitly portable into REIGN as actual REIGN-native history or institutions:
 
 - Lestat himself as a native person;
 - his monastery and abusive-family history;
-- Magnus as maker;
+- Magnus as maker and the coercive / abandoning structure of that origin;
 - Nicolas;
-- Louis;
-- Claudia;
+- Louis and the central companion relationship;
+- Claudia and her fixed death;
 - Armand;
-- the character-defining emotional structures of those relationships.
+- hidden vampire society built around small covens and individuals;
+- selective old vampire laws and taboos;
+- a REIGN-native Theatre des Vampires equivalent;
+- Akasha as a REIGN-native figure encountered by Lestat during the Silence;
+- Lestat carrying Akasha's blood;
+- Lestat's Akasha-blood sensitivity to the newly vampiric Overlord;
+- the character-defining emotional structures of the adopted IWTV relationships;
+- Lestat's musical and performance identity translated into REIGN's technological and cultural level.
 
 The following remain non-portable without later explicit adoption:
 
 - literal Earth chronology;
 - literal source geography;
-- exact television event sequencing;
+- exact television event sequencing where not yet interviewed;
 - modern-world institutions and technologies;
-- IWTV-specific vampire mechanics not supported by NightWalker / REIGN;
+- IWTV-specific vampire mechanics not supported by NightWalker / REIGN or a deliberate REIGN lore decision;
 - any multiverse or crossover explanation.
 
-This file takes precedence over older generic statements that Lestat's entire pre-Tower biography is UNKNOWN. His exact chronology and many event details remain UNKNOWN, but the people and biographical structures above are now intentionally adopted.
+This file takes precedence over older generic statements that Lestat's entire pre-Tower biography is UNKNOWN. His biography now has substantial fixed structure, while exact event geography, dates, several intermediary episodes, and some vampire-metaphysics details remain intentionally unresolved.
 
 ---
 
 ## Next interview scope
 
-The next continuity block should resolve:
+The next continuity block should resolve the remaining high-impact adaptation points rather than re-open settled ones:
 
-1. the exact shape of Magnus's turning event under NightWalker-compatible rules;
-2. whether vampires form a hidden society, loose population, covens, or another structure in REIGN;
-3. how much of the Louis / Claudia / Armand relationship history is preserved structurally;
-4. Lestat's position during the Empire's fall, Great Cataclysm, and Silence;
-5. how Lestat learns that the current Overlord has become a vampire;
-6. why Lestat chooses to remain at the Dark Tower after the immediate transition crisis;
-7. what parts of his source musical/public-performance identity exist in a pre-modern REIGN world;
-8. whether any source coven laws or vampire customs survive as REIGN-native vampire culture.
+1. Akasha's REIGN-native nature, age, status, and relationship to vampire origins;
+2. how much of the original Lestat / Akasha encounter and its consequences should survive;
+3. Nicolas's exact fate and how closely it follows the source;
+4. which essential Claudia / Theatre trial events must be preserved to keep her fixed death meaningful;
+5. whether Louis and Armand's post-Claudia relationship remains substantially source-like;
+6. the present-day status of Louis, Armand, Nicolas, the Theatre, and other old vampires when Lestat joins the Dark Tower;
+7. whether Lestat has encountered Gnarl, Minions, an Overlord, or the Netherworld before the current reign;
+8. how ordinary vampires interpret the Overlord institution and the newly vampiric Overlord;
+9. whether Akasha blood affects Lestat beyond the specific sensing trigger already established;
+10. whether Lestat joins the Tower permanently, intermittently, or maintains another residence while serving as a recurring Tower personality.
