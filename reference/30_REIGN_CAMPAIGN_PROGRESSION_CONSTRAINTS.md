@@ -39,24 +39,23 @@ Civilization disposition remains parallel political content unless a specific au
 
 ## Minion fiction versus Minions Remastered gameplay
 
-Status: CANON CONTINUITY / IMPLEMENTATION UNKNOWN
+Status: CANON CONTINUITY / IMPLEMENTATION PRESENT, RUNTIME QUALIFICATION ONGOING
 
 OVERLORD REIGN fiction retains all four traditional Minion tribes: Browns, Reds, Greens, and Blues.
 
-The current Minions Remastered setup is known to provide only one directly playable minion type in the present pack state, but the Overlord is actively investigating whether the missing traditional tribe types can be imported or added to Minions Remastered.
-
-Therefore the final gameplay scope is deliberately unresolved.
+The active Overlord Minions implementation now exposes four stable Minions Remastered roster slots and maps them directly to Brown, Red, Green, and Blue progression identities. Its public server API owns permanent unlock state for those four slots, and its summon gate applies the same four-slot ordering to Minions Remastered's authoritative roster. This supersedes the earlier temporary assumption that only one directly playable Minion type existed in the pack.
 
 Current rules:
 
-- quests and dialogue may infer that the Overlord's Minion society contains all four traditional tribes;
-- restoration of Minion strength remains core Overlord progression within the scope of whatever Minions Remastered implementation ultimately exists;
-- until tribe-specific gameplay is actually implemented and validated, quests must not require Brown-, Red-, Green-, or Blue-specific mechanics that the player cannot perform;
-- the campaign design must remain expandable if all four playable types become technically available;
-- no permanent quest architecture decision should assume that the current single-type limitation is final;
-- once the Minions Remastered investigation resolves, this section must be revised to match the validated gameplay capability.
+- quests and dialogue may treat the Overlord's Minion society as containing all four traditional tribes;
+- Questlog may observe and request Brown, Red, Green, and Blue slot unlocks only through the Overlord Minions owner API rather than duplicating that state as narrative facts;
+- restoration of Minion strength remains core Overlord progression;
+- the exact diegetic recovery route for Red, Green, and Blue remains unresolved and must not be invented from biome, boss, item, or unrelated-mod associations;
+- Green and Blue progression must continue to respect the owner-state sequence checks already defined by the cross-mod contract;
+- the complete Brown -> Red -> reload -> Green -> reload -> Blue -> reload runtime sequence, rejection behavior, idempotency, login reconciliation, and final in-pack behavior still require full-instance qualification;
+- no quest should require a tribe-specific interaction beyond what the validated owner implementation actually exposes.
 
-The distinction is therefore temporary implementation uncertainty, not a lore limitation.
+The remaining uncertainty is therefore recovery authoring and full runtime qualification, not the existence of the four progression slots.
 
 ## Dimension sequence breaking
 
