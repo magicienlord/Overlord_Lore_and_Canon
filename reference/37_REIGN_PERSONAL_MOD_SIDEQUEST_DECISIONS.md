@@ -36,6 +36,8 @@ At that point a vampire named Lestat joins the Dark Tower and becomes the princi
 
 Lestat is intentionally modeled after the version of Lestat from the Interview with the Vampire television series. Existing episode-transcript research is intended to serve as the primary characterization source when his dialogue and behavior are authored. Do not substitute a generic vampire-aristocrat voice for the transcript-grounded character once that source corpus is available to the quest author.
 
+Operational character-writing authority for Lestat is now `reference/40_REIGN_LESTAT_CHARACTER_AND_WRITING_RULES.md`, derived from the supplied IWTV transcript corpus with source-confidence discipline. Quest dialogue should use that sheet together with the underlying transcripts rather than re-deriving Lestat from general cultural knowledge.
+
 Lestat's presence in the Tower is not part of formal Tower Restoration completion. He is a later personnel addition caused by the Overlord's vampire state.
 
 The exact NightWalker mechanics to track, vampire-state triggers, progression hooks, weaknesses, powers, and quest climax remain implementation-dependent until the backport stabilizes.
@@ -69,7 +71,7 @@ The resulting relationship should be adversarial, witty, and functional rather t
 
 This gives them a durable source of conflict without requiring either character to become irrationally hostile or sabotage the Overlord.
 
-Detailed dialogue remains flexible and must still respect the source-grounded Gnarl writing rules and the transcript-grounded Lestat characterization corpus.
+Detailed dialogue remains flexible and must still respect the source-grounded Gnarl writing rules and the transcript-grounded Lestat characterization corpus. For Lestat specifically, use `reference/40_REIGN_LESTAT_CHARACTER_AND_WRITING_RULES.md` as the operational character-writing layer.
 
 ## 4. Quest Maker rule
 
