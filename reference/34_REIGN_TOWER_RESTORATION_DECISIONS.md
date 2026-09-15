@@ -103,14 +103,13 @@ The selected magical functions that do receive dedicated Tower-space treatment a
 - Gluttony;
 - spell study / spell making;
 - Eidolon.
+- Biomancy
 
 Their precise implementation mapping follows the established magic-system documentation elsewhere in the project. This file does not redefine those systems.
 
 The physical activation of each selected room belongs to Tower Restoration.
 
 Their deeper magical progression remains outside Tower Restoration and belongs to their own established magic progression or questline.
-
-Biomancy is not automatically granted a dedicated Tower restoration room by this decision.
 
 No additional magic system should be given a Tower room merely because it is a major mod unless a later explicit Tower-design decision adds one.
 
